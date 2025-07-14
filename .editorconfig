@@ -19,4 +19,5 @@ ktlint_standard_import-ordering = disabled
 ktlint_standard_no-semi = disabled
 ktlint_standard_annotation = disabled
 ktlint_standard_max-line-length = disabled
+ktlint_standard_property-naming = disabled
 ktlint_code_style = ktlint_official
