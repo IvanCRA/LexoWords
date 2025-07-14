@@ -1,40 +1,72 @@
-name: Android CI
+name: Kotlin CI
 
 on:
-    push:
-        branches: [ "main" ]
     pull_request:
-        branches: [ "main" ]
+        branches:
+            - main
+            - develop
 
 jobs:
     build:
-
         runs-on: ubuntu-latest
 
         steps:
             - name: Checkout code
               uses: actions/checkout@v4
 
-            - name: Set up JDK 17
+            - name: Set up JDK
               uses: actions/setup-java@v4
               with:
-                  distribution: 'temurin'
-                  java-version: 17
+                  java-version: "17"
+                  distribution: "temurin"
 
             - name: Cache Gradle
               uses: actions/cache@v3
               with:
-                  path: |
-                      ~/.gradle/caches
-                      ~/.gradle/wrapper
+                  path: ~/.gradle/caches
                   key: gradle-${{ runner.os }}-${{ hashFiles('**/*.gradle*', '**/gradle-wrapper.properties') }}
                   restore-keys: gradle-
 
             - name: Grant execute permission for gradlew
               run: chmod +x gradlew
 
-            - name: Build with Gradle
-              run: ./gradlew build
+            - name: Build Debug
+              run: ./gradlew assembleDebug
 
-            - name: Run Detekt static analysis
-              run: ./gradlew detekt
+    static_analysis:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Checkout static code
+              uses: actions/checkout@v4
+
+            - name: Set up JDK
+              uses: actions/setup-java@v4
+              with:
+                  java-version: "17"
+                  distribution: "temurin"
+
+            - name: Install reviewdog
+              uses: reviewdog/action-setup@v1
+              with:
+                  reviewdog_version: latest
+
+            - name: Cache Gradle
+              uses: actions/cache@v3
+              with:
+                  path: ~/.gradle/caches
+                  key: gradle-${{ runner.os }}-${{ hashFiles('**/*.gradle*', '**/gradle-wrapper.properties') }}
+                  restore-keys: gradle-
+
+            - name: Grant execute permissions for gradlew
+              run: chmod +x ./gradlew
+
+            - name: Run Ktlint via reviewdog
+              env:
+                  REVIEWDOG_GITHUB_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+              run: ./gradlew ktlintCheck | reviewdog -name="ktlint" -reporter=github-pr-review -filter-mode=file -fail-on-error=true
+
+            - name: Run Detekt via reviewdog
+              env:
+                  REVIEWDOG_GITHUB_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+              run: ./gradlew detekt | reviewdog -name="detekt" -reporter=github-pr-review -filter-mode=file -fail-on-error=true
