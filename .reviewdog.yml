@@ -1,0 +1,8 @@
+runner:
+    ktlint:
+        name: "ktlint"
+        cmd: "./gradlew ktlintCheck"
+        errorformat:
+            - '%f:%l:%c: %m'
+        level: "error"
+        tee: true
