@@ -1,0 +1,93 @@
+[
+    {
+      "code": "n",
+      "name": "noun",
+      "transcription": "[naun]",
+      "translation": "существительное"
+    },
+    {
+      "code": "num",
+      "name": "number",
+      "transcription": "[ˈnʌmbə]",
+      "translation": "числительное"
+    },
+    {
+      "code": "v",
+      "name": "verb",
+      "transcription": "[vɜːb]",
+      "translation": "глагол"
+    },
+    {
+      "code": "a",
+      "name": "adjective",
+      "transcription": "[ˈædʒɪktɪv]",
+      "translation": "прилагательное"
+    },
+    {
+      "code": "adv",
+      "name": "adverb",
+      "transcription": "[ˈædvɜːb]",
+      "translation": "наречие"
+    },
+    {
+      "code": "pron",
+      "name": "pronoun",
+      "transcription": "[ˈprəʊnaʊn]",
+      "translation": "местоимение"
+    },
+    {
+      "code": "prep",
+      "name": "preposition",
+      "transcription": "[ˌprepəˈzɪʃən]",
+      "translation": "предлог"
+    },
+    {
+      "code": "conj",
+      "name": "conjunction",
+      "transcription": "[kənˈdʒʌŋkʃən]",
+      "translation": "союз"
+    },
+    {
+      "code": "int",
+      "name": "interjection",
+      "transcription": "[ˌɪntəˈdʒekʃən]",
+      "translation": "междометие"
+    },
+    {
+      "code": "PaT",
+      "name": "Past Tense",
+      "transcription": "[ˈpɑːst ˈtens]",
+      "translation": "прошедшее время"
+    },
+    {
+      "code": "PaP",
+      "name": "Past Participle",
+      "transcription": "[ˈpɑːst ˈpɑːtsɪpl]",
+      "translation": "причастие прошедшего времени"
+    },
+    {
+      "code": "sthg",
+      "name": "something",
+      "transcription": "[ˈsʌmθɪŋ]",
+      "translation": "что-то"
+    },
+    {
+      "code": "pl",
+      "name": "plural",
+      "transcription": "[ˈplʊərəl]",
+      "translation": "множественное число"
+    },
+    {
+      "code": "см",
+      "name": "смотри",
+      "transcription": null,
+      "translation": null
+    },
+    {
+      "code": "сц",
+      "name": "сцена",
+      "transcription": null,
+      "translation": null
+    }
+  ]
+  
