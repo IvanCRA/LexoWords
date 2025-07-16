@@ -12,11 +12,12 @@ data class TagWithWords(
     @Relation(
         parentColumn = "id",
         entityColumn = "id",
-        associateBy = Junction(
-            value = WordTagCrossRef::class,
-            parentColumn = "tagId",
-            entityColumn = "wordId"
-        )
+        associateBy =
+            Junction(
+                value = WordTagCrossRef::class,
+                parentColumn = "tagId",
+                entityColumn = "wordId",
+            ),
     )
-    val words: List<WordEntity>
+    val words: List<WordEntity>,
 )

@@ -11,9 +11,10 @@ import com.example.lexowords.data.local.entities.WordTagCrossRef
 @Database(
     entities = [WordEntity::class, TagEntity::class, WordTagCrossRef::class],
     version = 1,
-    exportSchema = false
+    exportSchema = false,
 )
 abstract class AppDatabase : RoomDatabase() {
     abstract fun wordDao(): WordDao
+
     abstract fun tagDao(): TagDao
 }

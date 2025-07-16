@@ -45,4 +45,7 @@ interface WordDao {
     @Transaction
     @Query("SELECT * FROM words")
     fun getWordsWithTags(): Flow<List<WordWithTags>>
+
+    @Query("SELECT COUNT(*) FROM words")
+    suspend fun getWordCount(): Int
 }

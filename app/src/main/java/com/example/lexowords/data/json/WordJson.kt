@@ -4,5 +4,5 @@ data class WordJson(
     val word: String,
     val translation: String,
     val transcription: String,
-    val tags: List<String>?
+    val tags: List<String>?,
 )

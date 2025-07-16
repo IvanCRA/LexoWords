@@ -13,5 +13,5 @@ data class WordEntity(
     val addedAt: Long = System.currentTimeMillis(),
     val learned: Boolean = false,
     val nextReviewAt: Long? = null,
-    val repetitions: Int = 0
+    val repetitions: Int = 0,
 )
