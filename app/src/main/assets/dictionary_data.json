@@ -1,0 +1,8516 @@
+[
+  {
+    "word": "able",
+    "transcription": "[eibl]",
+    "translation": "способный",
+    "tag": "a"
+  },
+  {
+    "word": "about",
+    "transcription": "[ə’baut]",
+    "translation": "о, около",
+    "tag": "prep"
+  },
+  {
+    "word": "abroad",
+    "transcription": "[ə’brɔ:d]",
+    "translation": "за границей",
+    "tag": "adv"
+  },
+  {
+    "word": "absence",
+    "transcription": "[’œbsəns]",
+    "translation": "отсутствие",
+    "tag": "n"
+  },
+  {
+    "word": "absolute",
+    "transcription": "[’œbsəlu:t]",
+    "translation": "абсолютный, полный, безусловный",
+    "tag": "a"
+  },
+  {
+    "word": "absurd",
+    "transcription": "[əb’sə:d]",
+    "translation": "абсурдный, нелепый",
+    "tag": "a"
+  },
+  {
+    "word": "accent",
+    "transcription": "[œk’sent]",
+    "translation": "ставить ударение",
+    "tag": "v"
+  },
+  {
+    "word": "accident",
+    "transcription": "[’œksidənt]",
+    "translation": "авария, несчастный случай",
+    "tag": "n"
+  },
+  {
+    "word": "according to",
+    "transcription": "[ə’kɔ:diη tə]",
+    "translation": "в соответствии, согласно",
+    "tag": "prep"
+  },
+  {
+    "word": "account",
+    "transcription": "[ə’kɑunt]",
+    "translation": "счёт",
+    "tag": "n"
+  },
+  {
+    "word": "act",
+    "transcription": "[œkt]",
+    "translation": "поступать,",
+    "tag": "v"
+  },
+  {
+    "word": "acting",
+    "transcription": "[’œktiη]",
+    "translation": "игра артистов",
+    "tag": "n"
+  },
+  {
+    "word": "actress",
+    "transcription": "[’œctris]",
+    "translation": "актриса",
+    "tag": "n"
+  },
+  {
+    "word": "actually",
+    "transcription": "[’œktʃəli]",
+    "translation": "фактически, на самом деле",
+    "tag": "adv"
+  },
+  {
+    "word": "address",
+    "transcription": "[ə’dres]",
+    "translation": "адрес",
+    "tag": "n"
+  },
+  {
+    "word": "advance",
+    "transcription": "[əd’vɑ:ns]",
+    "translation": "прогресс",
+    "tag": "n"
+  },
+  {
+    "word": "advantage",
+    "transcription": "[əd’vɑ:ntidʒ]",
+    "translation": "преимущество",
+    "tag": "n"
+  },
+  {
+    "word": "advertise",
+    "transcription": "[’œdvətaiz]",
+    "translation": "извещать",
+    "tag": "v"
+  },
+  {
+    "word": "advertisement",
+    "transcription": "[əd’və:tismənt]",
+    "translation": "объявление",
+    "tag": "n"
+  },
+  {
+    "word": "advise",
+    "transcription": "[əd’vɑiz]",
+    "translation": "советовать",
+    "tag": "v"
+  },
+  {
+    "word": "afford",
+    "transcription": "[ə’fɔ:d]",
+    "translation": "позволить себе",
+    "tag": "v"
+  },
+  {
+    "word": "afraid",
+    "transcription": "[ə’freid]",
+    "translation": "испуганный",
+    "tag": "a"
+  },
+  {
+    "word": "after",
+    "transcription": "[’ɑ:ftə]",
+    "translation": "за, после",
+    "tag": "prep"
+  },
+  {
+    "word": "afternoon",
+    "transcription": "[’ɑ:ftə’nu:n]",
+    "translation": "время после полудня",
+    "tag": "n"
+  },
+  {
+    "word": "again",
+    "transcription": "[ə'gein]",
+    "translation": "снова, опять",
+    "tag": "adv"
+  },
+  {
+    "word": "age",
+    "transcription": "[eidʒ]",
+    "translation": "возраст",
+    "tag": "n"
+  },
+  {
+    "word": "agency",
+    "transcription": "[’eidʒensi]",
+    "translation": "агентство",
+    "tag": "n"
+  },
+  {
+    "word": "ago",
+    "transcription": "[ə’gou]",
+    "translation": "тому назад",
+    "tag": "adv"
+  },
+  {
+    "word": "agree",
+    "transcription": "[ə’gri:]",
+    "translation": "соглашаться",
+    "tag": "v"
+  },
+  {
+    "word": "ahead",
+    "transcription": "[ə'hed]",
+    "translation": "вперёд, впереди",
+    "tag": "adv"
+  },
+  {
+    "word": "aid",
+    "transcription": "[eid]",
+    "translation": "помощь",
+    "tag": "n"
+  },
+  {
+    "word": "alcohol",
+    "transcription": "[’œlkəhɔl]",
+    "translation": "алкоголь",
+    "tag": "n"
+  },
+  {
+    "word": "all",
+    "transcription": "[ɔ:l]",
+    "translation": ",",
+    "tag": "a"
+  },
+  {
+    "word": "allot",
+    "transcription": "[ə'lɔt]",
+    "translation": "наделять, предназначать",
+    "tag": "v"
+  },
+  {
+    "word": "allow",
+    "transcription": "[ə'lɑu]",
+    "translation": "позволять, разрешать",
+    "tag": "v"
+  },
+  {
+    "word": "almost",
+    "transcription": "[’ɔ:lmoust]",
+    "translation": "почти",
+    "tag": "adv"
+  },
+  {
+    "word": "alone",
+    "transcription": "[ə’loun]",
+    "translation": "одинокий, один",
+    "tag": "adv"
+  },
+  {
+    "word": "along",
+    "transcription": "[ə’lɔη]",
+    "translation": ",",
+    "tag": "adv"
+  },
+  {
+    "word": "Alps",
+    "transcription": "[’œlps]",
+    "translation": "Альпы",
+    "tag": "n"
+  },
+  {
+    "word": "alternate",
+    "transcription": "[ɔ:l’tə:nit]",
+    "translation": "чередующийся",
+    "tag": "a"
+  },
+  {
+    "word": "altogether",
+    "transcription": "[ɔ:ltə’geðə]",
+    "translation": "всегда",
+    "tag": "adv"
+  },
+  {
+    "word": "always",
+    "transcription": "[’o:lwəz]",
+    "translation": "всегда",
+    "tag": "adv"
+  },
+  {
+    "word": "amateur",
+    "transcription": "[’œmətə:]",
+    "translation": "любитель",
+    "tag": "n"
+  },
+  {
+    "word": "ancient",
+    "transcription": "[’einʃənt]",
+    "translation": "древний",
+    "tag": "a"
+  },
+  {
+    "word": "anniversary",
+    "transcription": "[,œni’və:səri]",
+    "translation": "годовщина",
+    "tag": "n"
+  },
+  {
+    "word": "another",
+    "transcription": "[ə’nʌðə]",
+    "translation": "ещё один, другой",
+    "tag": "a"
+  },
+  {
+    "word": "answer",
+    "transcription": "[ɑ’:nsə]",
+    "translation": "отвечать",
+    "tag": "v"
+  },
+  {
+    "word": "ant",
+    "transcription": "[œnt]",
+    "translation": "муравей",
+    "tag": "n"
+  },
+  {
+    "word": "anyone",
+    "transcription": "[’eniwʌn]",
+    "translation": "кто-то, кто-нибудь",
+    "tag": "pron"
+  },
+  {
+    "word": "anything",
+    "transcription": "[’eniθiη]",
+    "translation": "что-нибудь, что-то",
+    "tag": "pron"
+  },
+  {
+    "word": "anyway",
+    "transcription": "[’eniwei]",
+    "translation": "каким бы то ни было образом, так или иначе",
+    "tag": "adv"
+  },
+  {
+    "word": "apart from",
+    "transcription": "[e’pɑ:t frəm]",
+    "translation": ", кроме",
+    "tag": "prep"
+  },
+  {
+    "word": "appartment",
+    "transcription": "[ə'pɑ:tmənt]",
+    "translation": "комната, апартамент",
+    "tag": "n"
+  },
+  {
+    "word": "apparently",
+    "transcription": "[ə'pœrəntli]",
+    "translation": "по-видимому",
+    "tag": "adv"
+  },
+  {
+    "word": "appear",
+    "transcription": "[ə’piə]",
+    "translation": "аппетит",
+    "tag": "n"
+  },
+  {
+    "word": "appetite",
+    "transcription": "[’œpitɑit]",
+    "translation": "аппетит",
+    "tag": "n"
+  },
+  {
+    "word": "apple",
+    "transcription": "[œpl]",
+    "translation": "яблоко",
+    "tag": "n"
+  },
+  {
+    "word": "application",
+    "transcription": "[œpli’keiʃən]",
+    "translation": "прошение",
+    "tag": "n"
+  },
+  {
+    "word": "apply",
+    "transcription": "[ə’plɑi]",
+    "translation": "обращаться (за разрешением, справкой)",
+    "tag": "v"
+  },
+  {
+    "word": "approach",
+    "transcription": "[ə’proutʃ]",
+    "translation": "приближаться",
+    "tag": "v"
+  },
+  {
+    "word": "approval",
+    "transcription": "[ə’pru:vəl]",
+    "translation": "одобрение, утверждение",
+    "tag": "n"
+  },
+  {
+    "word": "archaeological",
+    "transcription": "[,ɑ:kiə’lodʒikəl]",
+    "translation": "археологический",
+    "tag": "a"
+  },
+  {
+    "word": "architect",
+    "transcription": "[’ɑ:kitekt]",
+    "translation": "архитектор",
+    "tag": "n"
+  },
+  {
+    "word": "arm",
+    "transcription": "[ɑ:m]",
+    "translation": "рука (от кисти до плеча)",
+    "tag": "n"
+  },
+  {
+    "word": "army",
+    "transcription": "[’ɑ:mi]",
+    "translation": "армия",
+    "tag": "n"
+  },
+  {
+    "word": "arrange",
+    "transcription": "[ə’reindʒ]",
+    "translation": "приводить в порядок, устраивать",
+    "tag": "v"
+  },
+  {
+    "word": "arrangements",
+    "transcription": "[ə’reindʒmənts]",
+    "translation": "мероприятия, формальности",
+    "tag": "n"
+  },
+  {
+    "word": "arrive",
+    "transcription": "[ə’rɑiv]",
+    "translation": "прибывать",
+    "tag": "v"
+  },
+  {
+    "word": "article",
+    "transcription": "[’ɑ:tikl]",
+    "translation": "статья",
+    "tag": "n"
+  },
+  {
+    "word": "artificial",
+    "transcription": "[,ɑ:ti’fiʃəl]",
+    "translation": "искусственный",
+    "tag": "a"
+  },
+  {
+    "word": "as well",
+    "transcription": "[œz'wel]",
+    "translation": "также",
+    "tag": "adv"
+  },
+  {
+    "word": "aside",
+    "transcription": "[ə’sɑid]",
+    "translation": "в сторону, в стороне",
+    "tag": "adv"
+  },
+  {
+    "word": "ask",
+    "transcription": "[ɑ:sk]",
+    "translation": "спрашивать, просить",
+    "tag": "v"
+  },
+  {
+    "word": "asleep",
+    "transcription": "[ə’sli:p]",
+    "translation": "спящий",
+    "tag": "a"
+  },
+  {
+    "word": "assembly",
+    "transcription": "[ə’sembli]",
+    "translation": "ассамблея",
+    "tag": "n"
+  },
+  {
+    "word": "assistant",
+    "transcription": "[ə’sistənt]",
+    "translation": "ассистент",
+    "tag": "n"
+  },
+  {
+    "word": "association",
+    "transcription": "[ə,sousi’eiʃən]",
+    "translation": "ассоциация, общество, союз",
+    "tag": "n"
+  },
+  {
+    "word": "assure",
+    "transcription": "[ə’ʃuə]",
+    "translation": "уверять",
+    "tag": "v"
+  },
+  {
+    "word": "astronomy",
+    "transcription": "[əs’trɔnəmi]",
+    "translation": "астрономия",
+    "tag": "n"
+  },
+  {
+    "word": "eat",
+    "transcription": "[ə’tein]",
+    "translation": "достигнуть",
+    "tag": "v"
+  },
+  {
+    "word": "attain",
+    "transcription": "[ə’tein]",
+    "translation": "достигнуть",
+    "tag": "v"
+  },
+  {
+    "word": "attend to sthg",
+    "transcription": "[ə’tend]",
+    "translation": "заниматься чем-либо",
+    "tag": "v"
+  },
+  {
+    "word": "attention",
+    "transcription": "[ə’tenʃən]",
+    "translation": "внимание",
+    "tag": "n"
+  },
+  {
+    "word": "attic",
+    "transcription": "[’œtik]",
+    "translation": "чердак",
+    "tag": "n"
+  },
+  {
+    "word": "attractions",
+    "transcription": "[ə’trœkʃənz]",
+    "translation": "прелести",
+    "tag": "n"
+  },
+  {
+    "word": "attractive",
+    "transcription": "[ə’trœktiv]",
+    "translation": "привлекательный, притягательный",
+    "tag": "a"
+  },
+  {
+    "word": "audience",
+    "transcription": "[’ɔ:djəns]",
+    "translation": "публика, слушатели, зрители",
+    "tag": "n"
+  },
+  {
+    "word": "aunt",
+    "transcription": "[ɑ:nt]",
+    "translation": "тетя, тётка",
+    "tag": "n"
+  },
+  {
+    "word": "Austrian",
+    "transcription": "[’ɔstriən]",
+    "translation": "австрийский",
+    "tag": "a"
+  },
+  {
+    "word": "avenue",
+    "transcription": "[’œvinju:]",
+    "translation": "дорога, аллея",
+    "tag": "n"
+  },
+  {
+    "word": "avoid",
+    "transcription": "[ə’vɔid]",
+    "translation": "избегать",
+    "tag": "v"
+  },
+  {
+    "word": "away",
+    "transcription": "[ə’wei]",
+    "translation": "далеко, прочь",
+    "tag": "adv"
+  },
+  {
+    "word": "awful",
+    "transcription": "[’ɔ:ful]",
+    "translation": "ужасный, страшный",
+    "tag": "a"
+  },
+  {
+    "word": "baby",
+    "transcription": "[’beibi]",
+    "translation": "младенец",
+    "tag": "n"
+  },
+  {
+    "word": "back",
+    "transcription": "[bœk]",
+    "translation": "задний",
+    "tag": "a"
+  },
+  {
+    "word": "back up",
+    "transcription": "[’bœk ‘ʌp]",
+    "translation": "поддерживать",
+    "tag": "v"
+  },
+  {
+    "word": "bad",
+    "transcription": "[bœd]",
+    "translation": "плохой",
+    "tag": "a"
+  },
+  {
+    "word": "badly",
+    "transcription": "[’bœdli]",
+    "translation": "плохо",
+    "tag": "adv"
+  },
+  {
+    "word": "bake",
+    "transcription": "[beik]",
+    "translation": "печь",
+    "tag": "v"
+  },
+  {
+    "word": "baker",
+    "transcription": "[’beikə]",
+    "translation": "пекарь",
+    "tag": "n"
+  },
+  {
+    "word": "ballet",
+    "transcription": "[’bœlei]",
+    "translation": "балет",
+    "tag": "n"
+  },
+  {
+    "word": "bank",
+    "transcription": "[bœηk]",
+    "translation": "банк",
+    "tag": "n"
+  },
+  {
+    "word": "barber",
+    "transcription": "[’ba:bə]",
+    "translation": "парикмахер",
+    "tag": "n"
+  },
+  {
+    "word": "bargain",
+    "transcription": "[’bɑ:gin]",
+    "translation": "торговая сделка, выгодная покупка",
+    "tag": "n"
+  },
+  {
+    "word": "bath",
+    "transcription": "[bɑ:θ]",
+    "translation": "купание, ванна",
+    "tag": "n"
+  },
+  {
+    "word": "bathroom",
+    "transcription": "[’bɑ:θrum]",
+    "translation": "ванная комната",
+    "tag": "n"
+  },
+  {
+    "word": "beautiful",
+    "transcription": "[’bju:təful]",
+    "translation": "красивый",
+    "tag": "a"
+  },
+  {
+    "word": "become",
+    "transcription": "[bi’kʌm]",
+    "translation": "становиться",
+    "tag": "v"
+  },
+  {
+    "word": "bed",
+    "transcription": "[bed]",
+    "translation": "кровать",
+    "tag": "n"
+  },
+  {
+    "word": "bedroom",
+    "transcription": "[’bedrum]",
+    "translation": "спальня",
+    "tag": "n"
+  },
+  {
+    "word": "beef",
+    "transcription": "[bi:f]",
+    "translation": "говядина",
+    "tag": "n"
+  },
+  {
+    "word": "be",
+    "transcription": "[biə]",
+    "translation": "пиво",
+    "tag": "n"
+  },
+  {
+    "word": "beer",
+    "transcription": "[biə]",
+    "translation": "пиво",
+    "tag": "n"
+  },
+  {
+    "word": "beforhand",
+    "transcription": "[bi’fɔ'hœnd]",
+    "translation": "заранее, заблаговременно",
+    "tag": "adv"
+  },
+  {
+    "word": "begin",
+    "transcription": "[bi’gin]",
+    "translation": "начинать",
+    "tag": "v"
+  },
+  {
+    "word": "beginning",
+    "transcription": "[bi’giniη]",
+    "translation": "начало",
+    "tag": "n"
+  },
+  {
+    "word": "behave",
+    "transcription": "[bi'heiv]",
+    "translation": "вести себя",
+    "tag": "v"
+  },
+  {
+    "word": "being",
+    "transcription": "[’bi:iη]",
+    "translation": "существо, человек",
+    "tag": "n"
+  },
+  {
+    "word": "bench",
+    "transcription": "[bentʃ]",
+    "translation": "скамья",
+    "tag": "n"
+  },
+  {
+    "word": "besides",
+    "transcription": "[bi’sɑidz]",
+    "translation": "кроме того",
+    "tag": "adv"
+  },
+  {
+    "word": "best",
+    "transcription": "[best]",
+    "translation": "наилучший",
+    "tag": "a"
+  },
+  {
+    "word": "better",
+    "transcription": "[’betə]",
+    "translation": "лучше",
+    "tag": "a"
+  },
+  {
+    "word": "big",
+    "transcription": "[big]",
+    "translation": "большой",
+    "tag": "a"
+  },
+  {
+    "word": "bilberry",
+    "transcription": "[’bilbəri]",
+    "translation": "черника",
+    "tag": "n"
+  },
+  {
+    "word": "bill",
+    "transcription": "[bil]",
+    "translation": "счёт",
+    "tag": "n"
+  },
+  {
+    "word": "birthday",
+    "transcription": "[’bə:θdei]",
+    "translation": "день рождения",
+    "tag": "n"
+  },
+  {
+    "word": "biscuit",
+    "transcription": "[’biskit]",
+    "translation": "сухое печенье",
+    "tag": "n"
+  },
+  {
+    "word": "bit",
+    "transcription": "[bit]",
+    "translation": "кусочек, частица",
+    "tag": "n"
+  },
+  {
+    "word": "black",
+    "transcription": "[blœk]",
+    "translation": "чёрный",
+    "tag": "a"
+  },
+  {
+    "word": "blade",
+    "transcription": "[bleid]",
+    "translation": "лезвие",
+    "tag": "n"
+  },
+  {
+    "word": "block",
+    "transcription": "[blɔk]",
+    "translation": "жилой дом",
+    "tag": "n"
+  },
+  {
+    "word": "blonde",
+    "transcription": "[blɔnd]",
+    "translation": "блондинка",
+    "tag": "n"
+  },
+  {
+    "word": "blouse",
+    "transcription": "[blɑuz]",
+    "translation": "блузка",
+    "tag": "n"
+  },
+  {
+    "word": "blue",
+    "transcription": "[blu:]",
+    "translation": "голубой",
+    "tag": "a"
+  },
+  {
+    "word": "boar",
+    "transcription": "[bo:]",
+    "translation": "хряк",
+    "tag": "n"
+  },
+  {
+    "word": "boat",
+    "transcription": "[’bout]",
+    "translation": "лодка",
+    "tag": "n"
+  },
+  {
+    "word": "bolt",
+    "transcription": "[boult]",
+    "translation": "запирать на засов",
+    "tag": "v"
+  },
+  {
+    "word": "book",
+    "transcription": "[buk]",
+    "translation": "— книга,",
+    "tag": "n"
+  },
+  {
+    "word": "booking",
+    "transcription": "[’bukiη]",
+    "translation": "резервация",
+    "tag": "n"
+  },
+  {
+    "word": "bookshop",
+    "transcription": "[’bukʃɔp]",
+    "translation": "книжный магазин",
+    "tag": "n"
+  },
+  {
+    "word": "boot",
+    "transcription": "[bu:t]",
+    "translation": "ботинок, отделение для багажа",
+    "tag": "n"
+  },
+  {
+    "word": "both",
+    "transcription": "[bouθ]",
+    "translation": ",",
+    "tag": "a"
+  },
+  {
+    "word": "bother",
+    "transcription": "[’bɔðə]",
+    "translation": "беспокоить, надоедать",
+    "tag": "v"
+  },
+  {
+    "word": "bottle",
+    "transcription": "[’bɔtl]",
+    "translation": "бутылка",
+    "tag": "n"
+  },
+  {
+    "word": "bottom",
+    "transcription": "[’bɔtəm]",
+    "translation": "дно, низ",
+    "tag": "n"
+  },
+  {
+    "word": "buy",
+    "transcription": "[bɑund]",
+    "translation": "кубок, чаша",
+    "tag": "n"
+  },
+  {
+    "word": "bound",
+    "transcription": "[bɑund]",
+    "translation": "кубок, чаша",
+    "tag": "n"
+  },
+  {
+    "word": "bowl",
+    "transcription": "[boul]",
+    "translation": "кубок, чаша",
+    "tag": "n"
+  },
+  {
+    "word": "boy",
+    "transcription": "[bɔi]",
+    "translation": "мальчик",
+    "tag": "n"
+  },
+  {
+    "word": "brake",
+    "transcription": "[breik]",
+    "translation": "тормозить",
+    "tag": "v"
+  },
+  {
+    "word": "brand new",
+    "transcription": "[’brœnd ’nju:]",
+    "translation": "совершенно новый",
+    "tag": "a"
+  },
+  {
+    "word": "bread",
+    "transcription": "[bred]",
+    "translation": "хлеб",
+    "tag": "n"
+  },
+  {
+    "word": "break",
+    "transcription": "[breik]",
+    "translation": "ломать, разбивать",
+    "tag": "v"
+  },
+  {
+    "word": "breakfast",
+    "transcription": "[brekfəst]",
+    "translation": "завтрак",
+    "tag": "n"
+  },
+  {
+    "word": "breathe",
+    "transcription": "[bri:ð]",
+    "translation": "дышать",
+    "tag": "v"
+  },
+  {
+    "word": "brilliant",
+    "transcription": "[’briljənt]",
+    "translation": "блестящий, выдающийся",
+    "tag": "a"
+  },
+  {
+    "word": "bring",
+    "transcription": "[briη]",
+    "translation": "приносить, привозить, приводить",
+    "tag": "v"
+  },
+  {
+    "word": "British",
+    "transcription": "[’britiʃ]",
+    "translation": "(велико) британский",
+    "tag": "a"
+  },
+  {
+    "word": "break",
+    "transcription": "[’brʌрə]",
+    "translation": "брат",
+    "tag": "n"
+  },
+  {
+    "word": "brother",
+    "transcription": "[’brʌрə]",
+    "translation": "брат",
+    "tag": "n"
+  },
+  {
+    "word": "bring",
+    "transcription": "[brɑun]",
+    "translation": "коричневый",
+    "tag": "a"
+  },
+  {
+    "word": "brown",
+    "transcription": "[brɑun]",
+    "translation": "коричневый",
+    "tag": "a"
+  },
+  {
+    "word": "bruise",
+    "transcription": "[bru:z]",
+    "translation": "синяк",
+    "tag": "n"
+  },
+  {
+    "word": "brush up",
+    "transcription": "[brʌʃ ʌp]",
+    "translation": "вычистить",
+    "tag": "v"
+  },
+  {
+    "word": "Brussels sprouts",
+    "transcription": "[’brʌsl ’sprɑuts]",
+    "translation": "брюссельская капуста",
+    "tag": "n"
+  },
+  {
+    "word": "bucket",
+    "transcription": "[’bʌkit]",
+    "translation": "ведро",
+    "tag": "n"
+  },
+  {
+    "word": "builder",
+    "transcription": "[’bildə]",
+    "translation": "строитель",
+    "tag": "n"
+  },
+  {
+    "word": "bump",
+    "transcription": "[bʌmp]",
+    "translation": "ухаб",
+    "tag": "n"
+  },
+  {
+    "word": "burn",
+    "transcription": "[bə:n]",
+    "translation": "гореть, пылать",
+    "tag": "v"
+  },
+  {
+    "word": "burn",
+    "transcription": "[bʌs]",
+    "translation": "автобус",
+    "tag": "n"
+  },
+  {
+    "word": "bus",
+    "transcription": "[bʌs]",
+    "translation": "автобус",
+    "tag": "n"
+  },
+  {
+    "word": "bush",
+    "transcription": "[buʃ]",
+    "translation": "куст",
+    "tag": "n"
+  },
+  {
+    "word": "business",
+    "transcription": "[’biznis]",
+    "translation": "дело, занятие",
+    "tag": "n"
+  },
+  {
+    "word": "busy",
+    "transcription": "[’bizi]",
+    "translation": "занятой",
+    "tag": "a"
+  },
+  {
+    "word": "butcher",
+    "transcription": "[’butʃə]",
+    "translation": "мясник",
+    "tag": "n"
+  },
+  {
+    "word": "butter",
+    "transcription": "[’bʌtə]",
+    "translation": "масло",
+    "tag": "n"
+  },
+  {
+    "word": "buy",
+    "transcription": "[bɑi]",
+    "translation": "покупать",
+    "tag": "v"
+  },
+  {
+    "word": "cafe",
+    "transcription": "[’kœfei]",
+    "translation": "кафе",
+    "tag": "n"
+  },
+  {
+    "word": "call",
+    "transcription": "[kɔl]",
+    "translation": "звать, называть, навещать",
+    "tag": "v"
+  },
+  {
+    "word": "calm",
+    "transcription": "[kɑ:m]",
+    "translation": "спокойный",
+    "tag": "a"
+  },
+  {
+    "word": "come",
+    "transcription": "[’kœməra]",
+    "translation": "фотоаппарат",
+    "tag": "n"
+  },
+  {
+    "word": "camera",
+    "transcription": "[’kœməra]",
+    "translation": "фотоаппарат",
+    "tag": "n"
+  },
+  {
+    "word": "camp",
+    "transcription": "[kœmp]",
+    "translation": "лагерь,",
+    "tag": "n"
+  },
+  {
+    "word": "cancel",
+    "transcription": "[’kœnsəl]",
+    "translation": "отменять, аннулировать",
+    "tag": "v"
+  },
+  {
+    "word": "canteen",
+    "transcription": "[kœn’ti:n]",
+    "translation": "столовая",
+    "tag": "n"
+  },
+  {
+    "word": "car",
+    "transcription": "[kɑ:]",
+    "translation": "автомобиль",
+    "tag": "n"
+  },
+  {
+    "word": "card-table",
+    "transcription": "[’kɑ:d ’teibl]",
+    "translation": "карточный столик",
+    "tag": "n"
+  },
+  {
+    "word": "саrе (to do sthg.)",
+    "transcription": "[kɛə]",
+    "translation": "иметь желание",
+    "tag": "v"
+  },
+  {
+    "word": "careful",
+    "transcription": "[’kɛəful]",
+    "translation": "осторожный, внимательный",
+    "tag": "a"
+  },
+  {
+    "word": "carnet",
+    "transcription": "[’kɑ:nət]",
+    "translation": "паспорт (",
+    "tag": "n"
+  },
+  {
+    "word": "carpentry",
+    "transcription": "[’kɑ:pintri]",
+    "translation": "плотничное дело",
+    "tag": "n"
+  },
+  {
+    "word": "carpet",
+    "transcription": "[’kɑ:pit]",
+    "translation": "ковёр",
+    "tag": "n"
+  },
+  {
+    "word": "case",
+    "transcription": "[keis]",
+    "translation": "случай, судебное дело",
+    "tag": "n"
+  },
+  {
+    "word": "cashier",
+    "transcription": "[kœ’ʃiə]",
+    "translation": "кассир",
+    "tag": "n"
+  },
+  {
+    "word": "cashmere",
+    "transcription": "[kœʃ’miə]",
+    "translation": "кашемир",
+    "tag": "n"
+  },
+  {
+    "word": "cat",
+    "transcription": "[kœt]",
+    "translation": "кот",
+    "tag": "n"
+  },
+  {
+    "word": "catch",
+    "transcription": "[kœtʃ]",
+    "translation": "ловить, схватить",
+    "tag": "v"
+  },
+  {
+    "word": "cathedral",
+    "transcription": "[kə’θi:drəl]",
+    "translation": "собор",
+    "tag": "n"
+  },
+  {
+    "word": "catch",
+    "transcription": "[seli’breiʃən]",
+    "translation": "празднование",
+    "tag": "n"
+  },
+  {
+    "word": "celebration",
+    "transcription": "[seli’breiʃən]",
+    "translation": "празднование",
+    "tag": "n"
+  },
+  {
+    "word": "centre",
+    "transcription": "[’sentə]",
+    "translation": "центр, середина",
+    "tag": "n"
+  },
+  {
+    "word": "certainly",
+    "transcription": "[’sə:tnli]",
+    "translation": "несомненно, непременно",
+    "tag": "adv"
+  },
+  {
+    "word": "chair",
+    "transcription": "[tʃɛə]",
+    "translation": "стул",
+    "tag": "n"
+  },
+  {
+    "word": "chairman",
+    "transcription": "[’tʃeəmən]",
+    "translation": "председатель",
+    "tag": "n"
+  },
+  {
+    "word": "chance",
+    "transcription": "[tʃɑ:ns]",
+    "translation": "шанс, возможность",
+    "tag": "n"
+  },
+  {
+    "word": "change",
+    "transcription": "[tʃeindʒ]",
+    "translation": "сдача, изменение, перемена",
+    "tag": "n"
+  },
+  {
+    "word": "change",
+    "transcription": "[tʃeindʒ]",
+    "translation": "сменять, заменять",
+    "tag": "v"
+  },
+  {
+    "word": "chap",
+    "transcription": "[tʃœp]",
+    "translation": "малый, парень",
+    "tag": "n"
+  },
+  {
+    "word": "check",
+    "transcription": "[tʃek]",
+    "translation": "проверять, контролировать",
+    "tag": "v"
+  },
+  {
+    "word": "cheese",
+    "transcription": "[tʃi:z]",
+    "translation": "сыр",
+    "tag": "n"
+  },
+  {
+    "word": "cheque",
+    "transcription": "[tʃek]",
+    "translation": "банковый чек",
+    "tag": "n"
+  },
+  {
+    "word": "chess",
+    "transcription": "[tʃes]",
+    "translation": "шахматы",
+    "tag": "n"
+  },
+  {
+    "word": "chicken",
+    "transcription": "[’tʃikin]",
+    "translation": "цыплёнок",
+    "tag": "n"
+  },
+  {
+    "word": "children",
+    "transcription": "[’tʃildrən]",
+    "translation": "дети",
+    "tag": "n"
+  },
+  {
+    "word": "chilly",
+    "transcription": "[’tʃili]",
+    "translation": "прохладный,",
+    "tag": "a"
+  },
+  {
+    "word": "chimney",
+    "transcription": "[’tʃimni]",
+    "translation": "труба (дымовая, вытяжная)",
+    "tag": "n"
+  },
+  {
+    "word": "china",
+    "transcription": "[’tʃɑinə]",
+    "translation": "фарфор",
+    "tag": "n"
+  },
+  {
+    "word": "chips",
+    "transcription": "[tʃips]",
+    "translation": "Чипсы",
+    "tag": "n"
+  },
+  {
+    "word": "choose",
+    "transcription": "[tʃu:s]",
+    "translation": "выбирать",
+    "tag": "v"
+  },
+  {
+    "word": "chop",
+    "transcription": "[tʃop]",
+    "translation": "отбивная котлета",
+    "tag": "n"
+  },
+  {
+    "word": "choose",
+    "transcription": "[’kristməs]",
+    "translation": "рождество",
+    "tag": "n"
+  },
+  {
+    "word": "Christmas",
+    "transcription": "[’kristməs]",
+    "translation": "рождество",
+    "tag": "n"
+  },
+  {
+    "word": "cinder",
+    "transcription": "[’sində]",
+    "translation": "пепел",
+    "tag": "n"
+  },
+  {
+    "word": "cinema",
+    "transcription": "[’sinimə]",
+    "translation": "кино",
+    "tag": "n"
+  },
+  {
+    "word": "class",
+    "transcription": "[klɑ:s]",
+    "translation": "класс, урок",
+    "tag": "n"
+  },
+  {
+    "word": "classroom",
+    "transcription": "[’klɑ:srum]",
+    "translation": "классная комната",
+    "tag": "n"
+  },
+  {
+    "word": "clean",
+    "transcription": "[kli:n]",
+    "translation": "чистый",
+    "tag": "a"
+  },
+  {
+    "word": "clear",
+    "transcription": "[kliə]",
+    "translation": "ясный, чистый",
+    "tag": "a"
+  },
+  {
+    "word": "clockwork",
+    "transcription": "[’kloukwə:k]",
+    "translation": "заводной",
+    "tag": "a"
+  },
+  {
+    "word": "close",
+    "transcription": "[klouz]",
+    "translation": "закрывать",
+    "tag": "v"
+  },
+  {
+    "word": "clothes",
+    "transcription": "[klouðz]",
+    "translation": "одежда",
+    "tag": "n"
+  },
+  {
+    "word": "coal",
+    "transcription": "[koul]",
+    "translation": "уголь",
+    "tag": "n"
+  },
+  {
+    "word": "coat",
+    "transcription": "[kout]",
+    "translation": "пиджак, пальто",
+    "tag": "n"
+  },
+  {
+    "word": "co-driver",
+    "transcription": "[’kou’drɑivə]",
+    "translation": "шофёр, сменяющий другого шофёра",
+    "tag": "n"
+  },
+  {
+    "word": "coffee",
+    "transcription": "[’kɔfi]",
+    "translation": "кофе",
+    "tag": "n"
+  },
+  {
+    "word": "coincidence",
+    "transcription": "[kou’insidəns]",
+    "translation": "совпадение",
+    "tag": "n"
+  },
+  {
+    "word": "cold",
+    "transcription": "[kould]",
+    "translation": "холодный,",
+    "tag": "a"
+  },
+  {
+    "word": "collapsible",
+    "transcription": "[kə’lœpsəbl]",
+    "translation": "складной",
+    "tag": "n"
+  },
+  {
+    "word": "collect",
+    "transcription": "[kə'lekt]",
+    "translation": "собирать, отбирать",
+    "tag": "v"
+  },
+  {
+    "word": "colour",
+    "transcription": "[’kʌlə]",
+    "translation": "цвет",
+    "tag": "n"
+  },
+  {
+    "word": "come",
+    "transcription": "[kʌm]",
+    "translation": "приходить, приезжать",
+    "tag": "v"
+  },
+  {
+    "word": "comfort",
+    "transcription": "[’kʌmfət]",
+    "translation": "комфорт",
+    "tag": "n"
+  },
+  {
+    "word": "comfortable",
+    "transcription": "[’kʌmfətəbl]",
+    "translation": "удобный",
+    "tag": "a"
+  },
+  {
+    "word": "committee",
+    "transcription": "[kə’miti]",
+    "translation": "комитет, комиссия",
+    "tag": "n"
+  },
+  {
+    "word": "company",
+    "transcription": "[’kʌmpəni]",
+    "translation": "товарищество, компания",
+    "tag": "n"
+  },
+  {
+    "word": "compartment",
+    "transcription": "[kəm’pɑ:tmənt]",
+    "translation": "купе, перегородка",
+    "tag": "n"
+  },
+  {
+    "word": "complain",
+    "transcription": "[kəm’plein]",
+    "translation": "жаловаться",
+    "tag": "v"
+  },
+  {
+    "word": "complete",
+    "transcription": "[kəm’pli:t]",
+    "translation": "заканчивать",
+    "tag": "v"
+  },
+  {
+    "word": "concentrate",
+    "transcription": "[’kɔnsentreit]",
+    "translation": "сосредоточиваться, концентрироваться",
+    "tag": "v"
+  },
+  {
+    "word": "concentration",
+    "transcription": "[,kənsen’treʃən]",
+    "translation": "концентрация, сосредоточенность",
+    "tag": "n"
+  },
+  {
+    "word": "concert",
+    "transcription": "[’kɔnsət]",
+    "translation": "концерт",
+    "tag": "n"
+  },
+  {
+    "word": "concession",
+    "transcription": "[kən’seʃən]",
+    "translation": "уступка",
+    "tag": "n"
+  },
+  {
+    "word": "conclusion",
+    "transcription": "[kən’klu:ʒən]",
+    "translation": "заключение",
+    "tag": "n"
+  },
+  {
+    "word": "condition",
+    "transcription": "[kən’diʃən]",
+    "translation": "условие",
+    "tag": "n"
+  },
+  {
+    "word": "conduct",
+    "transcription": "[kən’dʌkt]",
+    "translation": "вести",
+    "tag": "v"
+  },
+  {
+    "word": "confess",
+    "transcription": "[kən’fes]",
+    "translation": "признаться, исповедаться",
+    "tag": "v"
+  },
+  {
+    "word": "confirm",
+    "transcription": "[kən'fə:m]",
+    "translation": "подтвердить",
+    "tag": "v"
+  },
+  {
+    "word": "congenial",
+    "transcription": "[kən’dʒi:njəl’]",
+    "translation": "конгениальный, близкий по духу",
+    "tag": "a"
+  },
+  {
+    "word": "congress",
+    "transcription": "[’kɔηgres]",
+    "translation": "конгресс",
+    "tag": "n"
+  },
+  {
+    "word": "conservative",
+    "transcription": "[kən’sə:vətiv]",
+    "translation": "консервативный, охранительный",
+    "tag": "a"
+  },
+  {
+    "word": "considerable",
+    "transcription": "[kən’sidərəbl]",
+    "translation": "значительный",
+    "tag": "a"
+  },
+  {
+    "word": "consist of",
+    "transcription": "[kən’sist]",
+    "translation": "состоять (из)",
+    "tag": "v"
+  },
+  {
+    "word": "constable",
+    "transcription": "[’kʌnstəbl]",
+    "translation": "констебль, полицейский",
+    "tag": "n"
+  },
+  {
+    "word": "constant",
+    "transcription": "[’kɔnstənt]",
+    "translation": "постоянный",
+    "tag": "a"
+  },
+  {
+    "word": "consulate",
+    "transcription": "[’kɔnsjulit]",
+    "translation": "консульство",
+    "tag": "n"
+  },
+  {
+    "word": "continent",
+    "transcription": "[’kɔntinənt]",
+    "translation": "континент",
+    "tag": "n"
+  },
+  {
+    "word": "contraption",
+    "transcription": "[kən’trœpʃən]",
+    "translation": "приспособление",
+    "tag": "n"
+  },
+  {
+    "word": "cook",
+    "transcription": "[kuk]",
+    "translation": "стряпать, варить(-ся)",
+    "tag": "v"
+  },
+  {
+    "word": "cooker",
+    "transcription": "[’kukə]",
+    "translation": "плита, печь",
+    "tag": "n"
+  },
+  {
+    "word": "corner",
+    "transcription": "[’kɔ:nə]",
+    "translation": "угол",
+    "tag": "n"
+  },
+  {
+    "word": "corpse",
+    "transcription": "[kɔ:ps]",
+    "translation": "труп",
+    "tag": "n"
+  },
+  {
+    "word": "correct",
+    "transcription": "[kə’rekt]",
+    "translation": "исправлять",
+    "tag": "v"
+  },
+  {
+    "word": "correspondence",
+    "transcription": "[,kɔris’pɔndəns]",
+    "translation": "корреспонденция",
+    "tag": "n"
+  },
+  {
+    "word": "Cossack",
+    "transcription": "[’kɔsœk]",
+    "translation": "казак",
+    "tag": "n"
+  },
+  {
+    "word": "cost",
+    "transcription": "[kɔst]",
+    "translation": "стоить",
+    "tag": "v"
+  },
+  {
+    "word": "cottage",
+    "transcription": "[’kɔtidʒ]",
+    "translation": "коттедж, загородный дом",
+    "tag": "n"
+  },
+  {
+    "word": "council",
+    "transcription": "[kɑunsl]",
+    "translation": "совет",
+    "tag": "n"
+  },
+  {
+    "word": "councillor",
+    "transcription": "[’kɑunsilə]",
+    "translation": "член совета",
+    "tag": "n"
+  },
+  {
+    "word": "counter",
+    "transcription": "[’kɑuntə]",
+    "translation": "прилавок, стойка",
+    "tag": "n"
+  },
+  {
+    "word": "country",
+    "transcription": "[’kʌntri]",
+    "translation": "страна, деревня",
+    "tag": "n"
+  },
+  {
+    "word": "couple",
+    "transcription": "[kʌpl]",
+    "translation": "пара",
+    "tag": "n"
+  },
+  {
+    "word": "course",
+    "transcription": "[kɔ:s]",
+    "translation": "курс",
+    "tag": "n"
+  },
+  {
+    "word": "court",
+    "transcription": "[kɔ:t]",
+    "translation": "суд",
+    "tag": "n"
+  },
+  {
+    "word": "cousin",
+    "transcription": "[kʌzn]",
+    "translation": "кузина, кузен",
+    "tag": "n"
+  },
+  {
+    "word": "cover",
+    "transcription": "[’kʌvə]",
+    "translation": "накрывать",
+    "tag": "v"
+  },
+  {
+    "word": "cram",
+    "transcription": "[krœm]",
+    "translation": "переполнять, впихивать",
+    "tag": "v"
+  },
+  {
+    "word": "crash",
+    "transcription": "[krœʃ]",
+    "translation": "треск",
+    "tag": "n"
+  },
+  {
+    "word": "crawl",
+    "transcription": "[krɔ:l]",
+    "translation": "ползать",
+    "tag": "v"
+  },
+  {
+    "word": "cream",
+    "transcription": "[kri:m]",
+    "translation": "сливки, крем",
+    "tag": "n"
+  },
+  {
+    "word": "crease",
+    "transcription": "[kri:s]",
+    "translation": "мяться",
+    "tag": "v"
+  },
+  {
+    "word": "creature",
+    "transcription": "[’kritʃə]",
+    "translation": "создание",
+    "tag": "n"
+  },
+  {
+    "word": "credit",
+    "transcription": "[’kredit]",
+    "translation": "кредит",
+    "tag": "n"
+  },
+  {
+    "word": "crone",
+    "transcription": "[kroun]",
+    "translation": "старуха, старая карга",
+    "tag": "n"
+  },
+  {
+    "word": "cross",
+    "transcription": "[krɔs]",
+    "translation": "переходить,",
+    "tag": "v"
+  },
+  {
+    "word": "crowd",
+    "transcription": "[krɑud]",
+    "translation": "толпа",
+    "tag": "n"
+  },
+  {
+    "word": "crowded",
+    "transcription": "[’krɑudid]",
+    "translation": "переполненный",
+    "tag": "a"
+  },
+  {
+    "word": "crown",
+    "transcription": "[’krɑun]",
+    "translation": "корона",
+    "tag": "n"
+  },
+  {
+    "word": "cruise",
+    "transcription": "[kru:z]",
+    "translation": "морское путешествие",
+    "tag": "n"
+  },
+  {
+    "word": "cucumber",
+    "transcription": "[’kju:kəmbə]",
+    "translation": "огурец",
+    "tag": "n"
+  },
+  {
+    "word": "cup",
+    "transcription": "[kʌp]",
+    "translation": "чашка, кубок",
+    "tag": "n"
+  },
+  {
+    "word": "cupboard",
+    "transcription": "[’kʌbəd]",
+    "translation": "шкаф",
+    "tag": "n"
+  },
+  {
+    "word": "currency",
+    "transcription": "[’kʌrənsi]",
+    "translation": "валюта",
+    "tag": "n"
+  },
+  {
+    "word": "custard",
+    "transcription": "[’kʌstəd]",
+    "translation": "сладкий соус из сливок",
+    "tag": "n"
+  },
+  {
+    "word": "customs",
+    "transcription": "[’kʌstəmz]",
+    "translation": "таможня",
+    "tag": "n"
+  },
+  {
+    "word": "cut",
+    "transcription": "[kʌt]",
+    "translation": "резать, стричь,",
+    "tag": "v"
+  },
+  {
+    "word": "cutlery",
+    "transcription": "[’kʌtləri]",
+    "translation": "ножевые изделия",
+    "tag": "n"
+  },
+  {
+    "word": "cutting",
+    "transcription": "[’kʌtiη]",
+    "translation": "отросток, побег",
+    "tag": "n"
+  },
+  {
+    "word": "daily",
+    "transcription": "[’deili]",
+    "translation": "ежедневный",
+    "tag": "a"
+  },
+  {
+    "word": "damage",
+    "transcription": "[’dœmidʒ]",
+    "translation": "вред, повреждение",
+    "tag": "n"
+  },
+  {
+    "word": "damages",
+    "transcription": "[’dœmidʒiz]",
+    "translation": "компенсация за убытки",
+    "tag": "n"
+  },
+  {
+    "word": "I daresay",
+    "transcription": "[’dɛə’sei]",
+    "translation": "я полагаю, осмелюсь сказать, думаю",
+    "tag": "v"
+  },
+  {
+    "word": "darling",
+    "transcription": "[’dɑ:liη]",
+    "translation": "любимый(-ая)",
+    "tag": "n"
+  },
+  {
+    "word": "darts",
+    "transcription": "[dɑ:ts]",
+    "translation": "Дартс",
+    "tag": "n"
+  },
+  {
+    "word": "dash out",
+    "transcription": "[’dœʃ ’ɑut]",
+    "translation": "выскочить, выбежать",
+    "tag": "v"
+  },
+  {
+    "word": "dash it!",
+    "transcription": "[’dœʃ it]",
+    "translation": "день",
+    "tag": "n"
+  },
+  {
+    "word": "day",
+    "transcription": "[dei]",
+    "translation": "день",
+    "tag": "n"
+  },
+  {
+    "word": "deal",
+    "transcription": "[di:l]",
+    "translation": "иметь дело с, вести дело",
+    "tag": "v"
+  },
+  {
+    "word": "deal",
+    "transcription": "[di:l]",
+    "translation": "дорогой, любимый,",
+    "tag": "a"
+  },
+  {
+    "word": "dear",
+    "transcription": "[diə]",
+    "translation": "дорогой, любимый,",
+    "tag": "a"
+  },
+  {
+    "word": "decent",
+    "transcription": "[di:snt]",
+    "translation": "порядочный, приличный",
+    "tag": "a"
+  },
+  {
+    "word": "decide",
+    "transcription": "[di’sɑid]",
+    "translation": "решаться",
+    "tag": "v"
+  },
+  {
+    "word": "declaration",
+    "transcription": "[,deklə’reiʃən]",
+    "translation": "декларация",
+    "tag": "n"
+  },
+  {
+    "word": "decorate",
+    "transcription": "[’dekɔreit]",
+    "translation": "декорировать, украшать, отделывать (дом)",
+    "tag": "v"
+  },
+  {
+    "word": "defect",
+    "transcription": "[di’fekt]",
+    "translation": "дефект, недостаток",
+    "tag": "n"
+  },
+  {
+    "word": "definitely",
+    "transcription": "[’definitli]",
+    "translation": "решительно, определённо",
+    "tag": "adv"
+  },
+  {
+    "word": "delay",
+    "transcription": "[di’lei]",
+    "translation": "откладывать",
+    "tag": "v"
+  },
+  {
+    "word": "delicious",
+    "transcription": "[di’liʃəs]",
+    "translation": "очень вкусный",
+    "tag": "a"
+  },
+  {
+    "word": "delighted",
+    "transcription": "[di’lɑitid]",
+    "translation": "рад, обрадованный",
+    "tag": "a"
+  },
+  {
+    "word": "dentist",
+    "transcription": "[’dentist]",
+    "translation": "зубной врач",
+    "tag": "n"
+  },
+  {
+    "word": "department",
+    "transcription": "[di’pa:tmnt]",
+    "translation": "отдел, департамент",
+    "tag": "n"
+  },
+  {
+    "word": "depend",
+    "transcription": "[di’pend]",
+    "translation": "зависеть (от)",
+    "tag": "v"
+  },
+  {
+    "word": "deserted",
+    "transcription": "[di’zə:tid]",
+    "translation": "пустой, покинутый",
+    "tag": "a"
+  },
+  {
+    "word": "deserve",
+    "transcription": "[di’zə:v]",
+    "translation": "заслужить",
+    "tag": "v"
+  },
+  {
+    "word": "design",
+    "transcription": "[di’zɑin]",
+    "translation": "проектировать",
+    "tag": "v"
+  },
+  {
+    "word": "detective",
+    "transcription": "[di’tektiv]",
+    "translation": "детективный",
+    "tag": "a"
+  },
+  {
+    "word": "different",
+    "transcription": "[’difrənt]",
+    "translation": "разный",
+    "tag": "a"
+  },
+  {
+    "word": "difficult",
+    "transcription": "[’difikəlt]",
+    "translation": "трудный",
+    "tag": "a"
+  },
+  {
+    "word": "dig",
+    "transcription": "[dig]",
+    "translation": "копать",
+    "tag": "v"
+  },
+  {
+    "word": "dinner",
+    "transcription": "[’dinə]",
+    "translation": "обед",
+    "tag": "n"
+  },
+  {
+    "word": "direction",
+    "transcription": "[di’rekʃən]",
+    "translation": "направление",
+    "tag": "n"
+  },
+  {
+    "word": "dirt",
+    "transcription": "[də:t]",
+    "translation": "грязь",
+    "tag": "n"
+  },
+  {
+    "word": "dirty",
+    "transcription": "[’də:ti]",
+    "translation": "грязный",
+    "tag": "a"
+  },
+  {
+    "word": "disadvantage",
+    "transcription": "[disəd’va:ntidʒ]",
+    "translation": "невыгода, невыгодное положение",
+    "tag": "n"
+  },
+  {
+    "word": "disappear",
+    "transcription": "[,disə’piə]",
+    "translation": "исчезать",
+    "tag": "v"
+  },
+  {
+    "word": "disappoint",
+    "transcription": "[,disə’pɔint]",
+    "translation": "разочаровать",
+    "tag": "v"
+  },
+  {
+    "word": "discuss",
+    "transcription": "[dis’kʌs]",
+    "translation": "дискутировать",
+    "tag": "v"
+  },
+  {
+    "word": "dish up",
+    "transcription": "[’diʃ ’ʌp]",
+    "translation": "подавать еду на стол",
+    "tag": "v"
+  },
+  {
+    "word": "disillusion",
+    "transcription": "[,disi’lu:ʒən]",
+    "translation": "разочарование",
+    "tag": "v"
+  },
+  {
+    "word": "dislike",
+    "transcription": "[dis’lɑik]",
+    "translation": "не любить",
+    "tag": "v"
+  },
+  {
+    "word": "display",
+    "transcription": "[dis’plei]",
+    "translation": "выставлять, показывать",
+    "tag": "v"
+  },
+  {
+    "word": "disposal",
+    "transcription": "[dis’pouzəl]",
+    "translation": "размещение",
+    "tag": "n"
+  },
+  {
+    "word": "dissension",
+    "transcription": "[di’senʃən]",
+    "translation": "разногласие, раздоры",
+    "tag": "n"
+  },
+  {
+    "word": "distinctly",
+    "transcription": "[dis’tinktli]",
+    "translation": "отчетливо, ясно",
+    "tag": "adv"
+  },
+  {
+    "word": "disturb",
+    "transcription": "[dis’tə:b]",
+    "translation": "мешать, беспокоить",
+    "tag": "v"
+  },
+  {
+    "word": "do",
+    "transcription": "[du:]",
+    "translation": "делать",
+    "tag": "v"
+  },
+  {
+    "word": "docks",
+    "transcription": "[dɔks]",
+    "translation": "доки",
+    "tag": "n"
+  },
+  {
+    "word": "doctor",
+    "transcription": "[’dɔktə]",
+    "translation": "доктор, врач",
+    "tag": "n"
+  },
+  {
+    "word": "dog",
+    "transcription": "[dɔg]",
+    "translation": "собака",
+    "tag": "n"
+  },
+  {
+    "word": "doll",
+    "transcription": "[dɔl]",
+    "translation": "кукла",
+    "tag": "n"
+  },
+  {
+    "word": "do",
+    "transcription": "[dɔ:]",
+    "translation": "дверь",
+    "tag": "n"
+  },
+  {
+    "word": "door",
+    "transcription": "[dɔ:]",
+    "translation": "дверь",
+    "tag": "n"
+  },
+  {
+    "word": "door-bell",
+    "transcription": "[’dɔ:bel]",
+    "translation": "дверной звонок",
+    "tag": "n"
+  },
+  {
+    "word": "doorstep",
+    "transcription": "[’dɔ:step]",
+    "translation": "порог",
+    "tag": "n"
+  },
+  {
+    "word": "double",
+    "transcription": "[’dʌbl]",
+    "translation": "двойной",
+    "tag": "a"
+  },
+  {
+    "word": "downstairs",
+    "transcription": "[’dɑun’stəz]",
+    "translation": "внизу, вниз",
+    "tag": "adv"
+  },
+  {
+    "word": "dozen",
+    "transcription": "[dʌzn]",
+    "translation": "дюжина",
+    "tag": "n"
+  },
+  {
+    "word": "drag",
+    "transcription": "[drœg]",
+    "translation": "тянуть, волочить",
+    "tag": "v"
+  },
+  {
+    "word": "dramatic",
+    "transcription": "[drə’mœtik]",
+    "translation": "драматический",
+    "tag": "a"
+  },
+  {
+    "word": "dramatist",
+    "transcription": "[’drœmətist]",
+    "translation": "драматург",
+    "tag": "n"
+  },
+  {
+    "word": "dream",
+    "transcription": "[dri:m]",
+    "translation": "сон,",
+    "tag": "n"
+  },
+  {
+    "word": "dress",
+    "transcription": "[dres]",
+    "translation": "платье",
+    "tag": "n"
+  },
+  {
+    "word": "dressmaking",
+    "transcription": "[’dres,meikiη]",
+    "translation": "шитьё дамского платья",
+    "tag": "n"
+  },
+  {
+    "word": "drink",
+    "transcription": "[driηk]",
+    "translation": "пить,",
+    "tag": "v"
+  },
+  {
+    "word": "drive",
+    "transcription": "[drɑiv]",
+    "translation": "вести машину,",
+    "tag": "v"
+  },
+  {
+    "word": "driver",
+    "transcription": "[’drɑivə]",
+    "translation": "шофёр",
+    "tag": "n"
+  },
+  {
+    "word": "driving licence",
+    "transcription": "[’drɑiviη ’lɑisəns]",
+    "translation": "водительские права",
+    "tag": "n"
+  },
+  {
+    "word": "drop",
+    "transcription": "[drɔp]",
+    "translation": "капля,",
+    "tag": "n"
+  },
+  {
+    "word": "dry",
+    "transcription": "[drɑi]",
+    "translation": "сухой",
+    "tag": "a"
+  },
+  {
+    "word": "duck",
+    "transcription": "[dʌk]",
+    "translation": "утка",
+    "tag": "n"
+  },
+  {
+    "word": "dig",
+    "transcription": "[dʌl]",
+    "translation": "скучный, тусклый",
+    "tag": "a"
+  },
+  {
+    "word": "dull",
+    "transcription": "[dʌl]",
+    "translation": "скучный, тусклый",
+    "tag": "a"
+  },
+  {
+    "word": "dumb",
+    "transcription": "[dʌm]",
+    "translation": "немой, глупый",
+    "tag": "a"
+  },
+  {
+    "word": "dutiable",
+    "transcription": "[’dju:tjəbl]",
+    "translation": "подлежащий обложению пошлиной",
+    "tag": "a"
+  },
+  {
+    "word": "early",
+    "transcription": "[’ə:li]",
+    "translation": "ранний,",
+    "tag": "a"
+  },
+  {
+    "word": "earn",
+    "transcription": "[ə:n]",
+    "translation": "зарабатывать",
+    "tag": "v"
+  },
+  {
+    "word": "earth",
+    "transcription": "[ə:θ]",
+    "translation": "земля",
+    "tag": "n"
+  },
+  {
+    "word": "eastern",
+    "transcription": "[’i:stən]",
+    "translation": "восточный",
+    "tag": "a"
+  },
+  {
+    "word": "easy",
+    "transcription": "[’i:zi]",
+    "translation": "лёгкий",
+    "tag": "a"
+  },
+  {
+    "word": "eat",
+    "transcription": "[i:t]",
+    "translation": "есть",
+    "tag": "v"
+  },
+  {
+    "word": "eat",
+    "transcription": "[,edju’keiʃən]",
+    "translation": "образование, обучение",
+    "tag": "n"
+  },
+  {
+    "word": "education",
+    "transcription": "[,edju’keiʃən]",
+    "translation": "образование, обучение",
+    "tag": "n"
+  },
+  {
+    "word": "effort",
+    "transcription": "[’efət]",
+    "translation": "усилие",
+    "tag": "n"
+  },
+  {
+    "word": "egg",
+    "transcription": "[eg]",
+    "translation": "яйцо",
+    "tag": "n"
+  },
+  {
+    "word": "either",
+    "transcription": "[’ɑiрə]",
+    "translation": "и",
+    "tag": "adv"
+  },
+  {
+    "word": "elaborate",
+    "transcription": "[i’lœbərit]",
+    "translation": "сложный, искусно сделанный",
+    "tag": "a"
+  },
+  {
+    "word": "electric",
+    "transcription": "[i’lektrik]",
+    "translation": "электрический",
+    "tag": "a"
+  },
+  {
+    "word": "electrician",
+    "transcription": "[ilek’triʃn]",
+    "translation": "электромонтёр",
+    "tag": "n"
+  },
+  {
+    "word": "electronics",
+    "transcription": "[ilek’trɔniks]",
+    "translation": "электроника",
+    "tag": "n"
+  },
+  {
+    "word": "else",
+    "transcription": "[els]",
+    "translation": "еще, кроме, иначе",
+    "tag": "adv"
+  },
+  {
+    "word": "employee",
+    "transcription": "[’emplɔi’i:]",
+    "translation": "работающий по найму",
+    "tag": "n"
+  },
+  {
+    "word": "empty",
+    "transcription": "[’empti]",
+    "translation": "пустой",
+    "tag": "a"
+  },
+  {
+    "word": "end",
+    "transcription": "[end]",
+    "translation": "кончать(ся),",
+    "tag": "v"
+  },
+  {
+    "word": "energetic",
+    "transcription": "[,enə’dʒetik]",
+    "translation": "энергичный",
+    "tag": "a"
+  },
+  {
+    "word": "engineer",
+    "transcription": "[,endʒi’niə]",
+    "translation": "инженер",
+    "tag": "n"
+  },
+  {
+    "word": "English",
+    "transcription": "[’iηgliʃ]",
+    "translation": "английский,",
+    "tag": "a"
+  },
+  {
+    "word": "enjoy",
+    "transcription": "[in’dʒɔi]",
+    "translation": "радоваться, наслаждаться, получать удовольствие",
+    "tag": "v"
+  },
+  {
+    "word": "enormous",
+    "transcription": "[’inɔ:məs]",
+    "translation": "огромный",
+    "tag": "a"
+  },
+  {
+    "word": "enough",
+    "transcription": "[i’nʌf]",
+    "translation": "достаточно",
+    "tag": "adv"
+  },
+  {
+    "word": "enter",
+    "transcription": "[’entə]",
+    "translation": "входить",
+    "tag": "v"
+  },
+  {
+    "word": "enthusiasm",
+    "transcription": "[in’θju:ziœzm]",
+    "translation": "энтузиазм",
+    "tag": "n"
+  },
+  {
+    "word": "enthusiast",
+    "transcription": "[in’θjuziœst]",
+    "translation": "энтузиаст",
+    "tag": "n"
+  },
+  {
+    "word": "entire",
+    "transcription": "[in’tɑiə]",
+    "translation": "полный, целый",
+    "tag": "a"
+  },
+  {
+    "word": "episode",
+    "transcription": "[’episoud]",
+    "translation": "эпизод",
+    "tag": "n"
+  },
+  {
+    "word": "escape",
+    "transcription": "[is’keip]",
+    "translation": "бежать",
+    "tag": "v"
+  },
+  {
+    "word": "especially",
+    "transcription": "[is’peʃəli]",
+    "translation": "особенно",
+    "tag": "adv"
+  },
+  {
+    "word": "Europe",
+    "transcription": "[’juərəp]",
+    "translation": "Европа",
+    "tag": "n"
+  },
+  {
+    "word": "even",
+    "transcription": "[’i:vən]",
+    "translation": "даже",
+    "tag": "adv"
+  },
+  {
+    "word": "evening",
+    "transcription": "[’i:vniη]",
+    "translation": "вечер",
+    "tag": "n"
+  },
+  {
+    "word": "every",
+    "transcription": "[’evri]",
+    "translation": "каждый",
+    "tag": "pron"
+  },
+  {
+    "word": "everybody",
+    "transcription": "[’evribɔdi]",
+    "translation": "каждый, всякий (человек)",
+    "tag": "pron"
+  },
+  {
+    "word": "everyday",
+    "transcription": "[’evridei]",
+    "translation": "ежедневный",
+    "tag": "a"
+  },
+  {
+    "word": "exactly",
+    "transcription": "[ig’zœktli]",
+    "translation": "точно, именно",
+    "tag": "adv"
+  },
+  {
+    "word": "exaggerate",
+    "transcription": "[ig’zœdʒəreit]",
+    "translation": "преувеличивать",
+    "tag": "v"
+  },
+  {
+    "word": "exam",
+    "transcription": "[ig'zœm]",
+    "translation": "сокращ. от:",
+    "tag": "n"
+  },
+  {
+    "word": "examination",
+    "transcription": "[ig,zœmi’neiʃən]",
+    "translation": "экзамен",
+    "tag": "n"
+  },
+  {
+    "word": "excellent",
+    "transcription": "[’eksələnt]",
+    "translation": "отличный, превосходный",
+    "tag": "a"
+  },
+  {
+    "word": "exciting",
+    "transcription": "[ik’sɑitiη]",
+    "translation": "возбуждающий, захватывающий",
+    "tag": "a"
+  },
+  {
+    "word": "excuse",
+    "transcription": "[iks’kju:z]",
+    "translation": "прощать",
+    "tag": "v"
+  },
+  {
+    "word": "exhausted",
+    "transcription": "[ig’zɔ:stid]",
+    "translation": "истощенный, изнурённый",
+    "tag": "a"
+  },
+  {
+    "word": "exhibition",
+    "transcription": "[eksi’biʃən]",
+    "translation": "выставка",
+    "tag": "n"
+  },
+  {
+    "word": "expect",
+    "transcription": "[iks’pekt]",
+    "translation": "ожидать",
+    "tag": "v"
+  },
+  {
+    "word": "expense",
+    "transcription": "[iks’pens]",
+    "translation": "расход",
+    "tag": "n"
+  },
+  {
+    "word": "expensive",
+    "transcription": "[iks’pensiv]",
+    "translation": "дорогой",
+    "tag": "a"
+  },
+  {
+    "word": "experience",
+    "transcription": "[iks’piəriəns]",
+    "translation": "(жизненный) опыт",
+    "tag": "n"
+  },
+  {
+    "word": "experimental",
+    "transcription": "[eks,peri’mentəl]",
+    "translation": "экспериментальный",
+    "tag": "a"
+  },
+  {
+    "word": "explain",
+    "transcription": "[iks'plein]",
+    "translation": "объяснить",
+    "tag": "v"
+  },
+  {
+    "word": "expression",
+    "transcription": "[’ikspreʃən]",
+    "translation": "сумасбродный, расточительный",
+    "tag": "a"
+  },
+  {
+    "word": "extravagant",
+    "transcription": "[iks’trœvigənt]",
+    "translation": "сумасбродный, расточительный",
+    "tag": "a"
+  },
+  {
+    "word": "eye",
+    "transcription": "[ai]",
+    "translation": "глаз",
+    "tag": "n"
+  },
+  {
+    "word": "face",
+    "transcription": "[feis]",
+    "translation": "лицо,",
+    "tag": "n"
+  },
+  {
+    "word": "fact",
+    "transcription": "[fœkt]",
+    "translation": "факт",
+    "tag": "n"
+  },
+  {
+    "word": "fade",
+    "transcription": "[feid]",
+    "translation": "блёкнуть",
+    "tag": "v"
+  },
+  {
+    "word": "fade-proof",
+    "transcription": "[’feid’pru:f]",
+    "translation": "нелиняющий",
+    "tag": "a"
+  },
+  {
+    "word": "faint",
+    "transcription": "[feint]",
+    "translation": "падать в обморок",
+    "tag": "v"
+  },
+  {
+    "word": "fall",
+    "transcription": "[fɔ:l]",
+    "translation": "падать",
+    "tag": "v"
+  },
+  {
+    "word": "fall",
+    "transcription": "[’fœmili]",
+    "translation": "семья",
+    "tag": "n"
+  },
+  {
+    "word": "family",
+    "transcription": "[’fœmili]",
+    "translation": "семья",
+    "tag": "n"
+  },
+  {
+    "word": "famous",
+    "transcription": "[’feiməs]",
+    "translation": "известный",
+    "tag": "а"
+  },
+  {
+    "word": "fancy",
+    "transcription": "[’fœnsi]",
+    "translation": "орнаментальный,",
+    "tag": "a"
+  },
+  {
+    "word": "farewell",
+    "transcription": "[’fɛə’wel]",
+    "translation": "прощание",
+    "tag": "n"
+  },
+  {
+    "word": "fast",
+    "transcription": "[fɑ:st]",
+    "translation": "быстрый",
+    "tag": "a"
+  },
+  {
+    "word": "father",
+    "transcription": "[’fɑ:ðə]",
+    "translation": "отец",
+    "tag": "n"
+  },
+  {
+    "word": "fault",
+    "transcription": "[fɔ:lt]",
+    "translation": "вина, ошибка",
+    "tag": "n"
+  },
+  {
+    "word": "favour",
+    "transcription": "[’feivə]",
+    "translation": "благосклонность, любезность, одолжение",
+    "tag": "n"
+  },
+  {
+    "word": "feather-brained",
+    "transcription": "[’feðə’breind]",
+    "translation": "пустой, ветреный",
+    "tag": "a"
+  },
+  {
+    "word": "feel",
+    "transcription": "[fi:l]",
+    "translation": "чувствовать",
+    "tag": "v"
+  },
+  {
+    "word": "feeling",
+    "transcription": "[’fi:liη]",
+    "translation": "чувство",
+    "tag": "n"
+  },
+  {
+    "word": "fellow",
+    "transcription": "[’felou]",
+    "translation": "человек, парень",
+    "tag": "n"
+  },
+  {
+    "word": "feel",
+    "transcription": "[fens]",
+    "translation": "забор",
+    "tag": "n"
+  },
+  {
+    "word": "fence",
+    "transcription": "[fens]",
+    "translation": "забор",
+    "tag": "n"
+  },
+  {
+    "word": "few",
+    "transcription": "[fju:]",
+    "translation": "и",
+    "tag": "a"
+  },
+  {
+    "word": "field",
+    "transcription": "[fi:ld]",
+    "translation": "поле",
+    "tag": "n"
+  },
+  {
+    "word": "fill",
+    "transcription": "[fil]",
+    "translation": "наполнять",
+    "tag": "v"
+  },
+  {
+    "word": "film",
+    "transcription": "[film]",
+    "translation": "фильм",
+    "tag": "n"
+  },
+  {
+    "word": "final",
+    "transcription": "[’fɑinəl]",
+    "translation": "последний, финальный",
+    "tag": "a"
+  },
+  {
+    "word": "find",
+    "transcription": "[fɑind]",
+    "translation": "найти",
+    "tag": "v"
+  },
+  {
+    "word": "finder",
+    "transcription": "[’fɑində]",
+    "translation": "нашедший (в знач. существ.)",
+    "tag": "n"
+  },
+  {
+    "word": "fine",
+    "transcription": "[fɑin]",
+    "translation": "изящный, утончённый,",
+    "tag": "a"
+  },
+  {
+    "word": "finish",
+    "transcription": "[’finiʃ]",
+    "translation": "кончать(-ся)",
+    "tag": "v"
+  },
+  {
+    "word": "fire",
+    "transcription": "[fɑiə]",
+    "translation": "огонь",
+    "tag": "n"
+  },
+  {
+    "word": "firm",
+    "transcription": "[fə:m]",
+    "translation": "фирма,",
+    "tag": "n"
+  },
+  {
+    "word": "first",
+    "transcription": "[fə:st]",
+    "translation": "сперва",
+    "tag": "adv"
+  },
+  {
+    "word": "fish",
+    "transcription": "[fiʃ]",
+    "translation": "рыба",
+    "tag": "n"
+  },
+  {
+    "word": "fit",
+    "transcription": "[fit]",
+    "translation": "соответствовать, подходить",
+    "tag": "v"
+  },
+  {
+    "word": "fitting-room",
+    "transcription": "[’fitiηrum]",
+    "translation": "примерочная",
+    "tag": "n"
+  },
+  {
+    "word": "fix",
+    "transcription": "[fiks]",
+    "translation": "укреплять",
+    "tag": "v"
+  },
+  {
+    "word": "fjord",
+    "transcription": "[fjɔ:d]",
+    "translation": "фьорд",
+    "tag": "n"
+  },
+  {
+    "word": "flat",
+    "transcription": "[flœt]",
+    "translation": "квартира, прокол в шине",
+    "tag": "n"
+  },
+  {
+    "word": "floor",
+    "transcription": "[flɔ:]",
+    "translation": "пол, этаж",
+    "tag": "n"
+  },
+  {
+    "word": "fog",
+    "transcription": "[fɔg]",
+    "translation": "туман",
+    "tag": "n"
+  },
+  {
+    "word": "foggy",
+    "transcription": "[’fɔgi]",
+    "translation": "туманный",
+    "tag": "a"
+  },
+  {
+    "word": "food",
+    "transcription": "[fu:d]",
+    "translation": "еда",
+    "tag": "n"
+  },
+  {
+    "word": "foolish",
+    "transcription": "[’fu:liʃ]",
+    "translation": "глупый",
+    "tag": "a"
+  },
+  {
+    "word": "foot",
+    "transcription": "[fut]",
+    "translation": "стопа",
+    "tag": "n"
+  },
+  {
+    "word": "foreign",
+    "transcription": "[’forin]",
+    "translation": "нездешний, иностранный",
+    "tag": "a"
+  },
+  {
+    "word": "forget",
+    "transcription": "[fə’get]",
+    "translation": "забыть",
+    "tag": "v"
+  },
+  {
+    "word": "forgive",
+    "transcription": "[fə’giv]",
+    "translation": "прощать",
+    "tag": "v"
+  },
+  {
+    "word": "forget",
+    "transcription": "[fɔ:m]",
+    "translation": "форм, бланк",
+    "tag": "n"
+  },
+  {
+    "word": "form",
+    "transcription": "[fɔ:m]",
+    "translation": "форм, бланк",
+    "tag": "n"
+  },
+  {
+    "word": "formal",
+    "transcription": "[’fɔ:məl]",
+    "translation": "формальный",
+    "tag": "a"
+  },
+  {
+    "word": "fortnight",
+    "transcription": "[’fɔ:tnɑit]",
+    "translation": "две недели",
+    "tag": "n"
+  },
+  {
+    "word": "find",
+    "transcription": "[’fɔiei]",
+    "translation": "фойе",
+    "tag": "n"
+  },
+  {
+    "word": "foyer",
+    "transcription": "[’fɔiei]",
+    "translation": "фойе",
+    "tag": "n"
+  },
+  {
+    "word": "free",
+    "transcription": "[fri:]",
+    "translation": "свободный",
+    "tag": "a"
+  },
+  {
+    "word": "freeze",
+    "transcription": "[fri:z]",
+    "translation": "замерзать",
+    "tag": "v"
+  },
+  {
+    "word": "French",
+    "transcription": "[frentʃ]",
+    "translation": "французский,",
+    "tag": "a"
+  },
+  {
+    "word": "friend",
+    "transcription": "[frend]",
+    "translation": "приятель",
+    "tag": "n"
+  },
+  {
+    "word": "front",
+    "transcription": "[frʌnt]",
+    "translation": "передняя сторона",
+    "tag": "n"
+  },
+  {
+    "word": "frontier",
+    "transcription": "[’frʌntjə]",
+    "translation": "граница",
+    "tag": "n"
+  },
+  {
+    "word": "full",
+    "transcription": "[ful]",
+    "translation": "полный",
+    "tag": "a"
+  },
+  {
+    "word": "fun",
+    "transcription": "[fʌn]",
+    "translation": "шутка, забава, веселье",
+    "tag": "n"
+  },
+  {
+    "word": "funny",
+    "transcription": "[’fʌni]",
+    "translation": "смешной, забавный",
+    "tag": "a"
+  },
+  {
+    "word": "furious",
+    "transcription": "[’fjuriəs]",
+    "translation": "взбешённый",
+    "tag": "a"
+  },
+  {
+    "word": "furnish",
+    "transcription": "[’fə:niʃ]",
+    "translation": "обставить",
+    "tag": "v"
+  },
+  {
+    "word": "furniture",
+    "transcription": "[’fə:nitʃə]",
+    "translation": "мебель, обстановка",
+    "tag": "n"
+  },
+  {
+    "word": "further",
+    "transcription": "[’fə:ðə]",
+    "translation": "дальше",
+    "tag": "adv"
+  },
+  {
+    "word": "fuss",
+    "transcription": "[fʌs]",
+    "translation": "суетиться, волноваться",
+    "tag": "v"
+  },
+  {
+    "word": "gadget",
+    "transcription": "[’gœdʒit]",
+    "translation": "приспособление",
+    "tag": "n"
+  },
+  {
+    "word": "gallon",
+    "transcription": "[’gœlən]",
+    "translation": "галлон",
+    "tag": "n"
+  },
+  {
+    "word": "game",
+    "transcription": "[geim]",
+    "translation": "игра",
+    "tag": "n"
+  },
+  {
+    "word": "garage",
+    "transcription": "[‘gœrɑ:ʒ]",
+    "translation": "гараж",
+    "tag": "n"
+  },
+  {
+    "word": "garden",
+    "transcription": "[gɑ:dn]",
+    "translation": "газовая печка",
+    "tag": "n"
+  },
+  {
+    "word": "gas-stove",
+    "transcription": "[’gœs’stouv]",
+    "translation": "газовая печка",
+    "tag": "n"
+  },
+  {
+    "word": "gate",
+    "transcription": "[geit]",
+    "translation": "ворота, калитка",
+    "tag": "n"
+  },
+  {
+    "word": "give",
+    "transcription": "[dʒi’oɔgrəfi]",
+    "translation": "география",
+    "tag": "n"
+  },
+  {
+    "word": "geography",
+    "transcription": "[dʒi’oɔgrəfi]",
+    "translation": "география",
+    "tag": "n"
+  },
+  {
+    "word": "German",
+    "transcription": "[’dʒə:mən]",
+    "translation": "немецкий,",
+    "tag": "a"
+  },
+  {
+    "word": "get",
+    "transcription": "[get]",
+    "translation": "доставать, добывать",
+    "tag": "v"
+  },
+  {
+    "word": "girl",
+    "transcription": "[gə:l]",
+    "translation": "девочка",
+    "tag": "n"
+  },
+  {
+    "word": "give",
+    "transcription": "[giv]",
+    "translation": "давать",
+    "tag": "v"
+  },
+  {
+    "word": "glad",
+    "transcription": "[glœd]",
+    "translation": "довольный",
+    "tag": "a"
+  },
+  {
+    "word": "glance",
+    "transcription": "[glɑ:ns]",
+    "translation": "великолепный, чудесный",
+    "tag": "a"
+  },
+  {
+    "word": "glorious",
+    "transcription": "[’glɔ:riəs]",
+    "translation": "великолепный, чудесный",
+    "tag": "a"
+  },
+  {
+    "word": "glove",
+    "transcription": "[glʌw]",
+    "translation": "перчатка",
+    "tag": "n"
+  },
+  {
+    "word": "go",
+    "transcription": "[gou]",
+    "translation": "идти, ехать, отправляться куда-нибудь",
+    "tag": "v"
+  },
+  {
+    "word": "go",
+    "transcription": "[gud]",
+    "translation": "хороший,",
+    "tag": "a"
+  },
+  {
+    "word": "good",
+    "transcription": "[gud]",
+    "translation": "хороший,",
+    "tag": "a"
+  },
+  {
+    "word": "good-bye",
+    "transcription": "[’gud’bɑi]",
+    "translation": "до свидания!",
+    "tag": "int"
+  },
+  {
+    "word": "goodness",
+    "transcription": "[’gudnis]",
+    "translation": "о боже",
+    "tag": "int"
+  },
+  {
+    "word": "gorgeous",
+    "transcription": "[’gɔ:dʒəs]",
+    "translation": "великолепный, замечательный",
+    "tag": "a"
+  },
+  {
+    "word": "get",
+    "transcription": "[’grœmə]",
+    "translation": "грамматика",
+    "tag": "n"
+  },
+  {
+    "word": "grammar",
+    "transcription": "[’grœmə]",
+    "translation": "грамматика",
+    "tag": "n"
+  },
+  {
+    "word": "grant",
+    "transcription": "[grɑ:nt]",
+    "translation": "стипендия",
+    "tag": "n"
+  },
+  {
+    "word": "grapes",
+    "transcription": "[greips]",
+    "translation": "виноград",
+    "tag": "n"
+  },
+  {
+    "word": "grass",
+    "transcription": "[grɑ:s]",
+    "translation": "трава",
+    "tag": "n"
+  },
+  {
+    "word": "great",
+    "transcription": "[greit]",
+    "translation": "великий, замечательный",
+    "tag": "a"
+  },
+  {
+    "word": "green",
+    "transcription": "[gri:n]",
+    "translation": "зелёный",
+    "tag": "a"
+  },
+  {
+    "word": "grill",
+    "transcription": "[gril]",
+    "translation": "печь на медленном огне",
+    "tag": "v"
+  },
+  {
+    "word": "ground",
+    "transcription": "[grɑund]",
+    "translation": "участок земли",
+    "tag": "n"
+  },
+  {
+    "word": "group",
+    "transcription": "[gru:p]",
+    "translation": "группа",
+    "tag": "n"
+  },
+  {
+    "word": "grow",
+    "transcription": "[grou]",
+    "translation": "расти",
+    "tag": "v"
+  },
+  {
+    "word": "grumble",
+    "transcription": "[’grʌmbl]",
+    "translation": "ворчать",
+    "tag": "v"
+  },
+  {
+    "word": "guess",
+    "transcription": "[ges]",
+    "translation": "угадывать",
+    "tag": "v"
+  },
+  {
+    "word": "guide",
+    "transcription": "[gɑid]",
+    "translation": "проводник, гид",
+    "tag": "n"
+  },
+  {
+    "word": "guinea",
+    "transcription": "[’gini]",
+    "translation": "гинея",
+    "tag": "n"
+  },
+  {
+    "word": "gun",
+    "transcription": "[gʌn]",
+    "translation": "пистолет, револьвер",
+    "tag": "n"
+  },
+  {
+    "word": "half",
+    "transcription": "[hɑ:f]",
+    "translation": "половина",
+    "tag": "n"
+  },
+  {
+    "word": "half-timbered",
+    "transcription": "['hɑ:f ’timbəd]",
+    "translation": "зал",
+    "tag": "n"
+  },
+  {
+    "word": "hall",
+    "transcription": "[hɔ:l]",
+    "translation": "зал",
+    "tag": "n"
+  },
+  {
+    "word": "hallo",
+    "transcription": "[hə’lou]",
+    "translation": "алло! здорово!",
+    "tag": "int"
+  },
+  {
+    "word": "hammer",
+    "transcription": "[’hœmə]",
+    "translation": "молоток",
+    "tag": "n"
+  },
+  {
+    "word": "hand",
+    "transcription": "[hœnd]",
+    "translation": "искусный",
+    "tag": "a"
+  },
+  {
+    "word": "handy",
+    "transcription": "[hœndi]",
+    "translation": "искусный",
+    "tag": "a"
+  },
+  {
+    "word": "hang",
+    "transcription": "[hœη]",
+    "translation": "вешать, висеть",
+    "tag": "v"
+  },
+  {
+    "word": "happen",
+    "transcription": "[’hœpən]",
+    "translation": "случаться",
+    "tag": "v"
+  },
+  {
+    "word": "happy",
+    "transcription": "[’hœpi]",
+    "translation": "счастливый",
+    "tag": "a"
+  },
+  {
+    "word": "hard",
+    "transcription": "[hɑ:d]",
+    "translation": "твердый, трудный",
+    "tag": "a"
+  },
+  {
+    "word": "hat",
+    "transcription": "[hœt]",
+    "translation": "шляпа",
+    "tag": "n"
+  },
+  {
+    "word": "hate",
+    "transcription": "[heit]",
+    "translation": "ненавидеть",
+    "tag": "v"
+  },
+  {
+    "word": "headmaster",
+    "transcription": "[’hed’mɑ:stə]",
+    "translation": "директор школы",
+    "tag": "n"
+  },
+  {
+    "word": "hear",
+    "transcription": "[hiə]",
+    "translation": "слышать",
+    "tag": "v"
+  },
+  {
+    "word": "hear",
+    "transcription": "[hɑ:t]",
+    "translation": "сердце",
+    "tag": "n"
+  },
+  {
+    "word": "heart",
+    "transcription": "[hɑ:t]",
+    "translation": "сердце",
+    "tag": "n"
+  },
+  {
+    "word": "heater",
+    "transcription": "[’hi:tə]",
+    "translation": "огреватель",
+    "tag": "n"
+  },
+  {
+    "word": "heavenly",
+    "transcription": "[’hevnli]",
+    "translation": "небесный, божественный",
+    "tag": "a"
+  },
+  {
+    "word": "heavens",
+    "transcription": "[’hevənz]",
+    "translation": "небеса",
+    "tag": "n"
+  },
+  {
+    "word": "heavy",
+    "transcription": "[’hevi]",
+    "translation": "тяжёлый",
+    "tag": "a"
+  },
+  {
+    "word": "hectic",
+    "transcription": "[’hektik]",
+    "translation": "возбуждённый, лихорадочный",
+    "tag": "a"
+  },
+  {
+    "word": "hedge",
+    "transcription": "[hedʒ]",
+    "translation": "живая изгородь",
+    "tag": "n"
+  },
+  {
+    "word": "height",
+    "transcription": "[hɑit]",
+    "translation": "высота",
+    "tag": "n"
+  },
+  {
+    "word": "help",
+    "transcription": "[help]",
+    "translation": "помогать",
+    "tag": "v"
+  },
+  {
+    "word": "here",
+    "transcription": "[hiə]",
+    "translation": "здесь",
+    "tag": "adv"
+  },
+  {
+    "word": "herring",
+    "transcription": "[’heriη]",
+    "translation": "сельдь",
+    "tag": "n"
+  },
+  {
+    "word": "hesitate",
+    "transcription": "[’heziteit]",
+    "translation": "колебаться",
+    "tag": "v"
+  },
+  {
+    "word": "hide",
+    "transcription": "[hɑid]",
+    "translation": "прятать(-ся)",
+    "tag": "v"
+  },
+  {
+    "word": "hide",
+    "transcription": "[hɑid]",
+    "translation": "прятать(-ся)",
+    "tag": "v"
+  },
+  {
+    "word": "high",
+    "transcription": "[hɑi]",
+    "translation": "высокий",
+    "tag": "a"
+  },
+  {
+    "word": "hit",
+    "transcription": "[hit]",
+    "translation": "ударить",
+    "tag": "v"
+  },
+  {
+    "word": "hobby-horse",
+    "transcription": "[’hɔbihɔ:s]",
+    "translation": "„конёк”",
+    "tag": "n"
+  },
+  {
+    "word": "hold",
+    "transcription": "[hould]",
+    "translation": "держать",
+    "tag": "v"
+  },
+  {
+    "word": "holiday",
+    "transcription": "[’holidei]",
+    "translation": "праздник, отпуск, каникулы",
+    "tag": "n"
+  },
+  {
+    "word": "home",
+    "transcription": "[houm]",
+    "translation": "дом",
+    "tag": "n"
+  },
+  {
+    "word": "honeymoon",
+    "transcription": "[’hʌnimu:n]",
+    "translation": "медовый месяц",
+    "tag": "n"
+  },
+  {
+    "word": "hope",
+    "transcription": "[houp]",
+    "translation": "надежда",
+    "tag": "n"
+  },
+  {
+    "word": "hopeful",
+    "transcription": "[’houpful]",
+    "translation": "надеющийся, многообещающий",
+    "tag": "a"
+  },
+  {
+    "word": "horrible",
+    "transcription": "[’hɔribl]",
+    "translation": "ужасный",
+    "tag": "a"
+  },
+  {
+    "word": "hot",
+    "transcription": "[hɔt]",
+    "translation": "горячий",
+    "tag": "a"
+  },
+  {
+    "word": "hour",
+    "transcription": "[ɑuə]",
+    "translation": "час",
+    "tag": "n"
+  },
+  {
+    "word": "house",
+    "transcription": "[hɑus]",
+    "translation": "дом",
+    "tag": "n"
+  },
+  {
+    "word": "house keeping",
+    "transcription": "[’hɑus,ki:piη]",
+    "translation": "домашнее хозяйство",
+    "tag": "n"
+  },
+  {
+    "word": "housing estate",
+    "transcription": "[’hɑuziηis’teit]",
+    "translation": "поселок",
+    "tag": "n"
+  },
+  {
+    "word": "human",
+    "transcription": "[’hju:mən]",
+    "translation": "человеческий",
+    "tag": "a"
+  },
+  {
+    "word": "humour",
+    "transcription": "[’hjumə]",
+    "translation": "юмор",
+    "tag": "n"
+  },
+  {
+    "word": "hurry",
+    "transcription": "[’hʌri]",
+    "translation": "спешить",
+    "tag": "v"
+  },
+  {
+    "word": "hurry",
+    "transcription": "[’hʌri]",
+    "translation": "поспешность",
+    "tag": "n"
+  },
+  {
+    "word": "hurt",
+    "transcription": "[hə:t]",
+    "translation": "повредить, причинить боль",
+    "tag": "v"
+  },
+  {
+    "word": "hurt",
+    "transcription": "[’hʌzbənd]",
+    "translation": "муж",
+    "tag": "n"
+  },
+  {
+    "word": "husband",
+    "transcription": "[’hʌzbənd]",
+    "translation": "муж",
+    "tag": "n"
+  },
+  {
+    "word": "idea",
+    "transcription": "[ɑi’diə]",
+    "translation": "мысль, идея",
+    "tag": "n"
+  },
+  {
+    "word": "identity",
+    "transcription": "[ɑi’dentiti]",
+    "translation": "идентичность, подлинность",
+    "tag": "n"
+  },
+  {
+    "word": "ill",
+    "transcription": "[il]",
+    "translation": "больной",
+    "tag": "a"
+  },
+  {
+    "word": "illegal",
+    "transcription": "[i'ligəl]",
+    "translation": "нелегальный",
+    "tag": "a"
+  },
+  {
+    "word": "imagine",
+    "transcription": "[i’mœdʒin]",
+    "translation": "воображать",
+    "tag": "v"
+  },
+  {
+    "word": "impatient",
+    "transcription": "[im’peiʃənt]",
+    "translation": "нетерпеливый",
+    "tag": "a"
+  },
+  {
+    "word": "important",
+    "transcription": "[im’pɔ:tənt]",
+    "translation": "важный",
+    "tag": "a"
+  },
+  {
+    "word": "improve",
+    "transcription": "[im’pru:v]",
+    "translation": "улучшаться",
+    "tag": "v"
+  },
+  {
+    "word": "incapable",
+    "transcription": "[in'keipəbl]",
+    "translation": "неспособный",
+    "tag": "a"
+  },
+  {
+    "word": "income",
+    "transcription": "[’inkʌm]",
+    "translation": "доход",
+    "tag": "n"
+  },
+  {
+    "word": "increase",
+    "transcription": "[’inkri:s]",
+    "translation": "возрастание, увеличение",
+    "tag": "n"
+  },
+  {
+    "word": "incredible",
+    "transcription": "[in’kredibl]",
+    "translation": "невероятный",
+    "tag": "a"
+  },
+  {
+    "word": "indiscreet",
+    "transcription": "[indis’kri:t]",
+    "translation": "нескромный, несдержанный",
+    "tag": "a"
+  },
+  {
+    "word": "indoors",
+    "transcription": "[’in'dɔ:z]",
+    "translation": "внутри дома, в помещении",
+    "tag": "adv"
+  },
+  {
+    "word": "industry",
+    "transcription": "[i’ndəstri]",
+    "translation": "промышленность",
+    "tag": "n"
+  },
+  {
+    "word": "inside",
+    "transcription": "[’insɑid]",
+    "translation": "внутри, внутрь",
+    "tag": "adv"
+  },
+  {
+    "word": "insist",
+    "transcription": "[in’sist]",
+    "translation": "настаивать",
+    "tag": "v"
+  },
+  {
+    "word": "inspector",
+    "transcription": "[in’spektə]",
+    "translation": "инспектор, офицер полиции",
+    "tag": "n"
+  },
+  {
+    "word": "install",
+    "transcription": "[in'stɔ:l]",
+    "translation": "устанавливать, монтировать",
+    "tag": "v"
+  },
+  {
+    "word": "installation",
+    "transcription": "[instə’leiʃn]",
+    "translation": "установка, проводка",
+    "tag": "n"
+  },
+  {
+    "word": "instance",
+    "transcription": "[’instəns]",
+    "translation": "вместо, взамен",
+    "tag": "adv"
+  },
+  {
+    "word": "instead",
+    "transcription": "[in'sted]",
+    "translation": "вместо, взамен",
+    "tag": "adv"
+  },
+  {
+    "word": "institute",
+    "transcription": "[’institju:t]",
+    "translation": "институт",
+    "tag": "n"
+  },
+  {
+    "word": "intend",
+    "transcription": "[in’tend]",
+    "translation": "намереваться",
+    "tag": "v"
+  },
+  {
+    "word": "interesting",
+    "transcription": "[’intristiη]",
+    "translation": "интересный",
+    "tag": "a"
+  },
+  {
+    "word": "international",
+    "transcription": "[’intə’nœʃənəl]",
+    "translation": "международный",
+    "tag": "a"
+  },
+  {
+    "word": "interrupt",
+    "transcription": "[,intə’rʌpt]",
+    "translation": "прерывать, мешать",
+    "tag": "v"
+  },
+  {
+    "word": "interview",
+    "transcription": "[’intəvju:]",
+    "translation": "интервью",
+    "tag": "n"
+  },
+  {
+    "word": "introduce",
+    "transcription": "[,intrə’dju:s]",
+    "translation": "вводить, представлять",
+    "tag": "a"
+  },
+  {
+    "word": "invaluable",
+    "transcription": "[in’vœljuəbl]",
+    "translation": "бесценный",
+    "tag": "a"
+  },
+  {
+    "word": "investigate",
+    "transcription": "[in’vestigeit]",
+    "translation": "исследовать, расследовать",
+    "tag": "v"
+  },
+  {
+    "word": "invite",
+    "transcription": "[in’vɑit]",
+    "translation": "приглашать",
+    "tag": "v"
+  },
+  {
+    "word": "irritable",
+    "transcription": "[’iritəbl]",
+    "translation": "раздражительный",
+    "tag": "a"
+  },
+  {
+    "word": "Italian",
+    "transcription": "[i’tœljən]",
+    "translation": "итальянский",
+    "tag": "a"
+  },
+  {
+    "word": "item",
+    "transcription": "[’aitəm]",
+    "translation": "пункт (повестки дня) предмет (в списке)",
+    "tag": "n"
+  },
+  {
+    "word": "jack",
+    "transcription": "[djœk]",
+    "translation": "домкрат",
+    "tag": "n"
+  },
+  {
+    "word": "job",
+    "transcription": "[dʒɔb]",
+    "translation": "работа",
+    "tag": "n"
+  },
+  {
+    "word": "join",
+    "transcription": "[dʒɔin]",
+    "translation": "присоединяться",
+    "tag": "v"
+  },
+  {
+    "word": "joy",
+    "transcription": "[dʒɔi]",
+    "translation": "радость",
+    "tag": "n"
+  },
+  {
+    "word": "juicy",
+    "transcription": "[’dʒu:si]",
+    "translation": "сочный",
+    "tag": "a"
+  },
+  {
+    "word": "July",
+    "transcription": "[dʒu’lɑi]",
+    "translation": "июль",
+    "tag": "n"
+  },
+  {
+    "word": "jump",
+    "transcription": "[dʒʌmp]",
+    "translation": "прыгать",
+    "tag": "v"
+  },
+  {
+    "word": "just",
+    "transcription": "[dʒʌst]",
+    "translation": "только, как раз, именно",
+    "tag": "adv"
+  },
+  {
+    "word": "juvenile",
+    "transcription": "[’dʒu:vinɑil]",
+    "translation": "юный, юношеский",
+    "tag": "a"
+  },
+  {
+    "word": "keep",
+    "transcription": "[ki:p]",
+    "translation": "держать",
+    "tag": "v"
+  },
+  {
+    "word": "keep",
+    "transcription": "[ketl]",
+    "translation": "чайник",
+    "tag": "n"
+  },
+  {
+    "word": "kettle",
+    "transcription": "[ketl]",
+    "translation": "чайник",
+    "tag": "n"
+  },
+  {
+    "word": "key",
+    "transcription": "[ki:]",
+    "translation": "ключ",
+    "tag": "n"
+  },
+  {
+    "word": "kind",
+    "transcription": "[kɑind]",
+    "translation": "род,",
+    "tag": "n"
+  },
+  {
+    "word": "king",
+    "transcription": "[kiη]",
+    "translation": "король",
+    "tag": "n"
+  },
+  {
+    "word": "kiosk",
+    "transcription": "[ki’ɔsk]",
+    "translation": "киоск",
+    "tag": "n"
+  },
+  {
+    "word": "kit",
+    "transcription": "[kit]",
+    "translation": "в выражении:",
+    "tag": "n"
+  },
+  {
+    "word": "kitchen",
+    "transcription": "[’kitʃin]",
+    "translation": "кухня",
+    "tag": "n"
+  },
+  {
+    "word": "kitten",
+    "transcription": "[’kitn]",
+    "translation": "котёнок",
+    "tag": "n"
+  },
+  {
+    "word": "knock down",
+    "transcription": "[’nɔk'dɑun]",
+    "translation": "сбить, опрокинуть",
+    "tag": "v"
+  },
+  {
+    "word": "know",
+    "transcription": "[nou]",
+    "translation": "знать",
+    "tag": "v"
+  },
+  {
+    "word": "lady",
+    "transcription": "[’leidi]",
+    "translation": "дама, госпожа",
+    "tag": "n"
+  },
+  {
+    "word": "lake",
+    "transcription": "[leik]",
+    "translation": "озеро",
+    "tag": "n"
+  },
+  {
+    "word": "lamb",
+    "transcription": "[lœm]",
+    "translation": "ягнёнок",
+    "tag": "n"
+  },
+  {
+    "word": "language",
+    "transcription": "[’lœηgwidʒ]",
+    "translation": "язык",
+    "tag": "n"
+  },
+  {
+    "word": "lantern-slides",
+    "transcription": "[’lœntən’slɑidz]",
+    "translation": "диапозитив",
+    "tag": "n"
+  },
+  {
+    "word": "larder",
+    "transcription": "[’lɑ:də]",
+    "translation": "кладовая",
+    "tag": "n"
+  },
+  {
+    "word": "large",
+    "transcription": "[’lɑ:dʒ]",
+    "translation": "большой",
+    "tag": "a"
+  },
+  {
+    "word": "last",
+    "transcription": "[lɑ:st]",
+    "translation": "последний, прошлый",
+    "tag": "a"
+  },
+  {
+    "word": "late",
+    "transcription": "[leit]",
+    "translation": "поздний,",
+    "tag": "a"
+  },
+  {
+    "word": "lately",
+    "transcription": "[’leitli]",
+    "translation": "за последнее время",
+    "tag": "adv"
+  },
+  {
+    "word": "latest",
+    "transcription": "[’leitist]",
+    "translation": "самый поздний, самый последний",
+    "tag": "a"
+  },
+  {
+    "word": "laundry",
+    "transcription": "[’lɔ:ndri]",
+    "translation": "прачечная",
+    "tag": "n"
+  },
+  {
+    "word": "lavatory",
+    "transcription": "[’lœvətəri]",
+    "translation": "уборная",
+    "tag": "n"
+  },
+  {
+    "word": "lazy",
+    "transcription": "[’leizi]",
+    "translation": "ленивый",
+    "tag": "a"
+  },
+  {
+    "word": "lead",
+    "transcription": "[li:d]",
+    "translation": "вести,",
+    "tag": "v"
+  },
+  {
+    "word": "leaflet",
+    "transcription": "[’li:flit]",
+    "translation": "брошюрка",
+    "tag": "n"
+  },
+  {
+    "word": "leak",
+    "transcription": "[li:k]",
+    "translation": "течь",
+    "tag": "n"
+  },
+  {
+    "word": "lean out",
+    "transcription": "[’li:n’ɑut]",
+    "translation": "высовываться",
+    "tag": "v"
+  },
+  {
+    "word": "learn",
+    "transcription": "[lə:n]",
+    "translation": "учиться",
+    "tag": "v"
+  },
+  {
+    "word": "least",
+    "transcription": "[li:st]",
+    "translation": "самый маленький",
+    "tag": "a"
+  },
+  {
+    "word": "leave",
+    "transcription": "[li:v]",
+    "translation": "оставить, выезжать,",
+    "tag": "v"
+  },
+  {
+    "word": "lecture",
+    "transcription": "[’lektʃə]",
+    "translation": "лекция",
+    "tag": "n"
+  },
+  {
+    "word": "leave",
+    "transcription": "[leg]",
+    "translation": "нога",
+    "tag": "n"
+  },
+  {
+    "word": "leg",
+    "transcription": "[leg]",
+    "translation": "нога",
+    "tag": "n"
+  },
+  {
+    "word": "lemon",
+    "transcription": "[’lemən]",
+    "translation": "лимон",
+    "tag": "n"
+  },
+  {
+    "word": "less",
+    "transcription": "[les]",
+    "translation": "меньше",
+    "tag": "adv"
+  },
+  {
+    "word": "let",
+    "transcription": "[let]",
+    "translation": "позволять, впустить, сдавать",
+    "tag": "v"
+  },
+  {
+    "word": "letter",
+    "transcription": "[’letə]",
+    "translation": "письмо",
+    "tag": "n"
+  },
+  {
+    "word": "library",
+    "transcription": "[’lɑibrəri]",
+    "translation": "библиотека",
+    "tag": "n"
+  },
+  {
+    "word": "lick",
+    "transcription": "[lik]",
+    "translation": "лизать",
+    "tag": "v"
+  },
+  {
+    "word": "lie",
+    "transcription": "[lɑi]",
+    "translation": "лежать",
+    "tag": "v"
+  },
+  {
+    "word": "life",
+    "transcription": "[lɑif]",
+    "translation": "жизнь",
+    "tag": "n"
+  },
+  {
+    "word": "light",
+    "transcription": "[lɑit]",
+    "translation": "светлый,",
+    "tag": "a"
+  },
+  {
+    "word": "like",
+    "transcription": "[lɑik]",
+    "translation": "любить",
+    "tag": "v"
+  },
+  {
+    "word": "likely",
+    "transcription": "[’lɑikli]",
+    "translation": "правдоподобно",
+    "tag": "adv"
+  },
+  {
+    "word": "lily",
+    "transcription": "[’lili]",
+    "translation": "лилия",
+    "tag": "n"
+  },
+  {
+    "word": "line",
+    "transcription": "[lɑin]",
+    "translation": "линия",
+    "tag": "n"
+  },
+  {
+    "word": "lines",
+    "transcription": "[lainz]",
+    "translation": "роль (актёра)",
+    "tag": "n"
+  },
+  {
+    "word": "linguist",
+    "transcription": "[’liηgwist]",
+    "translation": "лингвист, языковед",
+    "tag": "n"
+  },
+  {
+    "word": "listen",
+    "transcription": "[’lisn]",
+    "translation": "слушать",
+    "tag": "v"
+  },
+  {
+    "word": "light",
+    "transcription": "[litl]",
+    "translation": "мало",
+    "tag": "adv"
+  },
+  {
+    "word": "little",
+    "transcription": "[litl]",
+    "translation": "мало",
+    "tag": "adv"
+  },
+  {
+    "word": "live",
+    "transcription": "[liv]",
+    "translation": "жить",
+    "tag": "v"
+  },
+  {
+    "word": "lively",
+    "transcription": "[’lɑivli]",
+    "translation": "оживлённый",
+    "tag": "a"
+  },
+  {
+    "word": "load",
+    "transcription": "[loud]",
+    "translation": "груз",
+    "tag": "n"
+  },
+  {
+    "word": "loan",
+    "transcription": "[loun]",
+    "translation": "заём",
+    "tag": "n"
+  },
+  {
+    "word": "lobster",
+    "transcription": "[’lɔbstə]",
+    "translation": "омар",
+    "tag": "n"
+  },
+  {
+    "word": "local",
+    "transcription": "[’loukəl]",
+    "translation": "местный",
+    "tag": "a"
+  },
+  {
+    "word": "lock",
+    "transcription": "[lɔk]",
+    "translation": "закрывать на ключ",
+    "tag": "v"
+  },
+  {
+    "word": "locksmith",
+    "transcription": "[’lɔksmiθ]",
+    "translation": "слесарь",
+    "tag": "n"
+  },
+  {
+    "word": "lodger",
+    "transcription": "[’lɔdʒə]",
+    "translation": "квартирант",
+    "tag": "n"
+  },
+  {
+    "word": "London",
+    "transcription": "[’lʌndən]",
+    "translation": "Лондон",
+    "tag": "n"
+  },
+  {
+    "word": "long",
+    "transcription": "[lɔη]",
+    "translation": "длинный,",
+    "tag": "a"
+  },
+  {
+    "word": "look",
+    "transcription": "[luk]",
+    "translation": "смотреть, выглядывать",
+    "tag": "v"
+  },
+  {
+    "word": "look",
+    "transcription": "[luk]",
+    "translation": "вид",
+    "tag": "n"
+  },
+  {
+    "word": "Lord",
+    "transcription": "[lɔ:d]",
+    "translation": "бог",
+    "tag": "n"
+  },
+  {
+    "word": "lose",
+    "transcription": "[lu:z]",
+    "translation": "потерять",
+    "tag": "v"
+  },
+  {
+    "word": "lose",
+    "transcription": "[lɔt]",
+    "translation": "в выражении:",
+    "tag": "n"
+  },
+  {
+    "word": "lot",
+    "transcription": "[lɔt]",
+    "translation": "в выражении:",
+    "tag": "n"
+  },
+  {
+    "word": "loud",
+    "transcription": "[lɑud]",
+    "translation": "громкий,",
+    "tag": "a"
+  },
+  {
+    "word": "loudspeaker",
+    "transcription": "[lɑud’spi:kə]",
+    "translation": "громкоговоритель",
+    "tag": "n"
+  },
+  {
+    "word": "love",
+    "transcription": "[lʌv]",
+    "translation": "любить",
+    "tag": "v"
+  },
+  {
+    "word": "lovely",
+    "transcription": "[’lʌvli]",
+    "translation": "восхитительный",
+    "tag": "a"
+  },
+  {
+    "word": "luck",
+    "transcription": "[lʌk]",
+    "translation": "счастье, удача",
+    "tag": "n"
+  },
+  {
+    "word": "lucky",
+    "transcription": "[’lʌki]",
+    "translation": "удачливый, счастливый",
+    "tag": "a"
+  },
+  {
+    "word": "lukewarm",
+    "transcription": "[’lu:kwɔ:m]",
+    "translation": "тепловатый",
+    "tag": "a"
+  },
+  {
+    "word": "lunch",
+    "transcription": "[lʌntʃ]",
+    "translation": "ленч, второй завтрак",
+    "tag": "n"
+  },
+  {
+    "word": "madam",
+    "transcription": "[’mœdəm]",
+    "translation": "мадам",
+    "tag": "n"
+  },
+  {
+    "word": "make",
+    "transcription": "[mein]",
+    "translation": "главный",
+    "tag": "a"
+  },
+  {
+    "word": "main",
+    "transcription": "[mein]",
+    "translation": "главный",
+    "tag": "a"
+  },
+  {
+    "word": "make",
+    "transcription": "[meik]",
+    "translation": "делать, заставлять",
+    "tag": "v"
+  },
+  {
+    "word": "man",
+    "transcription": "[mœn]",
+    "translation": "человек, мужчина",
+    "tag": "n"
+  },
+  {
+    "word": "manage",
+    "transcription": "[’mœnidʒ]",
+    "translation": "справляться, суметь сделать что-либо",
+    "tag": "v"
+  },
+  {
+    "word": "map",
+    "transcription": "[mœp]",
+    "translation": "карта",
+    "tag": "n"
+  },
+  {
+    "word": "marathon",
+    "transcription": "[mœrəθən]",
+    "translation": "марафонский бег",
+    "tag": "n"
+  },
+  {
+    "word": "mark",
+    "transcription": "[mɑ:k]",
+    "translation": "метка, знак, оценка,",
+    "tag": "n"
+  },
+  {
+    "word": "married",
+    "transcription": "[’mœrid]",
+    "translation": "женатый, замужняя",
+    "tag": "a"
+  },
+  {
+    "word": "marvellous",
+    "transcription": "[’mɑ:vələs]",
+    "translation": "чудесный",
+    "tag": "a"
+  },
+  {
+    "word": "master",
+    "transcription": "[’mɑ:stə]",
+    "translation": "учитель",
+    "tag": "n"
+  },
+  {
+    "word": "material",
+    "transcription": "[mə’tiəriəl]",
+    "translation": "материал",
+    "tag": "n"
+  },
+  {
+    "word": "matter",
+    "transcription": "[’mœta]",
+    "translation": "дело",
+    "tag": "n"
+  },
+  {
+    "word": "matter",
+    "transcription": "[’mœtə]",
+    "translation": "иметь значение, значить",
+    "tag": "v"
+  },
+  {
+    "word": "mattress",
+    "transcription": "[’mœtris]",
+    "translation": "матрац",
+    "tag": "n"
+  },
+  {
+    "word": "maybe",
+    "transcription": "[’meibi:]",
+    "translation": "может быть",
+    "tag": "adv"
+  },
+  {
+    "word": "mayor",
+    "transcription": "[mɛə]",
+    "translation": "мэр",
+    "tag": "n"
+  },
+  {
+    "word": "meal",
+    "transcription": "[mi:l]",
+    "translation": "еда, принятие пищи",
+    "tag": "n"
+  },
+  {
+    "word": "mean",
+    "transcription": "[mi:n]",
+    "translation": "означать",
+    "tag": "v"
+  },
+  {
+    "word": "meantime",
+    "transcription": "[’mi:ntɑim]",
+    "translation": "в выражении:",
+    "tag": "adv"
+  },
+  {
+    "word": "measure",
+    "transcription": "[’meʒə]",
+    "translation": "мерить",
+    "tag": "v"
+  },
+  {
+    "word": "meat",
+    "transcription": "[mi:t]",
+    "translation": "мясо",
+    "tag": "n"
+  },
+  {
+    "word": "medicine",
+    "transcription": "[’medsin]",
+    "translation": "лекарство",
+    "tag": "n"
+  },
+  {
+    "word": "meet",
+    "transcription": "[mi:t]",
+    "translation": "встречать",
+    "tag": "v"
+  },
+  {
+    "word": "meeting",
+    "transcription": "[’mi:tiη]",
+    "translation": "собрание",
+    "tag": "n"
+  },
+  {
+    "word": "melodrama",
+    "transcription": "[’melə,drɑ:mə]",
+    "translation": "мелодрама",
+    "tag": "n"
+  },
+  {
+    "word": "menace",
+    "transcription": "[’menəs]",
+    "translation": "угроза, опасность",
+    "tag": "n"
+  },
+  {
+    "word": "mend",
+    "transcription": "[’mend]",
+    "translation": "починять",
+    "tag": "v"
+  },
+  {
+    "word": "mention",
+    "transcription": "[’menʃən]",
+    "translation": "упоминать",
+    "tag": "v"
+  },
+  {
+    "word": "menu",
+    "transcription": "[’menju:]",
+    "translation": "меню",
+    "tag": "n"
+  },
+  {
+    "word": "meet",
+    "transcription": "[mi’θɔdikəl]",
+    "translation": "систематический, методичный, методический",
+    "tag": "a"
+  },
+  {
+    "word": "methodical",
+    "transcription": "[mi’θɔdikəl]",
+    "translation": "систематический, методичный, методический",
+    "tag": "a"
+  },
+  {
+    "word": "miaow",
+    "transcription": "[mi:’ɑu]",
+    "translation": "мяукать",
+    "tag": "v"
+  },
+  {
+    "word": "middle",
+    "transcription": "[’midl]",
+    "translation": "середина",
+    "tag": "n"
+  },
+  {
+    "word": "mile",
+    "transcription": "[mɑil]",
+    "translation": "миля (1609,3 м)",
+    "tag": "n"
+  },
+  {
+    "word": "milk",
+    "transcription": "[milk]",
+    "translation": "молоко",
+    "tag": "n"
+  },
+  {
+    "word": "milkman",
+    "transcription": "[’milkmən]",
+    "translation": "продавец молока",
+    "tag": "n"
+  },
+  {
+    "word": "millionaire",
+    "transcription": "[’miljə’nɛə]",
+    "translation": "миллионер",
+    "tag": "n"
+  },
+  {
+    "word": "mince",
+    "transcription": "[mins]",
+    "translation": "рубить",
+    "tag": "v"
+  },
+  {
+    "word": "mind",
+    "transcription": "[mɑind]",
+    "translation": "считать; иметь что-либо против",
+    "tag": "v"
+  },
+  {
+    "word": "mind",
+    "transcription": "[mɑind]",
+    "translation": "разум",
+    "tag": "n"
+  },
+  {
+    "word": "mine",
+    "transcription": "[mɑin]",
+    "translation": "шахта",
+    "tag": "n"
+  },
+  {
+    "word": "minimum",
+    "transcription": "[’miniməm]",
+    "translation": "минимум",
+    "tag": "n"
+  },
+  {
+    "word": "ministry",
+    "transcription": "[’ministri]",
+    "translation": "министерство",
+    "tag": "n"
+  },
+  {
+    "word": "minute",
+    "transcription": "[’minit]",
+    "translation": "минута",
+    "tag": "n"
+  },
+  {
+    "word": "miracle",
+    "transcription": "[’mirəkl]",
+    "translation": "чудо",
+    "tag": "n"
+  },
+  {
+    "word": "miss",
+    "transcription": "[mis]",
+    "translation": "пропустить, выпустить",
+    "tag": "v"
+  },
+  {
+    "word": "Miss",
+    "transcription": "[mis]",
+    "translation": "мисс (перед фамилией)",
+    "tag": "n"
+  },
+  {
+    "word": "mistake",
+    "transcription": "[mis’teik]",
+    "translation": "ошибка",
+    "tag": "n"
+  },
+  {
+    "word": "mistaken",
+    "transcription": "[mis’teikən]",
+    "translation": "ошибочный",
+    "tag": "a"
+  },
+  {
+    "word": "moment",
+    "transcription": "[’moumənt]",
+    "translation": "момент, мгновение",
+    "tag": "n"
+  },
+  {
+    "word": "Monday",
+    "transcription": "[’mʌndi]",
+    "translation": "понедельник",
+    "tag": "n"
+  },
+  {
+    "word": "money",
+    "transcription": "[’mʌni]",
+    "translation": "деньги",
+    "tag": "n"
+  },
+  {
+    "word": "month",
+    "transcription": "[mʌnθ]",
+    "translation": "месяц",
+    "tag": "n"
+  },
+  {
+    "word": "monument",
+    "transcription": "[’mɔnjumənt]",
+    "translation": "памятник",
+    "tag": "n"
+  },
+  {
+    "word": "moon",
+    "transcription": "[mu:n]",
+    "translation": "луна",
+    "tag": "n"
+  },
+  {
+    "word": "more",
+    "transcription": "[mɔ:]",
+    "translation": "больше",
+    "tag": "adv"
+  },
+  {
+    "word": "morning",
+    "transcription": "[’mɔ:niη]",
+    "translation": "утро",
+    "tag": "n"
+  },
+  {
+    "word": "mortgage",
+    "transcription": "[’mɔ:gidʒ]",
+    "translation": "закладная",
+    "tag": "n"
+  },
+  {
+    "word": "Moscow",
+    "transcription": "[’mɔskou]",
+    "translation": "Москва",
+    "tag": "n"
+  },
+  {
+    "word": "most",
+    "transcription": "[moust]",
+    "translation": "больше всего,",
+    "tag": "adv"
+  },
+  {
+    "word": "mother",
+    "transcription": "[’mʌрə]",
+    "translation": "мать",
+    "tag": "n"
+  },
+  {
+    "word": "motoring",
+    "transcription": "[’moutəriη]",
+    "translation": "автомобильный спорт",
+    "tag": "n"
+  },
+  {
+    "word": "mountain",
+    "transcription": "[’mɑuntin]",
+    "translation": "гора",
+    "tag": "n"
+  },
+  {
+    "word": "move",
+    "transcription": "[mu:v]",
+    "translation": "двигать(-ся), передвигаться",
+    "tag": "v"
+  },
+  {
+    "word": "Mrs.",
+    "transcription": "[’misiz]",
+    "translation": "миссис (перед фамилией)",
+    "tag": "n"
+  },
+  {
+    "word": "much",
+    "transcription": "[mʌtʃ]",
+    "translation": "много",
+    "tag": "adv"
+  },
+  {
+    "word": "murder",
+    "transcription": "[’mə:də]",
+    "translation": "убийство",
+    "tag": "n"
+  },
+  {
+    "word": "museum",
+    "transcription": "[mju’zeum]",
+    "translation": "музей",
+    "tag": "n"
+  },
+  {
+    "word": "mushroom",
+    "transcription": "[’mʌʃrum]",
+    "translation": "гриб",
+    "tag": "n"
+  },
+  {
+    "word": "music",
+    "transcription": "[’mju:zik]",
+    "translation": "музыка",
+    "tag": "n"
+  },
+  {
+    "word": "mutter",
+    "transcription": "[’mʌtə]",
+    "translation": "бормотать",
+    "tag": "v"
+  },
+  {
+    "word": "nail",
+    "transcription": "[neil]",
+    "translation": "гвоздь",
+    "tag": "n"
+  },
+  {
+    "word": "name",
+    "transcription": "[neim]",
+    "translation": "имя, фамилия",
+    "tag": "n"
+  },
+  {
+    "word": "nappy",
+    "transcription": "[’nœpi]",
+    "translation": "пелёнка",
+    "tag": "n"
+  },
+  {
+    "word": "national",
+    "transcription": "[’nœʃnəl]",
+    "translation": "национальный",
+    "tag": "a"
+  },
+  {
+    "word": "natural",
+    "transcription": "[’nœtʃrəl]",
+    "translation": "естественный",
+    "tag": "a"
+  },
+  {
+    "word": "nearly",
+    "transcription": "[niəli]",
+    "translation": "почти",
+    "tag": "adv"
+  },
+  {
+    "word": "necessary",
+    "transcription": "[’nesisəri]",
+    "translation": "необходимый",
+    "tag": "a"
+  },
+  {
+    "word": "necessity",
+    "transcription": "[ni’sesiti]",
+    "translation": "необходимость",
+    "tag": "n"
+  },
+  {
+    "word": "need",
+    "transcription": "[ni:d]",
+    "translation": "нуждаться",
+    "tag": "v"
+  },
+  {
+    "word": "neglect",
+    "transcription": "[ni’glekt]",
+    "translation": "пренебрегать, не заботиться",
+    "tag": "v"
+  },
+  {
+    "word": "neighbour",
+    "transcription": "[’neibə]",
+    "translation": "сосед",
+    "tag": "n"
+  },
+  {
+    "word": "nerve",
+    "transcription": "[nə:v]",
+    "translation": "нерв",
+    "tag": "n"
+  },
+  {
+    "word": "nervous",
+    "transcription": "[’nə:vəs]",
+    "translation": "нервный",
+    "tag": "a"
+  },
+  {
+    "word": "never",
+    "transcription": "[’nevə]",
+    "translation": "никогда",
+    "tag": "adv"
+  },
+  {
+    "word": "new",
+    "transcription": "[nju:]",
+    "translation": "новый",
+    "tag": "a"
+  },
+  {
+    "word": "news",
+    "transcription": "[nju:z]",
+    "translation": "новости",
+    "tag": "n"
+  },
+  {
+    "word": "newspaper",
+    "transcription": "[’nju:speipə]",
+    "translation": "газета",
+    "tag": "n"
+  },
+  {
+    "word": "next",
+    "transcription": "[nekst]",
+    "translation": "следующий, ближайший",
+    "tag": "a"
+  },
+  {
+    "word": "nice",
+    "transcription": "[nɑis]",
+    "translation": "хороший, приятный, милый",
+    "tag": "a"
+  },
+  {
+    "word": "night",
+    "transcription": "[nɑit]",
+    "translation": "ночь",
+    "tag": "n"
+  },
+  {
+    "word": "noise",
+    "transcription": "[nɔiz]",
+    "translation": "шум",
+    "tag": "n"
+  },
+  {
+    "word": "noisy",
+    "transcription": "[’nɔizi]",
+    "translation": "шумный",
+    "tag": "a"
+  },
+  {
+    "word": "nonsense",
+    "transcription": "[’nɔnsens]",
+    "translation": "ерунда, чепуха, бессмыслица",
+    "tag": "a"
+  },
+  {
+    "word": "no one",
+    "transcription": "[’nou wʌn]",
+    "translation": "никто",
+    "tag": "pron"
+  },
+  {
+    "word": "normal",
+    "transcription": "[’nɔ:məl]",
+    "translation": "нормальный",
+    "tag": "a"
+  },
+  {
+    "word": "Norwegian",
+    "transcription": "[nɔ:’widʒən]",
+    "translation": "норвежский",
+    "tag": "a"
+  },
+  {
+    "word": "note",
+    "transcription": "[nout]",
+    "translation": "банкнот, записка",
+    "tag": "n"
+  },
+  {
+    "word": "notebook",
+    "transcription": "[’noutbuk]",
+    "translation": "ничего",
+    "tag": "pron"
+  },
+  {
+    "word": "nothing",
+    "transcription": "[’nʌθiη]",
+    "translation": "ничего",
+    "tag": "pron"
+  },
+  {
+    "word": "notice",
+    "transcription": "[’noutis]",
+    "translation": "заметить,",
+    "tag": "v"
+  },
+  {
+    "word": "novel",
+    "transcription": "[’nɔvel]",
+    "translation": "роман",
+    "tag": "n"
+  },
+  {
+    "word": "роман",
+    "transcription": "[’nɑu]",
+    "translation": "сейчас",
+    "tag": "adv"
+  },
+  {
+    "word": "now",
+    "transcription": "[’nɑu]",
+    "translation": "сейчас",
+    "tag": "adv"
+  },
+  {
+    "word": "nowadays",
+    "transcription": "[’nɑuədeiz]",
+    "translation": "в настоящее время",
+    "tag": "adv"
+  },
+  {
+    "word": "nuisance",
+    "transcription": "[’njuisns]",
+    "translation": "досада, неприятность",
+    "tag": "n"
+  },
+  {
+    "word": "number",
+    "transcription": "[’nʌmbə]",
+    "translation": "номер, число",
+    "tag": "n"
+  },
+  {
+    "word": "nursery",
+    "transcription": "[’nə:sri]",
+    "translation": "детская комната, рассадник, питомник",
+    "tag": "n"
+  },
+  {
+    "word": "nylon",
+    "transcription": "[’nɑilən]",
+    "translation": "нейлон",
+    "tag": "n"
+  },
+  {
+    "word": "object",
+    "transcription": "[’obdʒekt]",
+    "translation": "предмет",
+    "tag": "n"
+  },
+  {
+    "word": "objection",
+    "transcription": "[əb’dʒekʃən]",
+    "translation": "возражение",
+    "tag": "n"
+  },
+  {
+    "word": "obvious",
+    "transcription": "[’ɔbviəs]",
+    "translation": "явный",
+    "tag": "a"
+  },
+  {
+    "word": "occasion",
+    "transcription": "[ə’keiʒen]",
+    "translation": "случай, возможность",
+    "tag": "n"
+  },
+  {
+    "word": "occupant",
+    "transcription": "[’ɔkjupənt]",
+    "translation": "квартирант",
+    "tag": "n"
+  },
+  {
+    "word": "o'clock",
+    "transcription": "[ə’klɔk]",
+    "translation": "нечётный, странный",
+    "tag": "a"
+  },
+  {
+    "word": "odd",
+    "transcription": "[ɔd]",
+    "translation": "нечётный, странный",
+    "tag": "a"
+  },
+  {
+    "word": "off-season",
+    "transcription": "[’ɔf,si:zən]",
+    "translation": "вне сезона",
+    "tag": "n"
+  },
+  {
+    "word": "offer",
+    "transcription": "[’ɔfə]",
+    "translation": "предлагать",
+    "tag": "v"
+  },
+  {
+    "word": "office",
+    "transcription": "[’ɔfis]",
+    "translation": "бюро, учреждение",
+    "tag": "n"
+  },
+  {
+    "word": "officer",
+    "transcription": "[’ɔfisə]",
+    "translation": "старый",
+    "tag": "a"
+  },
+  {
+    "word": "old",
+    "transcription": "[ould]",
+    "translation": "старый",
+    "tag": "a"
+  },
+  {
+    "word": "old-fashioned",
+    "transcription": "[’ould’fœʃənd]",
+    "translation": "старомодный",
+    "tag": "a"
+  },
+  {
+    "word": "omelet",
+    "transcription": "[’ɔmlit]",
+    "translation": "омлет",
+    "tag": "n"
+  },
+  {
+    "word": "once",
+    "transcription": "[’wʌns]",
+    "translation": "один раз",
+    "tag": "adv"
+  },
+  {
+    "word": "only",
+    "transcription": "[’ounli]",
+    "translation": "только",
+    "tag": "adv"
+  },
+  {
+    "word": "open",
+    "transcription": "[’oupən]",
+    "translation": "открывать, a. открытый",
+    "tag": "v"
+  },
+  {
+    "word": "opening",
+    "transcription": "[’oupniη]",
+    "translation": "открытие, премьера",
+    "tag": "n"
+  },
+  {
+    "word": "opportunity",
+    "transcription": "[,ɔpə’tju:niti]",
+    "translation": "удобный случай",
+    "tag": "n"
+  },
+  {
+    "word": "orange",
+    "transcription": "[’orindʒ]",
+    "translation": "апельсин",
+    "tag": "n"
+  },
+  {
+    "word": "orangeade",
+    "transcription": "[’orin’dʒeid]",
+    "translation": "ситро",
+    "tag": "n"
+  },
+  {
+    "word": "ordeal",
+    "transcription": "[ɔ:’di:l]",
+    "translation": "тяжелое испытание",
+    "tag": "n"
+  },
+  {
+    "word": "order",
+    "transcription": "[’ɔ:də]",
+    "translation": "заказать, приказать,",
+    "tag": "v"
+  },
+  {
+    "word": "ordinary",
+    "transcription": "[’ɔ:dniri]",
+    "translation": "обыкновенный",
+    "tag": "a"
+  },
+  {
+    "word": "other",
+    "transcription": "[’ʌрə]",
+    "translation": "иной",
+    "tag": "а"
+  },
+  {
+    "word": "out",
+    "transcription": "[ɑut]",
+    "translation": "снаружи",
+    "tag": "adv"
+  },
+  {
+    "word": "outfitter's",
+    "transcription": "[’ɑutfitəz]",
+    "translation": "галантерейный магазин",
+    "tag": "n"
+  },
+  {
+    "word": "outside",
+    "transcription": "[’ɑut’sɑid]",
+    "translation": "снаружи",
+    "tag": "adv"
+  },
+  {
+    "word": "overcrowded",
+    "transcription": "[’ouvə’krɑudid]",
+    "translation": "переполненный",
+    "tag": "a"
+  },
+  {
+    "word": "overload",
+    "transcription": "[’ouvə’loud]",
+    "translation": "перегрузить",
+    "tag": "v"
+  },
+  {
+    "word": "owe",
+    "transcription": "[ou]",
+    "translation": "быть должным",
+    "tag": "v"
+  },
+  {
+    "word": "own",
+    "transcription": "[own]",
+    "translation": "иметь, владеть",
+    "tag": "v"
+  },
+  {
+    "word": "pace",
+    "transcription": "[peis]",
+    "translation": "скорость, темп",
+    "tag": "n"
+  },
+  {
+    "word": "pack",
+    "transcription": "[pœk]",
+    "translation": "завернуть",
+    "tag": "v"
+  },
+  {
+    "word": "packet",
+    "transcription": "[’pœkit]",
+    "translation": "пачка, коробка",
+    "tag": "n"
+  },
+  {
+    "word": "pay",
+    "transcription": "[’peintiη]",
+    "translation": "пара (людей, вещей)",
+    "tag": "n"
+  },
+  {
+    "word": "painting",
+    "transcription": "[’peintiη]",
+    "translation": "пара (людей, вещей)",
+    "tag": "n"
+  },
+  {
+    "word": "pair",
+    "transcription": "[pɛə]",
+    "translation": "пара (людей, вещей)",
+    "tag": "n"
+  },
+  {
+    "word": "palace",
+    "transcription": "[’pœlis]",
+    "translation": "дворец",
+    "tag": "n"
+  },
+  {
+    "word": "paper",
+    "transcription": "[’peipə]",
+    "translation": "бумага",
+    "tag": "n"
+  },
+  {
+    "word": "paprika",
+    "transcription": "[’pœprikə]",
+    "translation": "красный перец",
+    "tag": "n"
+  },
+  {
+    "word": "parcel",
+    "transcription": "[’pɑ:sl]",
+    "translation": "пакет",
+    "tag": "n"
+  },
+  {
+    "word": "parents",
+    "transcription": "[’pɛərənts]",
+    "translation": "родители",
+    "tag": "n"
+  },
+  {
+    "word": "Paris",
+    "transcription": "[’pœris]",
+    "translation": "Париж",
+    "tag": "n"
+  },
+  {
+    "word": "park",
+    "transcription": "[pɑ:k]",
+    "translation": "парк",
+    "tag": "n"
+  },
+  {
+    "word": "part",
+    "transcription": "[pɑ:t]",
+    "translation": "часть, роль (актёра)",
+    "tag": "n"
+  },
+  {
+    "word": "particular",
+    "transcription": "[’pə’tikjulə]",
+    "translation": "особенный",
+    "tag": "a"
+  },
+  {
+    "word": "party",
+    "transcription": "[’pɑ:ti]",
+    "translation": "партия, группа людей; вечеринка",
+    "tag": "n"
+  },
+  {
+    "word": "pass",
+    "transcription": "[pɑ:s]",
+    "translation": "проходить, проезжать (мимо), передавать, придвигать",
+    "tag": "v"
+  },
+  {
+    "word": "passenger",
+    "transcription": "[’pœsindʒə]",
+    "translation": "пассажир",
+    "tag": "n"
+  },
+  {
+    "word": "passport",
+    "transcription": "[’pɑ:spɔ:t]",
+    "translation": "паспорт",
+    "tag": "n"
+  },
+  {
+    "word": "pastry",
+    "transcription": "[’peistri]",
+    "translation": "кондитерские изделия",
+    "tag": "n"
+  },
+  {
+    "word": "pavement",
+    "transcription": "[’peivmənt]",
+    "translation": "тротуар",
+    "tag": "n"
+  },
+  {
+    "word": "pay",
+    "transcription": "[pei]",
+    "translation": "платить",
+    "tag": "v"
+  },
+  {
+    "word": "pay",
+    "transcription": "[pei]",
+    "translation": "оплата",
+    "tag": "n"
+  },
+  {
+    "word": "peace",
+    "transcription": "[pi:s]",
+    "translation": "мир, спокойствие",
+    "tag": "n"
+  },
+  {
+    "word": "peg",
+    "transcription": "[peg]",
+    "translation": "колышек",
+    "tag": "n"
+  },
+  {
+    "word": "pence",
+    "transcription": "[pens]",
+    "translation": "пенсы",
+    "tag": "n"
+  },
+  {
+    "word": "people",
+    "transcription": "[’pi:pl]",
+    "translation": "люди",
+    "tag": "n"
+  },
+  {
+    "word": "perfectly",
+    "transcription": "[’pə:fiktli]",
+    "translation": "идеально, замечательно",
+    "tag": "adv"
+  },
+  {
+    "word": "perform",
+    "transcription": "[pə’fɔ:m]",
+    "translation": "исполнять, представлять",
+    "tag": "v"
+  },
+  {
+    "word": "perhaps",
+    "transcription": "[pə'hœps]",
+    "translation": "может быть",
+    "tag": "adv"
+  },
+  {
+    "word": "Persian",
+    "transcription": "[’pə:ʃən]",
+    "translation": "персидский",
+    "tag": "a"
+  },
+  {
+    "word": "personal",
+    "transcription": "[’pə:sənl]",
+    "translation": "личный",
+    "tag": "a"
+  },
+  {
+    "word": "persuade",
+    "transcription": "[pə’sweid]",
+    "translation": "убеждать, уговоривать",
+    "tag": "v"
+  },
+  {
+    "word": "philosophical",
+    "transcription": "[filə’sɔfikəl]",
+    "translation": "философский",
+    "tag": "a"
+  },
+  {
+    "word": "pick",
+    "transcription": "[pik]",
+    "translation": "собирать",
+    "tag": "v"
+  },
+  {
+    "word": "picnic",
+    "transcription": "[’piknik]",
+    "translation": "пикник, маёвка",
+    "tag": "n"
+  },
+  {
+    "word": "picture",
+    "transcription": "[’piktʃə]",
+    "translation": "картина",
+    "tag": "n"
+  },
+  {
+    "word": "piece",
+    "transcription": "[pi:s]",
+    "translation": "кусочек, часть",
+    "tag": "n"
+  },
+  {
+    "word": "pig-breeding",
+    "transcription": "[’pig’bri:diη]",
+    "translation": "разведение свиней",
+    "tag": "n"
+  },
+  {
+    "word": "pillow",
+    "transcription": "[’pilou]",
+    "translation": "подушка",
+    "tag": "n"
+  },
+  {
+    "word": "pillow-case",
+    "transcription": "[’piloukeis]",
+    "translation": "наволочка",
+    "tag": "n"
+  },
+  {
+    "word": "pilot",
+    "transcription": "[’pɑilət]",
+    "translation": "пилот",
+    "tag": "n"
+  },
+  {
+    "word": "pipe",
+    "transcription": "[pɑip]",
+    "translation": "труба",
+    "tag": "n"
+  },
+  {
+    "word": "pity",
+    "transcription": "[’piti]",
+    "translation": "жалеть, сострадать",
+    "tag": "n"
+  },
+  {
+    "word": "place",
+    "transcription": "[pleis]",
+    "translation": "место",
+    "tag": "n"
+  },
+  {
+    "word": "plan",
+    "transcription": "[plœn]",
+    "translation": "план",
+    "tag": "n"
+  },
+  {
+    "word": "plant",
+    "transcription": "[plɑ:nt]",
+    "translation": "растение,",
+    "tag": "n"
+  },
+  {
+    "word": "platform",
+    "transcription": "[’plœtfɔ:m]",
+    "translation": "перрон",
+    "tag": "n"
+  },
+  {
+    "word": "play",
+    "transcription": "[plei]",
+    "translation": "пьеса",
+    "tag": "n"
+  },
+  {
+    "word": "playground",
+    "transcription": "[’pleiground]",
+    "translation": "площадка для игр",
+    "tag": "n"
+  },
+  {
+    "word": "pleasant",
+    "transcription": "[’pleznt]",
+    "translation": "удовлетворить",
+    "tag": "v"
+  },
+  {
+    "word": "please",
+    "transcription": "[pli:z]",
+    "translation": "удовлетворить",
+    "tag": "v"
+  },
+  {
+    "word": "pleasure",
+    "transcription": "[’pleʒə]",
+    "translation": "удовольствие",
+    "tag": "n"
+  },
+  {
+    "word": "plenty",
+    "transcription": "[’plenti]",
+    "translation": "изобилие,",
+    "tag": "n"
+  },
+  {
+    "word": "plot",
+    "transcription": "[plɔt]",
+    "translation": "фабула (книги или пьесы)",
+    "tag": "n"
+  },
+  {
+    "word": "plumber",
+    "transcription": "[’plʌmə]",
+    "translation": "водопроводчик",
+    "tag": "n"
+  },
+  {
+    "word": "pocket",
+    "transcription": "[’pɔkit]",
+    "translation": "карман",
+    "tag": "n"
+  },
+  {
+    "word": "point",
+    "transcription": "[pɔint]",
+    "translation": "пункт",
+    "tag": "n"
+  },
+  {
+    "word": "poison",
+    "transcription": "[’pɔizn]",
+    "translation": "отравить",
+    "tag": "v"
+  },
+  {
+    "word": "Poland",
+    "transcription": "[’poulənd]",
+    "translation": "Польша",
+    "tag": "n"
+  },
+  {
+    "word": "police",
+    "transcription": "[pə’lis]",
+    "translation": "полиция",
+    "tag": "n"
+  },
+  {
+    "word": "polish",
+    "transcription": "[’pɔliʃ]",
+    "translation": "полировать, шлифовать",
+    "tag": "v"
+  },
+  {
+    "word": "Polish",
+    "transcription": "[’pouliʃ]",
+    "translation": "польский,",
+    "tag": "a"
+  },
+  {
+    "word": "polite",
+    "transcription": "[pə’lɑit]",
+    "translation": "вежливый",
+    "tag": "a"
+  },
+  {
+    "word": "poor",
+    "transcription": "[pu:ə]",
+    "translation": "бедный",
+    "tag": "a"
+  },
+  {
+    "word": "pop",
+    "transcription": "[pop]",
+    "translation": "„забежать” к кому-либо в гости",
+    "tag": "v"
+  },
+  {
+    "word": "popular",
+    "transcription": "[’pɔpjulə]",
+    "translation": "популярный",
+    "tag": "a"
+  },
+  {
+    "word": "pork",
+    "transcription": "[pɔ:k]",
+    "translation": "свинина",
+    "tag": "n"
+  },
+  {
+    "word": "portable",
+    "transcription": "[’pɔ:təbl]",
+    "translation": "портативный, переносный",
+    "tag": "a"
+  },
+  {
+    "word": "position",
+    "transcription": "[pə’ziʃən]",
+    "translation": "позиция",
+    "tag": "n"
+  },
+  {
+    "word": "possible",
+    "transcription": "[’pɔsəbl]",
+    "translation": "возможный",
+    "tag": "a"
+  },
+  {
+    "word": "possibly",
+    "transcription": "[’pɔsəbli]",
+    "translation": "может быть",
+    "tag": "adv"
+  },
+  {
+    "word": "potato",
+    "transcription": "[pə’teitou]",
+    "translation": "картофель",
+    "tag": "n"
+  },
+  {
+    "word": "potter",
+    "transcription": "[’pɔtə]",
+    "translation": ",",
+    "tag": "about"
+  },
+  {
+    "word": "pound",
+    "transcription": "[pɑund]",
+    "translation": "фунт",
+    "tag": "n"
+  },
+  {
+    "word": "powder",
+    "transcription": "[’pɑudə]",
+    "translation": "порошок",
+    "tag": "n"
+  },
+  {
+    "word": "practical",
+    "transcription": "[’prœktikəl]",
+    "translation": "практичный",
+    "tag": "a"
+  },
+  {
+    "word": "prefer",
+    "transcription": "[pri’fə:]",
+    "translation": "предпочитать",
+    "tag": "v"
+  },
+  {
+    "word": "prepare",
+    "transcription": "[pri’pɛə]",
+    "translation": "приготавливать (ся)",
+    "tag": "v"
+  },
+  {
+    "word": "present",
+    "transcription": "[’prezent]",
+    "translation": "подарок",
+    "tag": "n"
+  },
+  {
+    "word": "president",
+    "transcription": "[’prezidənt]",
+    "translation": "президент, председатель",
+    "tag": "n"
+  },
+  {
+    "word": "press",
+    "transcription": "[pres]",
+    "translation": "пресса",
+    "tag": "n"
+  },
+  {
+    "word": "pretty",
+    "transcription": "[’priti]",
+    "translation": "хорошенький,",
+    "tag": "a"
+  },
+  {
+    "word": "prevent",
+    "transcription": "[pri’vent]",
+    "translation": "не допускать",
+    "tag": "v"
+  },
+  {
+    "word": "price",
+    "transcription": "[prɑis]",
+    "translation": "цена",
+    "tag": "n"
+  },
+  {
+    "word": "prime minister",
+    "transcription": "[’prɑim ’ministə]",
+    "translation": "правдоподобно",
+    "tag": "adv"
+  },
+  {
+    "word": "probably",
+    "transcription": "[’prɔbəbli]",
+    "translation": "правдоподобно",
+    "tag": "adv"
+  },
+  {
+    "word": "problem",
+    "transcription": "[’prɔbləm]",
+    "translation": "проблема",
+    "tag": "n"
+  },
+  {
+    "word": "proceed",
+    "transcription": "[prə’si:d]",
+    "translation": "отправляться, дальше, продолжать (говорить)",
+    "tag": "v"
+  },
+  {
+    "word": "production",
+    "transcription": "[prə’dʌkʃən]",
+    "translation": "постановка, продукция",
+    "tag": "n"
+  },
+  {
+    "word": "professional",
+    "transcription": "[prə’feʃənəl]",
+    "translation": "профессиональный",
+    "tag": "a"
+  },
+  {
+    "word": "progress",
+    "transcription": "[’prougres]",
+    "translation": "прогресс, успехи в учебе",
+    "tag": "n"
+  },
+  {
+    "word": "promise",
+    "transcription": "[’prɔmis]",
+    "translation": "обещать,",
+    "tag": "v"
+  },
+  {
+    "word": "proper",
+    "transcription": "[’prɔpə]",
+    "translation": "правильный",
+    "tag": "a"
+  },
+  {
+    "word": "properly",
+    "transcription": "[’prɔpəli]",
+    "translation": "как следует, должным образом",
+    "tag": "adv"
+  },
+  {
+    "word": "proposal",
+    "transcription": "[prə’pouzəl]",
+    "translation": "предложение",
+    "tag": "n"
+  },
+  {
+    "word": "props",
+    "transcription": "[prɔps]",
+    "translation": "реквизит, бутафория",
+    "tag": "n"
+  },
+  {
+    "word": "prospects",
+    "transcription": "[’prɔspekts]",
+    "translation": "перспектива на что-либо",
+    "tag": "n"
+  },
+  {
+    "word": "prove",
+    "transcription": "[pru:v]",
+    "translation": "доказать, оказаться",
+    "tag": "v"
+  },
+  {
+    "word": "pub",
+    "transcription": "[pʌb]",
+    "translation": "пивная (",
+    "tag": "n"
+  },
+  {
+    "word": "pudding",
+    "transcription": "[’pudiη]",
+    "translation": "пуддинг (",
+    "tag": "n"
+  },
+  {
+    "word": "pullover",
+    "transcription": "[’pul,ouvə]",
+    "translation": "пуловер",
+    "tag": "n"
+  },
+  {
+    "word": "pump",
+    "transcription": "[pʌmp]",
+    "translation": "накачивать",
+    "tag": "v"
+  },
+  {
+    "word": "puncture",
+    "transcription": "[’pʌnktʃə]",
+    "translation": "прокол",
+    "tag": "n"
+  },
+  {
+    "word": "purple",
+    "transcription": "[’pə:pl]",
+    "translation": "пурпурный",
+    "tag": "a"
+  },
+  {
+    "word": "push",
+    "transcription": "[puʃ]",
+    "translation": "толкать",
+    "tag": "v"
+  },
+  {
+    "word": "put",
+    "transcription": "[put]",
+    "translation": "класть",
+    "tag": "v"
+  },
+  {
+    "word": "quality",
+    "transcription": "[’kwɔliti]",
+    "translation": "качество",
+    "tag": "n"
+  },
+  {
+    "word": "queer",
+    "transcription": "[kwiə]",
+    "translation": "странный",
+    "tag": "a"
+  },
+  {
+    "word": "question",
+    "transcription": "[’kwestʃən]",
+    "translation": "вопрос,",
+    "tag": "n"
+  },
+  {
+    "word": "queue",
+    "transcription": "[kju]",
+    "translation": "очередь",
+    "tag": "n"
+  },
+  {
+    "word": "quick",
+    "transcription": "[kwik]",
+    "translation": "быстрый",
+    "tag": "a"
+  },
+  {
+    "word": "quiet",
+    "transcription": "[’kwɑiət]",
+    "translation": "спокойный",
+    "tag": "a"
+  },
+  {
+    "word": "quite",
+    "transcription": "[’kwɑit]",
+    "translation": "совершенно",
+    "tag": "adv"
+  },
+  {
+    "word": "quiz",
+    "transcription": "[’kwiz]",
+    "translation": "вид радиопрограммы или телепрограммы",
+    "tag": "n"
+  },
+  {
+    "word": "radiator",
+    "transcription": "[’reidieitə]",
+    "translation": "радиатор, батарея (отопления)",
+    "tag": "n"
+  },
+  {
+    "word": "radical",
+    "transcription": "[’rœdikəl]",
+    "translation": "радикальный, основной",
+    "tag": "a"
+  },
+  {
+    "word": "radio",
+    "transcription": "['reidiou]",
+    "translation": "радио",
+    "tag": "n"
+  },
+  {
+    "word": "rain",
+    "transcription": "[rein]",
+    "translation": "дождь",
+    "tag": "n"
+  },
+  {
+    "word": "ring",
+    "transcription": "[’rœnsid]",
+    "translation": "прогорклый",
+    "tag": "a"
+  },
+  {
+    "word": "rancid",
+    "transcription": "[’rœnsid]",
+    "translation": "прогорклый",
+    "tag": "a"
+  },
+  {
+    "word": "rate",
+    "transcription": "[reit]",
+    "translation": "довольно, пожалуй",
+    "tag": "adv"
+  },
+  {
+    "word": "rather",
+    "transcription": "[’rɑ:рə]",
+    "translation": "довольно, пожалуй",
+    "tag": "adv"
+  },
+  {
+    "word": "razor",
+    "transcription": "[’reizə]",
+    "translation": "бритва, лезвие",
+    "tag": "n"
+  },
+  {
+    "word": "read",
+    "transcription": "[ri:d]",
+    "translation": "читать",
+    "tag": "v"
+  },
+  {
+    "word": "read",
+    "transcription": "[ri:d]",
+    "translation": "готовый",
+    "tag": "a"
+  },
+  {
+    "word": "ready",
+    "transcription": "[’redi]",
+    "translation": "готовый",
+    "tag": "a"
+  },
+  {
+    "word": "real",
+    "transcription": "['riəl]",
+    "translation": "реальный, действительный",
+    "tag": "a"
+  },
+  {
+    "word": "realize",
+    "transcription": "[’riəlɑiz]",
+    "translation": "понимать, отдавать себе отчет",
+    "tag": "v"
+  },
+  {
+    "word": "really",
+    "transcription": "[’riəli]",
+    "translation": "в самом деле",
+    "tag": "adv"
+  },
+  {
+    "word": "reason",
+    "transcription": "[’ri:zən]",
+    "translation": "повод",
+    "tag": "n"
+  },
+  {
+    "word": "rebuilding",
+    "transcription": "[’ri:’bildiη]",
+    "translation": "восстановление",
+    "tag": "n"
+  },
+  {
+    "word": "receiver",
+    "transcription": "[ri’si:və]",
+    "translation": "телефонная трубка, радиоприёмник",
+    "tag": "n"
+  },
+  {
+    "word": "recognize",
+    "transcription": "[’rekəgnaiz]",
+    "translation": "узнавать, распознавать",
+    "tag": "v"
+  },
+  {
+    "word": "record",
+    "transcription": "[’rekɔ:d]",
+    "translation": "рекорд; пластинка (патефонная)",
+    "tag": "n"
+  },
+  {
+    "word": "record player",
+    "transcription": "[’rekɔ:d pleiə]",
+    "translation": "проигрыватель",
+    "tag": "n"
+  },
+  {
+    "word": "reduced",
+    "transcription": "[ri’dju:st]",
+    "translation": "сниженный",
+    "tag": "a"
+  },
+  {
+    "word": "reduction",
+    "transcription": "[ri'dʌkʃən]",
+    "translation": "снижение",
+    "tag": "n"
+  },
+  {
+    "word": "refrain",
+    "transcription": "[ri’frein]",
+    "translation": "воздержаться",
+    "tag": "v"
+  },
+  {
+    "word": "refuse",
+    "transcription": "[ri’fju:z]",
+    "translation": "отказывать(-ся)",
+    "tag": "v"
+  },
+  {
+    "word": "registration",
+    "transcription": "[,redʒi’streiʃən]",
+    "translation": "регистрация",
+    "tag": "n"
+  },
+  {
+    "word": "rehearsal",
+    "transcription": "[ri’hə:səl]",
+    "translation": "репетиция",
+    "tag": "n"
+  },
+  {
+    "word": "relatives",
+    "transcription": "[’relətivz]",
+    "translation": "родственники",
+    "tag": "n"
+  },
+  {
+    "word": "relax",
+    "transcription": "[ri’lœks]",
+    "translation": "отдыхать, делать передышку",
+    "tag": "v"
+  },
+  {
+    "word": "re-line",
+    "transcription": "[’ri:’lɑin]",
+    "translation": "— (",
+    "tag": "v"
+  },
+  {
+    "word": "remarkable",
+    "transcription": "[ri’mɑ:kəbl]",
+    "translation": "удивительный, замечательный",
+    "tag": "a"
+  },
+  {
+    "word": "remember",
+    "transcription": "[ri’membə]",
+    "translation": "помнить",
+    "tag": "v"
+  },
+  {
+    "word": "repair",
+    "transcription": "[ri’pɛə]",
+    "translation": "починять",
+    "tag": "v"
+  },
+  {
+    "word": "report",
+    "transcription": "[ri’pɔ:t]",
+    "translation": "отчёт, табель успеваемости,",
+    "tag": "n"
+  },
+  {
+    "word": "reporter",
+    "transcription": "[ri’pɔ:tə]",
+    "translation": "репортёр",
+    "tag": "n"
+  },
+  {
+    "word": "research",
+    "transcription": "[ri’sə:tʃ]",
+    "translation": "исследование",
+    "tag": "n"
+  },
+  {
+    "word": "reservation",
+    "transcription": "[rezə’veiʃən]",
+    "translation": "резервирование",
+    "tag": "n"
+  },
+  {
+    "word": "resignation",
+    "transcription": "[,rezig’neiʃən]",
+    "translation": "отказ, покорность",
+    "tag": "n"
+  },
+  {
+    "word": "resist",
+    "transcription": "[ri’zist]",
+    "translation": "противиться, воздержаться",
+    "tag": "v"
+  },
+  {
+    "word": "rest",
+    "transcription": "[rest]",
+    "translation": "отдых, остаток,",
+    "tag": "n"
+  },
+  {
+    "word": "restful",
+    "transcription": "[’restful]",
+    "translation": "спокойный, успокаивающий",
+    "tag": "a"
+  },
+  {
+    "word": "restaurant",
+    "transcription": "[’restrɔ:η]",
+    "translation": "ресторан",
+    "tag": "n"
+  },
+  {
+    "word": "review",
+    "transcription": "[ri’vju:]",
+    "translation": "рецензировать, пересматривать",
+    "tag": "v"
+  },
+  {
+    "word": "revolver",
+    "transcription": "[ri’vɔlvə]",
+    "translation": "револьвер",
+    "tag": "n"
+  },
+  {
+    "word": "reward",
+    "transcription": "[ri’wɔ:d]",
+    "translation": "награда",
+    "tag": "n"
+  },
+  {
+    "word": "rhododendron",
+    "transcription": "[,roudə’dendrən]",
+    "translation": "рододендрон",
+    "tag": "n"
+  },
+  {
+    "word": "rich",
+    "transcription": "[ritʃ]",
+    "translation": "богатый",
+    "tag": "a"
+  },
+  {
+    "word": "ride",
+    "transcription": "[rɑid]",
+    "translation": "ехать (на коне, на велосипеде, или мотороллере)",
+    "tag": "v"
+  },
+  {
+    "word": "ride",
+    "transcription": "[rɑid]",
+    "translation": "поездка, прогулка (на велосипеде)",
+    "tag": "n"
+  },
+  {
+    "word": "ridiculous",
+    "transcription": "[ri’dikjuləs]",
+    "translation": "смехотворный, нелепый",
+    "tag": "a"
+  },
+  {
+    "word": "right",
+    "transcription": "[rɑit]",
+    "translation": "правый, правильный",
+    "tag": "a"
+  },
+  {
+    "word": "right",
+    "transcription": "[rɑit]",
+    "translation": "просто, точно, совершенно",
+    "tag": "adv"
+  },
+  {
+    "word": "ring",
+    "transcription": "[riηg]",
+    "translation": "звонить",
+    "tag": "v"
+  },
+  {
+    "word": "ripe",
+    "transcription": "[rɑip]",
+    "translation": "созревший, зрелый",
+    "tag": "n"
+  },
+  {
+    "word": "river",
+    "transcription": "[’rivə]",
+    "translation": "река",
+    "tag": "n"
+  },
+  {
+    "word": "road",
+    "transcription": "[roud]",
+    "translation": "дорога",
+    "tag": "n"
+  },
+  {
+    "word": "roast",
+    "transcription": "[roust]",
+    "translation": "печь",
+    "tag": "v"
+  },
+  {
+    "word": "Rome",
+    "transcription": "[roum]",
+    "translation": "Рим",
+    "tag": "n"
+  },
+  {
+    "word": "roof",
+    "transcription": "[ru:f]",
+    "translation": "крыша",
+    "tag": "n"
+  },
+  {
+    "word": "room",
+    "transcription": "[rum]",
+    "translation": "комната, место",
+    "tag": "n"
+  },
+  {
+    "word": "root",
+    "transcription": "[ru:t]",
+    "translation": "корень",
+    "tag": "n"
+  },
+  {
+    "word": "rose",
+    "transcription": "[rouz]",
+    "translation": "роза",
+    "tag": "n"
+  },
+  {
+    "word": "rotten",
+    "transcription": "[rɔtn]",
+    "translation": "гнилой, испорченный",
+    "tag": "a"
+  },
+  {
+    "word": "row",
+    "transcription": "[rɑu]",
+    "translation": "скандал",
+    "tag": "n"
+  },
+  {
+    "word": "rubber",
+    "transcription": "[’rʌbə]",
+    "translation": "резина",
+    "tag": "n"
+  },
+  {
+    "word": "run",
+    "transcription": "[rʌn]",
+    "translation": "бежать",
+    "tag": "v"
+  },
+  {
+    "word": "Russia",
+    "transcription": "[’rʌʃə]",
+    "translation": "Россия",
+    "tag": "n"
+  },
+  {
+    "word": "Russian",
+    "transcription": "[’rʌʃən]",
+    "translation": "русский,",
+    "tag": "a"
+  },
+  {
+    "word": "rusty",
+    "transcription": "[’rʌsti]",
+    "translation": "ржавый",
+    "tag": "a"
+  },
+  {
+    "word": "rut",
+    "transcription": "[rʌt]",
+    "translation": "привычка, что-либо привычное",
+    "tag": "n"
+  },
+  {
+    "word": "sad",
+    "transcription": "[sœd]",
+    "translation": "печальный",
+    "tag": "a"
+  },
+  {
+    "word": "safe",
+    "transcription": "[seif]",
+    "translation": "безопасный",
+    "tag": "a"
+  },
+  {
+    "word": "say",
+    "transcription": "[seik]",
+    "translation": "жалованье",
+    "tag": "n"
+  },
+  {
+    "word": "sake",
+    "transcription": "[seik]",
+    "translation": "жалованье",
+    "tag": "n"
+  },
+  {
+    "word": "salary",
+    "transcription": "[’sœləri]",
+    "translation": "жалованье",
+    "tag": "n"
+  },
+  {
+    "word": "salesman",
+    "transcription": "[’seilzmən]",
+    "translation": "продавец",
+    "tag": "n"
+  },
+  {
+    "word": "saleswoman",
+    "transcription": "[’seilzwumən]",
+    "translation": "продавщица",
+    "tag": "n"
+  },
+  {
+    "word": "same",
+    "transcription": "[seim]",
+    "translation": "тот самый",
+    "tag": "a"
+  },
+  {
+    "word": "Saturday",
+    "transcription": "[’sœtədi]",
+    "translation": "суббота",
+    "tag": "n"
+  },
+  {
+    "word": "sauce",
+    "transcription": "[sɔ:s]",
+    "translation": "соус",
+    "tag": "n"
+  },
+  {
+    "word": "save",
+    "transcription": "[seiv]",
+    "translation": "откладывать, экономить",
+    "tag": "v"
+  },
+  {
+    "word": "see",
+    "transcription": "[sei]",
+    "translation": "сцена",
+    "tag": "n"
+  },
+  {
+    "word": "say",
+    "transcription": "[sei]",
+    "translation": "сцена",
+    "tag": "n"
+  },
+  {
+    "word": "says",
+    "transcription": "[sez]",
+    "translation": "сцена",
+    "tag": "n"
+  },
+  {
+    "word": "scene",
+    "transcription": "[si:n]",
+    "translation": "сцена",
+    "tag": "n"
+  },
+  {
+    "word": "scenery",
+    "transcription": "[’si:nəri]",
+    "translation": "декорации",
+    "tag": "n"
+  },
+  {
+    "word": "scheme",
+    "transcription": "[ski:m]",
+    "translation": "схема, проект",
+    "tag": "n"
+  },
+  {
+    "word": "school",
+    "transcription": "[sku:l]",
+    "translation": "школа",
+    "tag": "n"
+  },
+  {
+    "word": "schoolmaster",
+    "transcription": "[’sku:l’mɑ:stə]",
+    "translation": "учитель",
+    "tag": "n"
+  },
+  {
+    "word": "science",
+    "transcription": "[’sɑiəns]",
+    "translation": "точные науки, наука (точная)",
+    "tag": "n"
+  },
+  {
+    "word": "scooter",
+    "transcription": "[’sku:tə]",
+    "translation": "мотороллер",
+    "tag": "n"
+  },
+  {
+    "word": "scrambled eggs",
+    "transcription": "[’skrœmbld ’egz]",
+    "translation": "яичница",
+    "tag": "n"
+  },
+  {
+    "word": "scratch",
+    "transcription": "[skrœtʃ]",
+    "translation": "царапать(-ся)",
+    "tag": "v"
+  },
+  {
+    "word": "scream",
+    "transcription": "[skri:m]",
+    "translation": "кричать, n. крик",
+    "tag": "v"
+  },
+  {
+    "word": "screw-driver",
+    "transcription": "[’skru:,drɑivə]",
+    "translation": "отвертка",
+    "tag": "n"
+  },
+  {
+    "word": "seat",
+    "transcription": "[si:t]",
+    "translation": "место",
+    "tag": "n"
+  },
+  {
+    "word": "second",
+    "transcription": "[’sekənd]",
+    "translation": "второй,",
+    "tag": "num"
+  },
+  {
+    "word": "second-hand",
+    "transcription": "[’sekənd hœnd]",
+    "translation": "подержанный",
+    "tag": "a"
+  },
+  {
+    "word": "secretary",
+    "transcription": "[’sekrətri]",
+    "translation": "секретарша",
+    "tag": "n"
+  },
+  {
+    "word": "see",
+    "transcription": "[si:]",
+    "translation": "видеть, увидеть, убедиться, увидеться с кем-либо",
+    "tag": "v"
+  },
+  {
+    "word": "seem",
+    "transcription": "[si:m]",
+    "translation": "казаться",
+    "tag": "v"
+  },
+  {
+    "word": "see",
+    "transcription": "[’self’sə:vis]",
+    "translation": "самообслуживание",
+    "tag": "n"
+  },
+  {
+    "word": "self-service",
+    "transcription": "[’self’sə:vis]",
+    "translation": "самообслуживание",
+    "tag": "n"
+  },
+  {
+    "word": "sell",
+    "transcription": "[sel]",
+    "translation": "продавать",
+    "tag": "v"
+  },
+  {
+    "word": "send",
+    "transcription": "[send]",
+    "translation": "высылать",
+    "tag": "v"
+  },
+  {
+    "word": "sense",
+    "transcription": "[sens]",
+    "translation": "рассудок",
+    "tag": "n"
+  },
+  {
+    "word": "sensible",
+    "transcription": "[’sensəbl]",
+    "translation": "рассудительный",
+    "tag": "a"
+  },
+  {
+    "word": "sensitive",
+    "transcription": "[’sensitiv]",
+    "translation": "чувствительный",
+    "tag": "a"
+  },
+  {
+    "word": "send",
+    "transcription": "[’sentinəl]",
+    "translation": "часовой",
+    "tag": "n"
+  },
+  {
+    "word": "sentinel",
+    "transcription": "[’sentinəl]",
+    "translation": "часовой",
+    "tag": "n"
+  },
+  {
+    "word": "separate",
+    "transcription": "[’seprit]",
+    "translation": "отдельный",
+    "tag": "a"
+  },
+  {
+    "word": "separate",
+    "transcription": "[’sepəreit]",
+    "translation": "отделять",
+    "tag": "v"
+  },
+  {
+    "word": "sergeant",
+    "transcription": "[’sɑ:dʒənt]",
+    "translation": "сержант",
+    "tag": "n"
+  },
+  {
+    "word": "serious",
+    "transcription": "[’siəriəs]",
+    "translation": "серьёзный",
+    "tag": "a"
+  },
+  {
+    "word": "servant",
+    "transcription": "[’sə:vənt]",
+    "translation": "слуга",
+    "tag": "n"
+  },
+  {
+    "word": "set",
+    "transcription": "[set]",
+    "translation": "положить, поставить",
+    "tag": "v"
+  },
+  {
+    "word": "settle",
+    "transcription": "[setl]",
+    "translation": "устроить",
+    "tag": "v"
+  },
+  {
+    "word": "several",
+    "transcription": "[’sevrəl]",
+    "translation": "и",
+    "tag": "a"
+  },
+  {
+    "word": "shake",
+    "transcription": "[ʃeik]",
+    "translation": "трясти",
+    "tag": "v"
+  },
+  {
+    "word": "share",
+    "transcription": "[ʃɛə]",
+    "translation": "делить",
+    "tag": "v"
+  },
+  {
+    "word": "shave",
+    "transcription": "[ʃeiv]",
+    "translation": "брить(-ся)",
+    "tag": "v"
+  },
+  {
+    "word": "shed",
+    "transcription": "[ʃed]",
+    "translation": "сарайчик, будка",
+    "tag": "n"
+  },
+  {
+    "word": "sheet",
+    "transcription": "[ʃi:t]",
+    "translation": "простыня",
+    "tag": "n"
+  },
+  {
+    "word": "shelf",
+    "transcription": "[ʃelf]",
+    "translation": "полка",
+    "tag": "n"
+  },
+  {
+    "word": "sherry",
+    "transcription": "[’ʃeri]",
+    "translation": "херес",
+    "tag": "n"
+  },
+  {
+    "word": "shift",
+    "transcription": "[ʃift]",
+    "translation": "передвинуть",
+    "tag": "v"
+  },
+  {
+    "word": "shilling",
+    "transcription": "[’ʃiliη]",
+    "translation": "шиллинг",
+    "tag": "n"
+  },
+  {
+    "word": "shirt",
+    "transcription": "[ʃə:t]",
+    "translation": "рубашка",
+    "tag": "n"
+  },
+  {
+    "word": "shock",
+    "transcription": "[ʃɔk]",
+    "translation": "шок, толчок",
+    "tag": "n"
+  },
+  {
+    "word": "shocking",
+    "transcription": "[’ʃɔkiη]",
+    "translation": "ужасный, возмутительный",
+    "tag": "a"
+  },
+  {
+    "word": "shop",
+    "transcription": "[ʃɔp]",
+    "translation": "магазин,",
+    "tag": "n"
+  },
+  {
+    "word": "short",
+    "transcription": "[ʃɔ:t]",
+    "translation": "короткий",
+    "tag": "a"
+  },
+  {
+    "word": "shorthand",
+    "transcription": "[’ʃɔ:thœnd]",
+    "translation": "стенография",
+    "tag": "n"
+  },
+  {
+    "word": "shout",
+    "transcription": "[ʃɑut]",
+    "translation": "кричать",
+    "tag": "v"
+  },
+  {
+    "word": "show",
+    "transcription": "[ʃou]",
+    "translation": "показывать,",
+    "tag": "v"
+  },
+  {
+    "word": "shrink",
+    "transcription": "[ʃriηk]",
+    "translation": "садиться (о материале)",
+    "tag": "v"
+  },
+  {
+    "word": "side",
+    "transcription": "[sɑid]",
+    "translation": "сторона",
+    "tag": "n"
+  },
+  {
+    "word": "sightseeing",
+    "transcription": "[’sɑit,si:iη]",
+    "translation": "осмотр достопримечательностей",
+    "tag": "n"
+  },
+  {
+    "word": "sign",
+    "transcription": "[sɑin]",
+    "translation": "подписывать(-ся),",
+    "tag": "v"
+  },
+  {
+    "word": "silly",
+    "transcription": "[’sili]",
+    "translation": "глупый, неумный",
+    "tag": "a"
+  },
+  {
+    "word": "simply",
+    "transcription": "[’simpli]",
+    "translation": "просто",
+    "tag": "adv"
+  },
+  {
+    "word": "single",
+    "transcription": "[siηgl]",
+    "translation": "одинокий, один",
+    "tag": "a"
+  },
+  {
+    "word": "sir",
+    "transcription": "[sə:]",
+    "translation": "сэр",
+    "tag": "n"
+  },
+  {
+    "word": "sit",
+    "transcription": "[sit]",
+    "translation": "сидеть",
+    "tag": "v"
+  },
+  {
+    "word": "sitting-room",
+    "transcription": "[’sitiη’rum]",
+    "translation": "салон",
+    "tag": "n"
+  },
+  {
+    "word": "site",
+    "transcription": "[sɑit]",
+    "translation": "участок",
+    "tag": "n"
+  },
+  {
+    "word": "sixpence",
+    "transcription": "[’sikspens]",
+    "translation": "шесть пенсов, монета достоинства в 6 пенсов",
+    "tag": "n"
+  },
+  {
+    "word": "size",
+    "transcription": "[sɑiz]",
+    "translation": "размер",
+    "tag": "n"
+  },
+  {
+    "word": "sketch",
+    "transcription": "[sketʃ]",
+    "translation": "скетч",
+    "tag": "n"
+  },
+  {
+    "word": "skirt",
+    "transcription": "[skə:t]",
+    "translation": "юбка",
+    "tag": "n"
+  },
+  {
+    "word": "slaughter",
+    "transcription": "[’slɔ:tə]",
+    "translation": "резня, кровопролитие",
+    "tag": "n"
+  },
+  {
+    "word": "sleep",
+    "transcription": "[sli:p]",
+    "translation": "спать",
+    "tag": "v"
+  },
+  {
+    "word": "sleepy",
+    "transcription": "[’sli:pi]",
+    "translation": "спящий",
+    "tag": "a"
+  },
+  {
+    "word": "slight",
+    "transcription": "[slɑit]",
+    "translation": "незначительный, слабый",
+    "tag": "a"
+  },
+  {
+    "word": "slipper",
+    "transcription": "[’slipə]",
+    "translation": "комнатная туфля",
+    "tag": "n"
+  },
+  {
+    "word": "small",
+    "transcription": "[smɔl]",
+    "translation": "маленький",
+    "tag": "a"
+  },
+  {
+    "word": "smell",
+    "transcription": "[smel]",
+    "translation": "пахнуть,",
+    "tag": "v"
+  },
+  {
+    "word": "smoke",
+    "transcription": "[smouk]",
+    "translation": "курить,",
+    "tag": "v"
+  },
+  {
+    "word": "smoky",
+    "transcription": "[’smouki]",
+    "translation": "дымный",
+    "tag": "a"
+  },
+  {
+    "word": "snack",
+    "transcription": "[snœk]",
+    "translation": "легкая закуска",
+    "tag": "n"
+  },
+  {
+    "word": "society",
+    "transcription": "[sə’sɑiəti]",
+    "translation": "общество, объединение",
+    "tag": "n"
+  },
+  {
+    "word": "sock",
+    "transcription": "[sɔk]",
+    "translation": "носок",
+    "tag": "n"
+  },
+  {
+    "word": "soil",
+    "transcription": "[sɔil]",
+    "translation": "почва",
+    "tag": "n"
+  },
+  {
+    "word": "solution",
+    "transcription": "[sə’lu:ʃən]",
+    "translation": "решение, разрешение вопроса",
+    "tag": "n"
+  },
+  {
+    "word": "someone",
+    "transcription": "[sʌmwʌn]",
+    "translation": "кто-то",
+    "tag": "pron"
+  },
+  {
+    "word": "something",
+    "transcription": "[sʌmθiη]",
+    "translation": "что-то",
+    "tag": "pron"
+  },
+  {
+    "word": "somewhere",
+    "transcription": "[sʌmwɛə]",
+    "translation": "где-то, куда-то",
+    "tag": "adv"
+  },
+  {
+    "word": "soon",
+    "transcription": "[su:n]",
+    "translation": "скоро",
+    "tag": "adv"
+  },
+  {
+    "word": "soothe",
+    "transcription": "[su:ð]",
+    "translation": "успокаивать",
+    "tag": "v"
+  },
+  {
+    "word": "sorry",
+    "transcription": "[’sɔri]",
+    "translation": "в выражении:",
+    "tag": "a"
+  },
+  {
+    "word": "sort",
+    "transcription": "[sɔ:t]",
+    "translation": "род, сорт",
+    "tag": "n"
+  },
+  {
+    "word": "sound",
+    "transcription": "[sɑund]",
+    "translation": "звук,",
+    "tag": "n"
+  },
+  {
+    "word": "souvenir",
+    "transcription": "[’su:vəniə]",
+    "translation": "сувенир",
+    "tag": "n"
+  },
+  {
+    "word": "Soviet Union",
+    "transcription": "[’souvjet ’junjən]",
+    "translation": "Советский Союз",
+    "tag": "n"
+  },
+  {
+    "word": "spaghetti",
+    "transcription": "[spə’geti]",
+    "translation": "итальянские макароны",
+    "tag": "n"
+  },
+  {
+    "word": "spare",
+    "transcription": "[spɛə]",
+    "translation": "запасной",
+    "tag": "a"
+  },
+  {
+    "word": "speak",
+    "transcription": "[spi:k]",
+    "translation": "говорить",
+    "tag": "v"
+  },
+  {
+    "word": "special",
+    "transcription": "[’speʃəl]",
+    "translation": "специальный",
+    "tag": "a"
+  },
+  {
+    "word": "speech",
+    "transcription": "[spi:tʃ]",
+    "translation": "речь",
+    "tag": "n"
+  },
+  {
+    "word": "speed",
+    "transcription": "[spi:d]",
+    "translation": "скорость",
+    "tag": "n"
+  },
+  {
+    "word": "spend",
+    "transcription": "[spend]",
+    "translation": "тратить (время, деньги)",
+    "tag": "v"
+  },
+  {
+    "word": "spill",
+    "transcription": "[spil]",
+    "translation": "разливать, рассыпать",
+    "tag": "v"
+  },
+  {
+    "word": "spill",
+    "transcription": "[’spirit]",
+    "translation": "спирт",
+    "tag": "n"
+  },
+  {
+    "word": "spirit",
+    "transcription": "[’spirit]",
+    "translation": "спирт",
+    "tag": "n"
+  },
+  {
+    "word": "spiritualism",
+    "transcription": "[’spiritjuəlizm]",
+    "translation": "спиритуализм",
+    "tag": "n"
+  },
+  {
+    "word": "spiritualist",
+    "transcription": "[’spiritjuəlist]",
+    "translation": "спиритуалист",
+    "tag": "n"
+  },
+  {
+    "word": "spit",
+    "transcription": "[spit]",
+    "translation": "вертел",
+    "tag": "n"
+  },
+  {
+    "word": "splendid",
+    "transcription": "[’splendid]",
+    "translation": "чудесный",
+    "tag": "a"
+  },
+  {
+    "word": "spoil",
+    "transcription": "[spoil]",
+    "translation": "портить",
+    "tag": "v"
+  },
+  {
+    "word": "spoil",
+    "transcription": "[spu:n]",
+    "translation": "ложка",
+    "tag": "n"
+  },
+  {
+    "word": "spoon",
+    "transcription": "[spu:n]",
+    "translation": "ложка",
+    "tag": "n"
+  },
+  {
+    "word": "spoonful",
+    "transcription": "[’spu:nful]",
+    "translation": "полная ложка",
+    "tag": "n"
+  },
+  {
+    "word": "spring",
+    "transcription": "[spriη]",
+    "translation": "скакать",
+    "tag": "v"
+  },
+  {
+    "word": "square",
+    "transcription": "[skwɛə]",
+    "translation": "площадь",
+    "tag": "n"
+  },
+  {
+    "word": "stage",
+    "transcription": "[steidʒ]",
+    "translation": "сцена",
+    "tag": "n"
+  },
+  {
+    "word": "stand",
+    "transcription": "[stœnd]",
+    "translation": "стоять",
+    "tag": "v"
+  },
+  {
+    "word": "start",
+    "transcription": "[sta:t]",
+    "translation": "начинать,",
+    "tag": "v"
+  },
+  {
+    "word": "starve",
+    "transcription": "[stɑ:v]",
+    "translation": "голодать",
+    "tag": "v"
+  },
+  {
+    "word": "state",
+    "transcription": "[steit]",
+    "translation": "государство, состояние",
+    "tag": "n"
+  },
+  {
+    "word": "statement",
+    "transcription": "[’steitmənt]",
+    "translation": "утверждение, заявление",
+    "tag": "n"
+  },
+  {
+    "word": "station",
+    "transcription": "[’steiʃən]",
+    "translation": "станция",
+    "tag": "n"
+  },
+  {
+    "word": "statue",
+    "transcription": "[’stœtju:]",
+    "translation": "статуя",
+    "tag": "n"
+  },
+  {
+    "word": "stay",
+    "transcription": "[stei]",
+    "translation": "оставаться задерживаться",
+    "tag": "v"
+  },
+  {
+    "word": "steak",
+    "transcription": "[steik]",
+    "translation": "бифштекс",
+    "tag": "n"
+  },
+  {
+    "word": "steamer",
+    "transcription": "[’sti:mə]",
+    "translation": "пароход",
+    "tag": "n"
+  },
+  {
+    "word": "stew",
+    "transcription": "[stju:]",
+    "translation": "тушить,",
+    "tag": "v"
+  },
+  {
+    "word": "stick",
+    "transcription": "[stik]",
+    "translation": "приклеивать, прилегать",
+    "tag": "v"
+  },
+  {
+    "word": "stiff",
+    "transcription": "[stif]",
+    "translation": "натянутый, чопорный",
+    "tag": "a"
+  },
+  {
+    "word": "still",
+    "transcription": "[stil]",
+    "translation": "всё ещё",
+    "tag": "adv"
+  },
+  {
+    "word": "stimulant",
+    "transcription": "[’stimjulənt]",
+    "translation": "возбуждающее средство",
+    "tag": "n"
+  },
+  {
+    "word": "stone",
+    "transcription": "[stoun]",
+    "translation": "камень",
+    "tag": "n"
+  },
+  {
+    "word": "stop",
+    "transcription": "[stɔp]",
+    "translation": "остановить(ся)",
+    "tag": "v"
+  },
+  {
+    "word": "store",
+    "transcription": "[stɔ:]",
+    "translation": "склад, магазин",
+    "tag": "n"
+  },
+  {
+    "word": "straggly",
+    "transcription": "[’strœgli]",
+    "translation": "нерегулярный, растрёпанный",
+    "tag": "a"
+  },
+  {
+    "word": "straight",
+    "transcription": "[streit]",
+    "translation": "прямой,",
+    "tag": "a"
+  },
+  {
+    "word": "strange",
+    "transcription": "[streindʒ]",
+    "translation": "странный, чужой",
+    "tag": "a"
+  },
+  {
+    "word": "stranger",
+    "transcription": "[’streindʒə]",
+    "translation": "чужой",
+    "tag": "n"
+  },
+  {
+    "word": "streak",
+    "transcription": "[stri:k]",
+    "translation": "полоска, жилка",
+    "tag": "n"
+  },
+  {
+    "word": "stream",
+    "transcription": "[stri:m]",
+    "translation": "поток, ручей",
+    "tag": "n"
+  },
+  {
+    "word": "street",
+    "transcription": "[stri:t]",
+    "translation": "улица",
+    "tag": "n"
+  },
+  {
+    "word": "strength",
+    "transcription": "[strenθ]",
+    "translation": "сила",
+    "tag": "n"
+  },
+  {
+    "word": "stroll",
+    "transcription": "[stroul]",
+    "translation": "прогулка",
+    "tag": "n"
+  },
+  {
+    "word": "strong",
+    "transcription": "[strɔη]",
+    "translation": "сильный",
+    "tag": "a"
+  },
+  {
+    "word": "student",
+    "transcription": "[’stjudənt]",
+    "translation": "студент",
+    "tag": "n"
+  },
+  {
+    "word": "study",
+    "transcription": "[’stʌdi]",
+    "translation": "учиться",
+    "tag": "v"
+  },
+  {
+    "word": "stuff",
+    "transcription": "[stʌf]",
+    "translation": "материал, вещи,",
+    "tag": "n"
+  },
+  {
+    "word": "stupid",
+    "transcription": "[’stju:pid]",
+    "translation": "глупый",
+    "tag": "a"
+  },
+  {
+    "word": "sub-committee",
+    "transcription": "[’sʌbkə’miti]",
+    "translation": "подкомитет",
+    "tag": "n"
+  },
+  {
+    "word": "subject",
+    "transcription": "[’sʌbdʒikt]",
+    "translation": "предмет",
+    "tag": "n"
+  },
+  {
+    "word": "suburb",
+    "transcription": "[’sʌbə’:b]",
+    "translation": "пригород",
+    "tag": "n"
+  },
+  {
+    "word": "success",
+    "transcription": "[sʌk’ses]",
+    "translation": "успех",
+    "tag": "n"
+  },
+  {
+    "word": "such",
+    "transcription": "[sʌtʃ]",
+    "translation": "такой",
+    "tag": "a"
+  },
+  {
+    "word": "sudden",
+    "transcription": "[’sʌdn]",
+    "translation": "неожиданный",
+    "tag": "a"
+  },
+  {
+    "word": "sue",
+    "transcription": "[sju:]",
+    "translation": "преследовать судебным порядком",
+    "tag": "v"
+  },
+  {
+    "word": "suggest",
+    "transcription": "[sə’dʒest]",
+    "translation": "предлагать",
+    "tag": "n"
+  },
+  {
+    "word": "suit",
+    "transcription": "[sju:t]",
+    "translation": "годиться, подходить",
+    "tag": "v"
+  },
+  {
+    "word": "suitable",
+    "transcription": "[’sju:təbl]",
+    "translation": "подходящий",
+    "tag": "a"
+  },
+  {
+    "word": "suitcase",
+    "transcription": "[’sju:tkeis]",
+    "translation": "чемодан",
+    "tag": "n"
+  },
+  {
+    "word": "summer",
+    "transcription": "[’sʌmə]",
+    "translation": "лето",
+    "tag": "n"
+  },
+  {
+    "word": "sun",
+    "transcription": "[sʌn]",
+    "translation": "солнце",
+    "tag": "n"
+  },
+  {
+    "word": "Sunday",
+    "transcription": "[’sʌndi]",
+    "translation": "воскресенье",
+    "tag": "n"
+  },
+  {
+    "word": "sunshine",
+    "transcription": "[’sʌnʃɑin]",
+    "translation": "солнечный свет",
+    "tag": "n"
+  },
+  {
+    "word": "supper",
+    "transcription": "[’sʌpə]",
+    "translation": "ужин",
+    "tag": "n"
+  },
+  {
+    "word": "support",
+    "transcription": "[sə’pɔ:t]",
+    "translation": "поддержка",
+    "tag": "n"
+  },
+  {
+    "word": "supporter",
+    "transcription": "[sə’pɔ:tə]",
+    "translation": "сторонник, приверженец",
+    "tag": "n"
+  },
+  {
+    "word": "suppose",
+    "transcription": "[sə’pouz]",
+    "translation": "предполагать",
+    "tag": "v"
+  },
+  {
+    "word": "sure",
+    "transcription": "[ʃuə]",
+    "translation": "верный, надежный",
+    "tag": "a"
+  },
+  {
+    "word": "surprise",
+    "transcription": "[sə’prɑiz]",
+    "translation": "удивлять, сделать сюрприз,",
+    "tag": "v"
+  },
+  {
+    "word": "surroundings",
+    "transcription": "[sə’rɑundiηz]",
+    "translation": "окрестности, среда, окружение",
+    "tag": "n"
+  },
+  {
+    "word": "surveyor",
+    "transcription": "[sə:’veiə]",
+    "translation": "землемер, топограф",
+    "tag": "n"
+  },
+  {
+    "word": "suspicious",
+    "transcription": "[səs’piʃəs]",
+    "translation": "подозрительный",
+    "tag": "a"
+  },
+  {
+    "word": "swan",
+    "transcription": "[swɔn]",
+    "translation": "лебедь",
+    "tag": "n"
+  },
+  {
+    "word": "sweater",
+    "transcription": "[’swetə]",
+    "translation": "свитр",
+    "tag": "n"
+  },
+  {
+    "word": "sweet",
+    "transcription": "[swi:t]",
+    "translation": "сладкий",
+    "tag": "a"
+  },
+  {
+    "word": "swim",
+    "transcription": "[swim]",
+    "translation": "плавать",
+    "tag": "v"
+  },
+  {
+    "word": "table",
+    "transcription": "[’teibl]",
+    "translation": "стол",
+    "tag": "n"
+  },
+  {
+    "word": "take",
+    "transcription": "[teik]",
+    "translation": "брать, взять",
+    "tag": "v"
+  },
+  {
+    "word": "talk",
+    "transcription": "[tɔ:k]",
+    "translation": "говорить, разговаривать",
+    "tag": "v"
+  },
+  {
+    "word": "tame",
+    "transcription": "[teim]",
+    "translation": "ручной, прирученный",
+    "tag": "a"
+  },
+  {
+    "word": "tan",
+    "transcription": "[tœn]",
+    "translation": "загар",
+    "tag": "n"
+  },
+  {
+    "word": "tank",
+    "transcription": "[tœηk]",
+    "translation": "бак",
+    "tag": "n"
+  },
+  {
+    "word": "tap",
+    "transcription": "[tœp]",
+    "translation": "кран",
+    "tag": "n"
+  },
+  {
+    "word": "tape-recorder",
+    "transcription": "[’teip ri’kɔ:də]",
+    "translation": "магнитофон",
+    "tag": "n"
+  },
+  {
+    "word": "tape-recording",
+    "transcription": "[’teip ri’kɔ:diη]",
+    "translation": "записывать на магнитофон",
+    "tag": "n"
+  },
+  {
+    "word": "taxi",
+    "transcription": "[’tœksi]",
+    "translation": "такси",
+    "tag": "n"
+  },
+  {
+    "word": "tea",
+    "transcription": "[ti:]",
+    "translation": "чай, полдник",
+    "tag": "n"
+  },
+  {
+    "word": "teach",
+    "transcription": "[ti:tʃ]",
+    "translation": "учить",
+    "tag": "v"
+  },
+  {
+    "word": "teacher",
+    "transcription": "[’ti:tʃə]",
+    "translation": "учитель",
+    "tag": "n"
+  },
+  {
+    "word": "technology",
+    "transcription": "[tek’nɔlədʒi]",
+    "translation": "технология, техника",
+    "tag": "n"
+  },
+  {
+    "word": "telephone",
+    "transcription": "[’telifoun]",
+    "translation": "телефон",
+    "tag": "n"
+  },
+  {
+    "word": "telescope",
+    "transcription": "[’teliskoup]",
+    "translation": "телескоп",
+    "tag": "n"
+  },
+  {
+    "word": "televise",
+    "transcription": "['telivɑiz]",
+    "translation": "транслировать по телевизору",
+    "tag": "v"
+  },
+  {
+    "word": "television",
+    "transcription": "[’teli’viʒən]",
+    "translation": "телевидение",
+    "tag": "n"
+  },
+  {
+    "word": "tell",
+    "transcription": "[tel]",
+    "translation": "рассказывать, говорить",
+    "tag": "v"
+  },
+  {
+    "word": "temporary",
+    "transcription": "[’tempərəri]",
+    "translation": "временный",
+    "tag": "a"
+  },
+  {
+    "word": "tender",
+    "transcription": "[’tendə]",
+    "translation": "нежный, мягкий",
+    "tag": "a"
+  },
+  {
+    "word": "tent",
+    "transcription": "[tent]",
+    "translation": "палатка",
+    "tag": "n"
+  },
+  {
+    "word": "term",
+    "transcription": "[tə:m]",
+    "translation": "четверть (в школе)",
+    "tag": "n"
+  },
+  {
+    "word": "terrible",
+    "transcription": "[’teribl]",
+    "translation": "ужасный, страшный",
+    "tag": "a"
+  },
+  {
+    "word": "terrify",
+    "transcription": "[’terifɑi]",
+    "translation": "ужасать",
+    "tag": "v"
+  },
+  {
+    "word": "testimonial",
+    "transcription": "[,testi’mouniəl]",
+    "translation": "аттестат, свидетельство",
+    "tag": "n"
+  },
+  {
+    "word": "thank",
+    "transcription": "[θœηk]",
+    "translation": "благодарный",
+    "tag": "v"
+  },
+  {
+    "word": "theatre",
+    "transcription": "[’θiətə]",
+    "translation": "театр",
+    "tag": "n"
+  },
+  {
+    "word": "then",
+    "transcription": "[рen]",
+    "translation": ", тогда, потом, затем",
+    "tag": "adv"
+  },
+  {
+    "word": "there",
+    "transcription": "[рɛə]",
+    "translation": "там",
+    "tag": "adv"
+  },
+  {
+    "word": "thing",
+    "transcription": "[θiη]",
+    "translation": "вещь",
+    "tag": "n"
+  },
+  {
+    "word": "think",
+    "transcription": "[θiηk]",
+    "translation": "думать",
+    "tag": "v"
+  },
+  {
+    "word": "think",
+    "transcription": "[θril]",
+    "translation": "вызывать нервную дрожь",
+    "tag": "v"
+  },
+  {
+    "word": "thrill",
+    "transcription": "[θril]",
+    "translation": "вызывать нервную дрожь",
+    "tag": "v"
+  },
+  {
+    "word": "thriller",
+    "transcription": "[’θrilə]",
+    "translation": "сенсационный роман, фильм",
+    "tag": "n"
+  },
+  {
+    "word": "throw",
+    "transcription": "[’tikit]",
+    "translation": "билет",
+    "tag": "n"
+  },
+  {
+    "word": "ticket",
+    "transcription": "[’tikit]",
+    "translation": "билет",
+    "tag": "n"
+  },
+  {
+    "word": "tide",
+    "transcription": "[tɑid]",
+    "translation": "прилив",
+    "tag": "n"
+  },
+  {
+    "word": "tie",
+    "transcription": "[tɑi]",
+    "translation": "завязать",
+    "tag": "v"
+  },
+  {
+    "word": "time",
+    "transcription": "[tɑim]",
+    "translation": "время, раз",
+    "tag": "n"
+  },
+  {
+    "word": "time-table",
+    "transcription": "[’tɑim,teibl]",
+    "translation": "расписание, движения, расписание занятий",
+    "tag": "n"
+  },
+  {
+    "word": "tin",
+    "transcription": "[tin]",
+    "translation": "консервная банка",
+    "tag": "n"
+  },
+  {
+    "word": "tire",
+    "transcription": "[tɑiə]",
+    "translation": "утомлять(ся)",
+    "tag": "v"
+  },
+  {
+    "word": "tired",
+    "transcription": "[’tɑiəd]",
+    "translation": "усталый",
+    "tag": "a"
+  },
+  {
+    "word": "title",
+    "transcription": "[’tɑitl]",
+    "translation": "титул",
+    "tag": "n"
+  },
+  {
+    "word": "toast",
+    "transcription": "[toust]",
+    "translation": "гренка",
+    "tag": "n"
+  },
+  {
+    "word": "today",
+    "transcription": "[tə’dəi]",
+    "translation": "сегодня",
+    "tag": "adv"
+  },
+  {
+    "word": "together",
+    "transcription": "[tə’geðə]",
+    "translation": "вместе",
+    "tag": "adv"
+  },
+  {
+    "word": "tell",
+    "transcription": "[tə’mɑ:tou]",
+    "translation": "помидор",
+    "tag": "n"
+  },
+  {
+    "word": "tomate",
+    "transcription": "[tə’mɑ:tou]",
+    "translation": "помидор",
+    "tag": "n"
+  },
+  {
+    "word": "tomorrow",
+    "transcription": "[tə’mɔrou]",
+    "translation": "завтра",
+    "tag": "adv"
+  },
+  {
+    "word": "tonight",
+    "transcription": "[tə’nɑit]",
+    "translation": "сегодня вечером",
+    "tag": "adv"
+  },
+  {
+    "word": "too",
+    "transcription": "[tu:]",
+    "translation": "также, слишком",
+    "tag": "adv"
+  },
+  {
+    "word": "tool",
+    "transcription": "[tu:l]",
+    "translation": "инструмент",
+    "tag": "n"
+  },
+  {
+    "word": "tool-shed",
+    "transcription": "[’tu:l,ʃed]",
+    "translation": "сарайчик с инструментами",
+    "tag": "n"
+  },
+  {
+    "word": "toothbrush",
+    "transcription": "[’tu:θbrʌʃ]",
+    "translation": "зубная щётка",
+    "tag": "n"
+  },
+  {
+    "word": "top",
+    "transcription": "[tɔp]",
+    "translation": "верхний, самый высокий",
+    "tag": "a"
+  },
+  {
+    "word": "touch",
+    "transcription": "[tʌtʃ]",
+    "translation": "дотрагиваться,",
+    "tag": "v"
+  },
+  {
+    "word": "tough",
+    "transcription": "[tʌf]",
+    "translation": "твердый",
+    "tag": "a"
+  },
+  {
+    "word": "tour",
+    "transcription": "[tuə]",
+    "translation": "турне",
+    "tag": "n"
+  },
+  {
+    "word": "tourist",
+    "transcription": "[’tuərist]",
+    "translation": "турист",
+    "tag": "n"
+  },
+  {
+    "word": "towel",
+    "transcription": "[’tɑuəl]",
+    "translation": "полотенце",
+    "tag": "n"
+  },
+  {
+    "word": "Trade Union",
+    "transcription": "[’treid ’ju:njən]",
+    "translation": "профсоюз",
+    "tag": "n"
+  },
+  {
+    "word": "traffic",
+    "transcription": "[’trœfik]",
+    "translation": "уличное движение",
+    "tag": "n"
+  },
+  {
+    "word": "train",
+    "transcription": "[trein]",
+    "translation": "поезд",
+    "tag": "n"
+  },
+  {
+    "word": "transit visa",
+    "transcription": "[’trœnsit vi:zə]",
+    "translation": "транзитная виза",
+    "tag": "n"
+  },
+  {
+    "word": "translation",
+    "transcription": "[trœns’leiʃən]",
+    "translation": "перевод",
+    "tag": "n"
+  },
+  {
+    "word": "trap",
+    "transcription": "[trœp]",
+    "translation": "капкан",
+    "tag": "n"
+  },
+  {
+    "word": "travel",
+    "transcription": "[’trœvl]",
+    "translation": "путешествовать,",
+    "tag": "v"
+  },
+  {
+    "word": "traveller",
+    "transcription": "[’trœvlə]",
+    "translation": "путешественник",
+    "tag": "n"
+  },
+  {
+    "word": "treat",
+    "transcription": "[tri:t]",
+    "translation": "обходиться",
+    "tag": "v"
+  },
+  {
+    "word": "tree",
+    "transcription": "[tri:]",
+    "translation": "дерево",
+    "tag": "n"
+  },
+  {
+    "word": "tremendous",
+    "transcription": "[tri’mendəs]",
+    "translation": "огромный, ужасный",
+    "tag": "a"
+  },
+  {
+    "word": "trial",
+    "transcription": "[’trɑiəl]",
+    "translation": "проба",
+    "tag": "n"
+  },
+  {
+    "word": "trip",
+    "transcription": "[trip]",
+    "translation": "экскурсия",
+    "tag": "n"
+  },
+  {
+    "word": "triplicate",
+    "transcription": "[’triplikit]",
+    "translation": "в выражении",
+    "tag": "n"
+  },
+  {
+    "word": "trouble",
+    "transcription": "[trʌbl]",
+    "translation": "тревога, забота, хлопоты",
+    "tag": "n"
+  },
+  {
+    "word": "trousers",
+    "transcription": "[’trɑuzəz]",
+    "translation": "брюки",
+    "tag": "n"
+  },
+  {
+    "word": "trust",
+    "transcription": "[trʌst]",
+    "translation": "доверять",
+    "tag": "v"
+  },
+  {
+    "word": "truth",
+    "transcription": "[tru:θ]",
+    "translation": "правда",
+    "tag": "n"
+  },
+  {
+    "word": "try",
+    "transcription": "[trɑi]",
+    "translation": "пробовать, пытаться",
+    "tag": "v"
+  },
+  {
+    "word": "turn",
+    "transcription": "[tə:n]",
+    "translation": "поворачиваться",
+    "tag": "v"
+  },
+  {
+    "word": "turn",
+    "transcription": "[tə:n]",
+    "translation": "в выражении:",
+    "tag": "n"
+  },
+  {
+    "word": "TV",
+    "transcription": "[’ti: ’vi]",
+    "translation": "телевидение",
+    "tag": "n"
+  },
+  {
+    "word": "twice",
+    "transcription": "[twɑis]",
+    "translation": "дважды",
+    "tag": "adv"
+  },
+  {
+    "word": "type",
+    "transcription": "[taip]",
+    "translation": "писать на машинке",
+    "tag": "n"
+  },
+  {
+    "word": "typical",
+    "transcription": "[’tipikəl]",
+    "translation": "типичный",
+    "tag": "a"
+  },
+  {
+    "word": "typing",
+    "transcription": "[’tɑipiη]",
+    "translation": "писание на машинке",
+    "tag": "n"
+  },
+  {
+    "word": "tyre",
+    "transcription": "[’tɑiə]",
+    "translation": "шина",
+    "tag": "n"
+  },
+  {
+    "word": "ugly",
+    "transcription": "[ʌgli]",
+    "translation": "безобразный",
+    "tag": "a"
+  },
+  {
+    "word": "umbrella",
+    "transcription": "[ʌm’brelə]",
+    "translation": "зонтик",
+    "tag": "n"
+  },
+  {
+    "word": "uncle",
+    "transcription": "[’ʌnkl]",
+    "translation": "дядя",
+    "tag": "n"
+  },
+  {
+    "word": "underground",
+    "transcription": "[’ʌndərgrɑund]",
+    "translation": "метрополитен",
+    "tag": "n"
+  },
+  {
+    "word": "understand",
+    "transcription": "[,ʌndə’stœnd]",
+    "translation": "понимать",
+    "tag": "v"
+  },
+  {
+    "word": "understudy",
+    "transcription": "[,ʌndə’stʌdi]",
+    "translation": "дублёр (в театре)",
+    "tag": "n"
+  },
+  {
+    "word": "unfair",
+    "transcription": "[’ʌn,fɛə]",
+    "translation": "неправильный, несправедливый",
+    "tag": "a"
+  },
+  {
+    "word": "ungrateful",
+    "transcription": "[ʌn’greitful]",
+    "translation": "неблагодарный",
+    "tag": "a"
+  },
+  {
+    "word": "union",
+    "transcription": "[’ju:njən]",
+    "translation": "союз",
+    "tag": "n"
+  },
+  {
+    "word": "unload",
+    "transcription": "[’ʌn’loud]",
+    "translation": "разгружать",
+    "tag": "v"
+  },
+  {
+    "word": "unpack",
+    "transcription": "[ʌn’pœk]",
+    "translation": "распаковывать",
+    "tag": "v"
+  },
+  {
+    "word": "unpaid",
+    "transcription": "[ʌn’peid]",
+    "translation": "бесплатный",
+    "tag": "a"
+  },
+  {
+    "word": "unpleasant",
+    "transcription": "[ʌn’pleznt]",
+    "translation": "неприятный",
+    "tag": "a"
+  },
+  {
+    "word": "unspoilt",
+    "transcription": "[ʌn’spɔilt]",
+    "translation": "неиспорченный",
+    "tag": "a"
+  },
+  {
+    "word": "unusual",
+    "transcription": "[ʌn’ju:ʒuəl]",
+    "translation": "необыкновенный",
+    "tag": "a"
+  },
+  {
+    "word": "up",
+    "transcription": "[up]",
+    "translation": "вверх",
+    "tag": "adv"
+  },
+  {
+    "word": "upset",
+    "transcription": "[ʌp’set]",
+    "translation": "опрокидывать, дезорганизовать",
+    "tag": "v"
+  },
+  {
+    "word": "upstairs",
+    "transcription": "[’ʌp’stɛəz]",
+    "translation": "наверху",
+    "tag": "adv"
+  },
+  {
+    "word": "use",
+    "transcription": "[ju:z]",
+    "translation": "употреблять",
+    "tag": "v"
+  },
+  {
+    "word": "useful",
+    "transcription": "[’ju:sful]",
+    "translation": "полезный",
+    "tag": "a"
+  },
+  {
+    "word": "usual",
+    "transcription": "[’ju:ʒuəl]",
+    "translation": "обыкновенный",
+    "tag": "a"
+  },
+  {
+    "word": "valuable",
+    "transcription": "[’vœljuəbl]",
+    "translation": "ценный",
+    "tag": "a"
+  },
+  {
+    "word": "value",
+    "transcription": "[’vœlju:]",
+    "translation": "ценность",
+    "tag": "n"
+  },
+  {
+    "word": "variety",
+    "transcription": "[və’rɑiəti]",
+    "translation": "разнообразие, множество",
+    "tag": "n"
+  },
+  {
+    "word": "vase",
+    "transcription": "[vɑ:z]",
+    "translation": "ваза",
+    "tag": "n"
+  },
+  {
+    "word": "very",
+    "transcription": "[’veri]",
+    "translation": "очень",
+    "tag": "adv"
+  },
+  {
+    "word": "Victorian",
+    "transcription": "[vik’tɔ:riən]",
+    "translation": "викторианский (",
+    "tag": "a"
+  },
+  {
+    "word": "view",
+    "transcription": "[vju:]",
+    "translation": "вид",
+    "tag": "n"
+  },
+  {
+    "word": "village",
+    "transcription": "[’vilidʒ]",
+    "translation": "деревня",
+    "tag": "n"
+  },
+  {
+    "word": "visa",
+    "transcription": "[’vizə]",
+    "translation": "виза",
+    "tag": "n"
+  },
+  {
+    "word": "visit",
+    "transcription": "[’vizit]",
+    "translation": "визит,",
+    "tag": "n"
+  },
+  {
+    "word": "visitor",
+    "transcription": "[’vizitə]",
+    "translation": "гость",
+    "tag": "n"
+  },
+  {
+    "word": "vote",
+    "transcription": "[vout]",
+    "translation": "голосовать,",
+    "tag": "v"
+  },
+  {
+    "word": "waist",
+    "transcription": "[weist]",
+    "translation": "талия",
+    "tag": "n"
+  },
+  {
+    "word": "wait",
+    "transcription": "[weit]",
+    "translation": "ждать",
+    "tag": "v"
+  },
+  {
+    "word": "waitress",
+    "transcription": "[’weitris]",
+    "translation": "официантка",
+    "tag": "n"
+  },
+  {
+    "word": "wake",
+    "transcription": "[weik]",
+    "translation": "будить",
+    "tag": "v"
+  },
+  {
+    "word": "walk",
+    "transcription": "[wɔ:k]",
+    "translation": "ходить, прогуливаться",
+    "tag": "v"
+  },
+  {
+    "word": "walking tour",
+    "transcription": "[’wɔ:kiη tuə]",
+    "translation": "экскурсия пешком",
+    "tag": "n"
+  },
+  {
+    "word": "wall",
+    "transcription": "[wɔ:l]",
+    "translation": "стена, барьер",
+    "tag": "n"
+  },
+  {
+    "word": "wallet",
+    "transcription": "[’wɔlit]",
+    "translation": "бумажник",
+    "tag": "n"
+  },
+  {
+    "word": "wall-paper",
+    "transcription": "[’wɔ:l,peipə]",
+    "translation": "обои",
+    "tag": "n"
+  },
+  {
+    "word": "want",
+    "transcription": "[wɔnt]",
+    "translation": "желать",
+    "tag": "v"
+  },
+  {
+    "word": "war",
+    "transcription": "[wɔ:]",
+    "translation": "война",
+    "tag": "n"
+  },
+  {
+    "word": "warm",
+    "transcription": "[wɔ:m]",
+    "translation": "тёплый,",
+    "tag": "a"
+  },
+  {
+    "word": "Warsaw",
+    "transcription": "[’wɔ:sɔ:]",
+    "translation": "Варшава",
+    "tag": "n"
+  },
+  {
+    "word": "wash",
+    "transcription": "[wɔʃ]",
+    "translation": "мыть, стирать",
+    "tag": "v"
+  },
+  {
+    "word": "watch",
+    "transcription": "[wɔtʃ]",
+    "translation": "наблюдать, следить",
+    "tag": "v"
+  },
+  {
+    "word": "water",
+    "transcription": "[wɔ:tə]",
+    "translation": "вода",
+    "tag": "n"
+  },
+  {
+    "word": "water-repellent",
+    "transcription": "[’wɔ:tə ri’pelənt]",
+    "translation": "водонепроницаемый",
+    "tag": "a"
+  },
+  {
+    "word": "wave",
+    "transcription": "[weiv]",
+    "translation": "волноваться (о море)",
+    "tag": "v"
+  },
+  {
+    "word": "way",
+    "transcription": "[wei]",
+    "translation": "путь, способ",
+    "tag": "n"
+  },
+  {
+    "word": "wear",
+    "transcription": "[wɛə]",
+    "translation": "носить (одежду и т.п.)",
+    "tag": "v"
+  },
+  {
+    "word": "weather",
+    "transcription": "[’weðə]",
+    "translation": "погода",
+    "tag": "n"
+  },
+  {
+    "word": "week",
+    "transcription": "[wi:k]",
+    "translation": "неделя",
+    "tag": "n"
+  },
+  {
+    "word": "welcome",
+    "transcription": "[’welkəm]",
+    "translation": "приветствовать",
+    "tag": "v"
+  },
+  {
+    "word": "well",
+    "transcription": "[wel]",
+    "translation": "хорошо",
+    "tag": "adv"
+  },
+  {
+    "word": "go",
+    "transcription": "[west]",
+    "translation": "западный",
+    "tag": "a"
+  },
+  {
+    "word": "west",
+    "transcription": "[west]",
+    "translation": "западный",
+    "tag": "a"
+  },
+  {
+    "word": "wheat",
+    "transcription": "[wi:t]",
+    "translation": "пшеница",
+    "tag": "n"
+  },
+  {
+    "word": "wheel",
+    "transcription": "[wi:l]",
+    "translation": "колесо",
+    "tag": "n"
+  },
+  {
+    "word": "while",
+    "transcription": "[wɑil]",
+    "translation": "момент",
+    "tag": "n"
+  },
+  {
+    "word": "white",
+    "transcription": "[wɑit]",
+    "translation": "белый",
+    "tag": "a"
+  },
+  {
+    "word": "whole",
+    "transcription": "[houl]",
+    "translation": "целый",
+    "tag": "a"
+  },
+  {
+    "word": "wife",
+    "transcription": "[wɑif]",
+    "translation": "жена",
+    "tag": "n"
+  },
+  {
+    "word": "wild",
+    "transcription": "[wɑild]",
+    "translation": "дикий",
+    "tag": "a"
+  },
+  {
+    "word": "wind",
+    "transcription": "[wind]",
+    "translation": "ветер",
+    "tag": "n"
+  },
+  {
+    "word": "window",
+    "transcription": "[’windou]",
+    "translation": "окно",
+    "tag": "n"
+  },
+  {
+    "word": "winter",
+    "transcription": "[’wintə]",
+    "translation": "зима",
+    "tag": "n"
+  },
+  {
+    "word": "wish",
+    "transcription": "[wiʃ]",
+    "translation": "хотеть, желать",
+    "tag": "v"
+  },
+  {
+    "word": "witness",
+    "transcription": "[’witnis]",
+    "translation": "свидетель",
+    "tag": "n"
+  },
+  {
+    "word": "wake",
+    "transcription": "[’wumən]",
+    "translation": "женщина",
+    "tag": "n"
+  },
+  {
+    "word": "woman",
+    "transcription": "[’wumən]",
+    "translation": "женщина",
+    "tag": "n"
+  },
+  {
+    "word": "women",
+    "transcription": "[’wimin]",
+    "translation": "женщины",
+    "tag": "n"
+  },
+  {
+    "word": "wonder",
+    "transcription": "[’wʌndə]",
+    "translation": "задумываться, желать знать",
+    "tag": "v"
+  },
+  {
+    "word": "wonderful",
+    "transcription": "[’wʌndəful]",
+    "translation": "замечательный",
+    "tag": "a"
+  },
+  {
+    "word": "wood",
+    "transcription": "[wud]",
+    "translation": "лес",
+    "tag": "n"
+  },
+  {
+    "word": "woody",
+    "transcription": "[’wudi]",
+    "translation": "лесной",
+    "tag": "a"
+  },
+  {
+    "word": "woolen",
+    "transcription": "[’wulin]",
+    "translation": "шерстяной",
+    "tag": "a"
+  },
+  {
+    "word": "word",
+    "transcription": "[wə:d]",
+    "translation": "слово",
+    "tag": "n"
+  },
+  {
+    "word": "work",
+    "transcription": "[wə:k]",
+    "translation": "работать,",
+    "tag": "v"
+  },
+  {
+    "word": "worry",
+    "transcription": "[’wʌri]",
+    "translation": "беспокоиться,",
+    "tag": "v"
+  },
+  {
+    "word": "worse",
+    "transcription": "[wə:s]",
+    "translation": "худший",
+    "tag": "a"
+  },
+  {
+    "word": "worth",
+    "transcription": "[wə:θ]",
+    "translation": "стоящий",
+    "tag": "a"
+  },
+  {
+    "word": "wrap up",
+    "transcription": "[’rœp ʌp]",
+    "translation": "кутаться",
+    "tag": "v"
+  },
+  {
+    "word": "write",
+    "transcription": "[rɑit]",
+    "translation": "писать",
+    "tag": "v"
+  },
+  {
+    "word": "wrong",
+    "transcription": "[rɔη]",
+    "translation": "неправильный, ошибочный",
+    "tag": "a"
+  },
+  {
+    "word": "yard",
+    "transcription": "[jɑ:d]",
+    "translation": "ярд (91,44 см)",
+    "tag": "n"
+  },
+  {
+    "word": "year",
+    "transcription": "[jə:]",
+    "translation": "год",
+    "tag": "n"
+  },
+  {
+    "word": "yellow",
+    "transcription": "[’jelou]",
+    "translation": "желтый",
+    "tag": "a"
+  },
+  {
+    "word": "yesterday",
+    "transcription": "[’jestədi]",
+    "translation": "вчера",
+    "tag": "adv"
+  },
+  {
+    "word": "yet",
+    "transcription": "[jet]",
+    "translation": "ещё нет, уже",
+    "tag": "adv"
+  },
+  {
+    "word": "Yorkshire",
+    "transcription": "[’jɔ:kʃiə]",
+    "translation": "графство Йорк",
+    "tag": "n"
+  },
+  {
+    "word": "young",
+    "transcription": "[jʌη]",
+    "translation": "молодой",
+    "tag": "a"
+  },
+  {
+    "word": "youngster",
+    "transcription": "[’jʌηstə]",
+    "translation": "молодой человек",
+    "tag": "n"
+  },
+  {
+    "word": "zebra",
+    "transcription": "[’zi:brə]",
+    "translation": "зебра",
+    "tag": "n"
+  }
+]
