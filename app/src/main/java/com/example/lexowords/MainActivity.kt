@@ -4,20 +4,43 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.navigation.compose.NavHost
+import androidx.navigation.compose.composable
+import androidx.navigation.compose.rememberNavController
+import com.example.lexowords.ui.main.MainScreen
+import com.example.lexowords.ui.navigation.NavRoutes
+import com.example.lexowords.ui.splash.SplashScreen
+import com.example.lexowords.ui.studywords.StudyWordsScreen
 import com.example.lexowords.ui.theme.LexoWordsTheme
-import com.example.lexowords.ui.words.FlashCardScreen
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            LexoWordsTheme {
-                FlashCardScreen()
+            val navController = rememberNavController()
+            MaterialTheme {
+                NavHost(navController = navController, startDestination = NavRoutes.SPLASH) {
+                    composable(NavRoutes.SPLASH) {
+                        SplashScreen(navController)
+                    }
+                    composable(NavRoutes.MAIN) {
+                        MainScreen(navController)
+                    }
+                    composable(NavRoutes.STUDY) {
+                        StudyWordsScreen()
+                    }
+                    composable(NavRoutes.REVIEW) {
+                        Text("Экран повторения слов (в будущем)")
+                    }
+                }
             }
         }
     }

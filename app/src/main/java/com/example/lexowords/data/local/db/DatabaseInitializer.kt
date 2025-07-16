@@ -61,4 +61,12 @@ class DatabaseInitializer(
                 }
             }
         }
+
+    suspend fun initializeIfNeeded() =
+        withContext(Dispatchers.IO) {
+            val alreadyInitialized = wordDao.getAnyWord() != null
+            if (!alreadyInitialized) {
+                initialize()
+            }
+        }
 }

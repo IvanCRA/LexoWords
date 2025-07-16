@@ -1,5 +1,6 @@
 package com.example.lexowords.data.local.dao
 
+import androidx.paging.PagingSource
 import androidx.room.Dao
 import androidx.room.Delete
 import androidx.room.Insert
@@ -48,4 +49,10 @@ interface WordDao {
 
     @Query("SELECT COUNT(*) FROM words")
     suspend fun getWordCount(): Int
+
+    @Query("SELECT * FROM words")
+    fun getAllWordsPaging(): PagingSource<Int, WordEntity>
+
+    @Query("SELECT * FROM words LIMIT 1")
+    suspend fun getAnyWord(): WordEntity?
 }
