@@ -11,6 +11,7 @@ import androidx.room.Update
 import com.example.lexowords.data.local.entities.WordEntity
 import com.example.lexowords.data.local.entities.WordTagCrossRef
 import com.example.lexowords.data.local.relations.WordWithTags
+import com.example.lexowords.data.model.WordStudyState
 import kotlinx.coroutines.flow.Flow
 
 @Dao
@@ -55,4 +56,17 @@ interface WordDao {
 
     @Query("SELECT * FROM words LIMIT 1")
     suspend fun getAnyWord(): WordEntity?
+
+    @Query("SELECT * FROM words WHERE studyState = :state LIMIT :limit")
+    suspend fun getWordsByState(state: WordStudyState, limit: Int): List<WordEntity>
+
+    @Query("UPDATE words SET studyState = :newState WHERE id = :wordId")
+    suspend fun updateWordState(wordId: Int, newState: WordStudyState)
+
+    @Query("""
+    SELECT COUNT(*) FROM words
+    WHERE studyState = :state
+    AND date(addedAt / 1000, 'unixepoch') = date('now')
+""")
+    suspend fun getLearningWordsCountToday(state: WordStudyState = WordStudyState.LEARNING): Int
 }

@@ -2,6 +2,7 @@ package com.example.lexowords.data.local.entities
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
+import com.example.lexowords.data.model.WordStudyState
 
 @Entity(tableName = "Words")
 data class WordEntity(
@@ -14,4 +15,5 @@ data class WordEntity(
     val learned: Boolean = false,
     val nextReviewAt: Long? = null,
     val repetitions: Int = 0,
+    val studyState: WordStudyState = WordStudyState.NEW
 )
