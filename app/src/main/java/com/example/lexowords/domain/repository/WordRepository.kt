@@ -13,4 +13,6 @@ interface WordRepository {
     suspend fun getWordsByState(state: WordStudyState, limit: Int): List<Word>
 
     suspend fun updateWordState(wordId: Int, newState: WordStudyState)
+
+    suspend fun updateWordStateWithTimestamp(wordId: Int, newState: WordStudyState, timestamp: Long)
 }

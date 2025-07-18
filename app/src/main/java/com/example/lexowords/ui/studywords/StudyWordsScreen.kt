@@ -1,8 +1,10 @@
 package com.example.lexowords.ui.studywords
 
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Button
 import androidx.compose.material3.Card
@@ -38,42 +40,55 @@ fun StudyWordsScreen(viewModel: StudyWordsViewModel = hiltViewModel()) {
 
     Scaffold(snackbarHost = { SnackbarHost(hostState = snackbarHostState) }) { padding ->
         Column(
-            modifier = Modifier
-                .fillMaxSize()
-                .padding(padding)
-                .padding(16.dp)
+            modifier =
+                Modifier
+                    .fillMaxSize()
+                    .padding(padding)
+                    .padding(16.dp),
         ) {
             word?.let {
                 WordCard(it)
 
-                if (total > 0) {
+                if (viewModel.inLearningMode && total > 0) {
                     Text(
                         text = "Прогресс: $current из $total",
                         style = MaterialTheme.typography.bodyMedium,
-                        modifier = Modifier.padding(top = 8.dp)
+                        modifier = Modifier.padding(top = 8.dp),
                     )
                 }
 
-                Button(
-                    onClick = { viewModel.onKnowWord() },
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .padding(top = 16.dp)
-                ) {
-                    Text("Знаю")
-                }
+                Spacer(Modifier.height(12.dp))
 
-                Button(
-                    onClick = { viewModel.onDontKnowWord() },
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .padding(top = 8.dp)
-                ) {
-                    Text("Не знаю")
+                if (viewModel.inLearningMode) {
+                    Button(
+                        onClick = { viewModel.onStillLearning() },
+                        modifier = Modifier.fillMaxWidth(),
+                    ) { Text("Еще не выучил") }
+
+                    Button(
+                        onClick = { viewModel.onKnowWord() },
+                        modifier =
+                            Modifier
+                                .fillMaxWidth()
+                                .padding(top = 8.dp),
+                    ) { Text("Выучено (на повторение)") }
+                } else {
+                    Button(
+                        onClick = { viewModel.onKnowWord() },
+                        modifier = Modifier.fillMaxWidth(),
+                    ) { Text("Знаю") }
+
+                    Button(
+                        onClick = { viewModel.onDontKnowWord() },
+                        modifier =
+                            Modifier
+                                .fillMaxWidth()
+                                .padding(top = 8.dp),
+                    ) { Text("Не знаю") }
                 }
             } ?: Text(
-                text = "Нет доступных слов или лимит достигнут",
-                style = MaterialTheme.typography.bodyLarge
+                text = "Нет доступных слов или всё выучено",
+                style = MaterialTheme.typography.bodyLarge,
             )
         }
     }
@@ -82,9 +97,10 @@ fun StudyWordsScreen(viewModel: StudyWordsViewModel = hiltViewModel()) {
 @Composable
 fun WordCard(word: Word) {
     Card(
-        modifier = Modifier
-            .fillMaxWidth()
-            .padding(vertical = 8.dp),
+        modifier =
+            Modifier
+                .fillMaxWidth()
+                .padding(vertical = 8.dp),
     ) {
         Column(modifier = Modifier.padding(16.dp)) {
             Text(text = word.text, style = MaterialTheme.typography.titleLarge)

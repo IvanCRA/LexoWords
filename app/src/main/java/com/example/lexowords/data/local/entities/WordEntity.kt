@@ -15,5 +15,5 @@ data class WordEntity(
     val learned: Boolean = false,
     val nextReviewAt: Long? = null,
     val repetitions: Int = 0,
-    val studyState: WordStudyState = WordStudyState.NEW
+    val studyState: WordStudyState = WordStudyState.NEW,
 )

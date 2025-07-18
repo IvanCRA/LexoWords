@@ -17,9 +17,8 @@ import javax.inject.Inject
 
 @HiltViewModel
 class StudyWordsViewModel @Inject constructor(
-    private val repository: WordRepository
+    private val repository: WordRepository,
 ) : ViewModel() {
-
     private val _newWords = mutableStateListOf<Word>()
     private val _currentWord = MutableStateFlow<Word?>(null)
     val currentWord: StateFlow<Word?> = _currentWord
@@ -27,14 +26,18 @@ class StudyWordsViewModel @Inject constructor(
     private val _limitReached = MutableStateFlow(false)
     val limitReached: StateFlow<Boolean> = _limitReached
 
-    private val learningQueue = mutableStateListOf<Word>()
+    private val learningQueue = mutableListOf<Word>()
+    private val learnedWords = mutableSetOf<Int>()
+
+    private var totalLearningWords = 0
+    var inLearningMode = false
+        private set
+
     private var index = 0
-    private var inLearningMode = false
 
     init {
         loadNewWords()
     }
-
 
     private fun loadNewWords() {
         viewModelScope.launch {
@@ -47,7 +50,22 @@ class StudyWordsViewModel @Inject constructor(
     }
 
     fun onKnowWord() {
-        moveToNext()
+        viewModelScope.launch {
+            currentWord.value?.let { word ->
+                if (inLearningMode) {
+                    repository.updateWordStateWithTimestamp(
+                        word.id,
+                        WordStudyState.TO_REVIEW,
+                        System.currentTimeMillis(),
+                    )
+                    learnedWords.add(word.id)
+                    learningQueue.remove(word)
+                } else {
+                    repository.updateWordState(word.id, WordStudyState.LEARNED)
+                }
+            }
+            moveToNext()
+        }
     }
 
     fun onDontKnowWord() {
@@ -59,32 +77,41 @@ class StudyWordsViewModel @Inject constructor(
                 }
                 if (learningQueue.size == 10) {
                     inLearningMode = true
-                    index = 0
-                    _currentWord.value = learningQueue.getOrNull(index)
+                    totalLearningWords = learningQueue.map { it.id }.distinct().size
+                    _currentWord.value = learningQueue.firstOrNull()
                 } else {
                     moveToNext()
                 }
-            } else if (inLearningMode) {
-                moveToNext()
             } else {
                 _limitReached.value = true
             }
         }
     }
 
-    private fun moveToNext() {
-        index++
-        _currentWord.value = if (inLearningMode) {
-            learningQueue.getOrNull(index)
-        } else {
-            _newWords.getOrNull(index)
+    fun onStillLearning() {
+        viewModelScope.launch {
+            currentWord.value?.let { word ->
+                repository.updateWordState(word.id, WordStudyState.LEARNING)
+                learningQueue.remove(word)
+                learningQueue.add(word)
+            }
+            moveToNext()
         }
     }
 
-    val progress: StateFlow<Pair<Int, Int>>
-        get() = _currentWord.map {
-            val total = learningQueue.size
-            val current = if (inLearningMode) index + 1 else 0
-            current to total
-        }.stateIn(viewModelScope, SharingStarted.Eagerly, 0 to 0)
+    private fun moveToNext() {
+        if (inLearningMode) {
+            _currentWord.value = learningQueue.firstOrNull()
+        } else {
+            index++
+            _currentWord.value = _newWords.getOrNull(index)
+        }
+    }
+
+    val progress: StateFlow<Pair<Int, Int>> =
+        _currentWord
+            .map {
+                learnedWords.size to totalLearningWords
+            }
+            .stateIn(viewModelScope, SharingStarted.Eagerly, 0 to 0)
 }

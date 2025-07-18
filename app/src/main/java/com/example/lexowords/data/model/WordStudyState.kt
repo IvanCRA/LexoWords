@@ -4,5 +4,5 @@ enum class WordStudyState {
     NEW,
     LEARNING,
     LEARNED,
-    TO_REVIEW
+    TO_REVIEW,
 }

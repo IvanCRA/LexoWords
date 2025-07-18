@@ -63,10 +63,15 @@ interface WordDao {
     @Query("UPDATE words SET studyState = :newState WHERE id = :wordId")
     suspend fun updateWordState(wordId: Int, newState: WordStudyState)
 
-    @Query("""
+    @Query(
+        """
     SELECT COUNT(*) FROM words
     WHERE studyState = :state
     AND date(addedAt / 1000, 'unixepoch') = date('now')
-""")
+""",
+    )
     suspend fun getLearningWordsCountToday(state: WordStudyState = WordStudyState.LEARNING): Int
+
+    @Query("UPDATE words SET studyState = :newState, addedAt = :timestamp WHERE id = :wordId")
+    suspend fun updateWordStateWithTimestamp(wordId: Int, newState: WordStudyState, timestamp: Long)
 }
