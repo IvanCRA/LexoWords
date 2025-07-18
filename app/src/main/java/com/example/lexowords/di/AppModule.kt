@@ -6,6 +6,8 @@ import com.example.lexowords.data.local.dao.TagDao
 import com.example.lexowords.data.local.dao.WordDao
 import com.example.lexowords.data.local.db.AppDatabase
 import com.example.lexowords.data.local.db.DatabaseInitializer
+import com.example.lexowords.data.repository.WordRepositoryImpl
+import com.example.lexowords.domain.repository.WordRepository
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -42,5 +44,10 @@ object AppModule {
         tagDao: TagDao,
     ): DatabaseInitializer {
         return DatabaseInitializer(app, wordDao, tagDao)
+    }
+
+    @Provides
+    fun provideWordRepository(wordDao: WordDao): WordRepository {
+        return WordRepositoryImpl(wordDao)
     }
 }
