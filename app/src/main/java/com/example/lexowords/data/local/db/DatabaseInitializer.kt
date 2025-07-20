@@ -17,6 +17,7 @@ class DatabaseInitializer(
     private val context: Context,
     private val wordDao: WordDao,
     private val tagDao: TagDao,
+    private val profileInitializer: ProfileInitializer,
 ) {
     suspend fun initialize() =
         withContext(Dispatchers.IO) {
@@ -68,5 +69,6 @@ class DatabaseInitializer(
             if (!alreadyInitialized) {
                 initialize()
             }
+            profileInitializer.initialize()
         }
 }
