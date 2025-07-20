@@ -4,7 +4,7 @@ import androidx.room.Entity
 import androidx.room.PrimaryKey
 
 @Entity(tableName = "user_profile")
-data class UserProfileEntity (
+data class UserProfileEntity(
     @PrimaryKey val id: Int = 1,
     val dailyLimit: Int = 10,
     val totalLearned: Int = 0,
@@ -13,6 +13,5 @@ data class UserProfileEntity (
     val currentStreak: Int = 0,
     val longestStreak: Int = 0,
     val wordsLearnedToday: Int = 0,
-    val wordsRepeatedToday: Int = 0
+    val wordsRepeatedToday: Int = 0,
 )
-

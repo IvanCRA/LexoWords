@@ -7,7 +7,7 @@ import kotlinx.coroutines.flow.firstOrNull
 import javax.inject.Inject
 
 class UserProfileRepository @Inject constructor(
-    private val dao: UserProfileDao
+    private val dao: UserProfileDao,
 ) {
     val profile: Flow<UserProfileEntity?> = dao.getProfile()
 
@@ -27,12 +27,14 @@ class UserProfileRepository @Inject constructor(
         val newStreak = if (today == lastDay + 1) profile.currentStreak + 1 else 1
         val longest = maxOf(profile.longestStreak, newStreak)
 
-        dao.insertOrUpdate(profile.copy(
-            lastStudiedAt = now,
-            currentStreak = newStreak,
-            longestStreak = longest,
-            wordsLearnedToday = 0,
-            wordsRepeatedToday = 0
-        ))
+        dao.insertOrUpdate(
+            profile.copy(
+                lastStudiedAt = now,
+                currentStreak = newStreak,
+                longestStreak = longest,
+                wordsLearnedToday = 0,
+                wordsRepeatedToday = 0,
+            ),
+        )
     }
 }

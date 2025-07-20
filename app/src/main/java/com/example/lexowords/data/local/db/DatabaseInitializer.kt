@@ -17,7 +17,7 @@ class DatabaseInitializer(
     private val context: Context,
     private val wordDao: WordDao,
     private val tagDao: TagDao,
-    private val profileInitializer: ProfileInitializer
+    private val profileInitializer: ProfileInitializer,
 ) {
     suspend fun initialize() =
         withContext(Dispatchers.IO) {

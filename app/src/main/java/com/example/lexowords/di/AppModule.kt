@@ -47,7 +47,7 @@ object AppModule {
 
     @Provides
     fun provideProfileInitializer(
-        repository: UserProfileRepository
+        repository: UserProfileRepository,
     ): ProfileInitializer {
         return ProfileInitializer(repository)
     }
@@ -57,7 +57,7 @@ object AppModule {
         app: Application,
         wordDao: WordDao,
         tagDao: TagDao,
-        profileInitializer: ProfileInitializer
+        profileInitializer: ProfileInitializer,
     ): DatabaseInitializer {
         return DatabaseInitializer(app, wordDao, tagDao, profileInitializer)
     }

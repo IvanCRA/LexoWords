@@ -6,7 +6,7 @@ import javax.inject.Singleton
 
 @Singleton
 class ProfileInitializer @Inject constructor(
-    private val repository: UserProfileRepository
+    private val repository: UserProfileRepository,
 ) {
     suspend fun initialize() {
         repository.ensureProfileExists()
