@@ -74,4 +74,11 @@ interface WordDao {
 
     @Query("UPDATE words SET studyState = :newState, addedAt = :timestamp WHERE id = :wordId")
     suspend fun updateWordStateWithTimestamp(wordId: Int, newState: WordStudyState, timestamp: Long)
+
+    @Query("SELECT * FROM WORDS WHERE (studyState = :state1 OR studyState = :state2) AND addedAt <= :currentTime")
+    suspend fun getWordsForTodayReview(
+        state1: WordStudyState = WordStudyState.TO_REVIEW,
+        state2: WordStudyState = WordStudyState.REVIEW_LEARNING,
+        currentTime: Long,
+    ): List<WordEntity>
 }

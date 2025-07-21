@@ -14,6 +14,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.example.lexowords.ui.main.MainScreen
 import com.example.lexowords.ui.navigation.NavRoutes
+import com.example.lexowords.ui.reviewwords.ReviewWordsScreen
 import com.example.lexowords.ui.splash.SplashScreen
 import com.example.lexowords.ui.studywords.StudyWordsScreen
 import com.example.lexowords.ui.theme.LexoWordsTheme
@@ -38,7 +39,7 @@ class MainActivity : ComponentActivity() {
                         StudyWordsScreen()
                     }
                     composable(NavRoutes.REVIEW) {
-                        Text("Экран повторения слов (в будущем)")
+                        ReviewWordsScreen()
                     }
                 }
             }
