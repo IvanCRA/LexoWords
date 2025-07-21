@@ -24,17 +24,34 @@ class UserProfileRepository @Inject constructor(
         val profile = dao.getProfile().firstOrNull() ?: return
 
         val lastDay = profile.lastStudiedAt / (1000 * 60 * 60 * 24)
-        val newStreak = if (today == lastDay + 1) profile.currentStreak + 1 else 1
-        val longest = maxOf(profile.longestStreak, newStreak)
 
-        dao.insertOrUpdate(
+        if (today != lastDay) {
+            val newStreak = if (today == lastDay + 1) profile.currentStreak + 1 else 1
+            val longest = maxOf(profile.longestStreak, newStreak)
+
+            dao.insertOrUpdate(
+                profile.copy(
+                    lastStudiedAt = now,
+                    currentStreak = newStreak,
+                    longestStreak = longest,
+                    wordsLearnedToday = 0,
+                    wordsRepeatedToday = 0,
+                ),
+            )
+        }
+    }
+
+    suspend fun incrementLearnedToday() {
+        val profile = dao.getProfileOnce() ?: return
+        val updated =
             profile.copy(
-                lastStudiedAt = now,
-                currentStreak = newStreak,
-                longestStreak = longest,
-                wordsLearnedToday = 0,
-                wordsRepeatedToday = 0,
-            ),
-        )
+                wordsLearnedToday = profile.wordsLearnedToday + 1,
+                totalLearned = profile.totalLearned + 1,
+            )
+        dao.insertOrUpdate(updated)
+    }
+
+    suspend fun getProfileOnce(): UserProfileEntity? {
+        return dao.getProfileOnce()
     }
 }

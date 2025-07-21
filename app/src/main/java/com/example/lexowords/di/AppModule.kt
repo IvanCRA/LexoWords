@@ -66,4 +66,9 @@ object AppModule {
     fun provideWordRepository(wordDao: WordDao): WordRepository {
         return WordRepositoryImpl(wordDao)
     }
+
+    @Provides
+    fun provideUserProfileRepository(dao: UserProfileDao): UserProfileRepository {
+        return UserProfileRepository(dao)
+    }
 }
