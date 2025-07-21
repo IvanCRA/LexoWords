@@ -34,4 +34,9 @@ class WordRepositoryImpl @Inject constructor(
     override suspend fun updateWordStateWithTimestamp(wordId: Int, newState: WordStudyState, timestamp: Long) {
         wordDao.updateWordStateWithTimestamp(wordId, newState, timestamp)
     }
+
+    override suspend fun getWordsForTodayReview(): List<Word> {
+        val now = System.currentTimeMillis()
+        return wordDao.getWordsForTodayReview(now).map {it.toDomain()}
+    }
 }
