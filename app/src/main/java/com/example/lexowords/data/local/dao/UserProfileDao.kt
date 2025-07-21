@@ -18,4 +18,7 @@ interface UserProfileDao {
 
     @Update
     suspend fun update(profile: UserProfileEntity)
+
+    @Query("SELECT * FROM user_profile WHERE id = 1 LIMIT 1")
+    suspend fun getProfileOnce(): UserProfileEntity?
 }
