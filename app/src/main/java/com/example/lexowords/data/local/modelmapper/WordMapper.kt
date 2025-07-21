@@ -9,6 +9,7 @@ fun WordEntity.toDomain(): Word =
         text = this.text,
         translation = this.translation,
         isFavorite = this.isFavorite,
+        studyState = this.studyState,
     )
 
 fun Word.toEntity(): WordEntity =
@@ -17,4 +18,5 @@ fun Word.toEntity(): WordEntity =
         text = this.text,
         translation = this.translation,
         isFavorite = this.isFavorite,
+        studyState = this.studyState,
     )

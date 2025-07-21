@@ -1,8 +1,8 @@
 package com.example.lexowords.ui.reviewwords
 
+import androidx.compose.runtime.mutableStateListOf
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.lexowords.data.model.WordStudyState
 import com.example.lexowords.domain.model.Word
 import com.example.lexowords.domain.repository.WordRepository
@@ -14,10 +14,11 @@ import javax.inject.Inject
 
 @HiltViewModel
 class ReviewWordsViewModel @Inject constructor(
-    private val wordRepository: WordRepository
+    private val wordRepository: WordRepository,
 ) : ViewModel() {
-    private val _wordsToReview = MutableStateFlow<List<Word>>(emptyList())
-    val wordsToReview: StateFlow<List<Word>> = _wordsToReview
+    private val reviewQueue = mutableStateListOf<Word>()
+    private val _currentWord = MutableStateFlow<Word?>(null)
+    val currentWord: StateFlow<Word?> = _currentWord
 
     init {
         loadWordsForReview()
@@ -26,14 +27,33 @@ class ReviewWordsViewModel @Inject constructor(
     private fun loadWordsForReview() {
         viewModelScope.launch {
             val words = wordRepository.getWordsForTodayReview()
-            _wordsToReview.value = words
+            reviewQueue.clear()
+            reviewQueue.addAll(words)
+            _currentWord.value = reviewQueue.firstOrNull()
         }
     }
 
-    fun markAsReviewed(word: Word) {
+    private fun moveToNext() {
+        reviewQueue.removeFirstOrNull()
+        _currentWord.value = reviewQueue.firstOrNull()
+    }
+
+    fun onForgot() {
+        val word = currentWord.value ?: return
         viewModelScope.launch {
-            wordRepository.updateWordState(word.id, WordStudyState.TO_REVIEW)
-            loadWordsForReview()
+            wordRepository.updateWordState(word.id, WordStudyState.REVIEW_LEARNING)
+            reviewQueue.add(word)
+            moveToNext()
+        }
+    }
+
+    fun onRemembered() {
+        val word = currentWord.value ?: return
+        viewModelScope.launch {
+            if (word.studyState == WordStudyState.REVIEW_LEARNING) {
+                wordRepository.updateWordState(word.id, WordStudyState.TO_REVIEW)
+            }
+            moveToNext()
         }
     }
 }

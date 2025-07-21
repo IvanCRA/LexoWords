@@ -37,6 +37,10 @@ class WordRepositoryImpl @Inject constructor(
 
     override suspend fun getWordsForTodayReview(): List<Word> {
         val now = System.currentTimeMillis()
-        return wordDao.getWordsForTodayReview(now).map {it.toDomain()}
+        return wordDao.getWordsForTodayReview(
+            WordStudyState.TO_REVIEW,
+            WordStudyState.REVIEW_LEARNING,
+            now,
+        ).map { it.toDomain() }
     }
 }
