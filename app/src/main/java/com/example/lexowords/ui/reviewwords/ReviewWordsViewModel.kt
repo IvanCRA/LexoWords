@@ -26,7 +26,10 @@ class ReviewWordsViewModel @Inject constructor(
 
     private fun loadWordsForReview() {
         viewModelScope.launch {
-            val words = wordRepository.getWordsForTodayReview()
+            val words =
+                wordRepository.getWordsForTodayReview(
+                    currentTime = System.currentTimeMillis(),
+                )
             reviewQueue.clear()
             reviewQueue.addAll(words)
             _currentWord.value = reviewQueue.firstOrNull()
@@ -34,16 +37,18 @@ class ReviewWordsViewModel @Inject constructor(
     }
 
     private fun moveToNext() {
-        reviewQueue.removeFirstOrNull()
+        val current = _currentWord.value ?: return
+        reviewQueue.removeAll { it.id == current.id }
         _currentWord.value = reviewQueue.firstOrNull()
     }
 
     fun onForgot() {
         val word = currentWord.value ?: return
         viewModelScope.launch {
-            wordRepository.updateWordState(word.id, WordStudyState.REVIEW_LEARNING)
-            reviewQueue.add(word)
-            moveToNext()
+            // НЕ обновляй state в БД — он уже REVIEW_LEARNING
+            reviewQueue.removeFirstOrNull()
+            reviewQueue.add(word) // Поставь в конец очереди
+            _currentWord.value = reviewQueue.firstOrNull()
         }
     }
 

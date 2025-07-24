@@ -1,5 +1,7 @@
 package com.example.lexowords
 
+import android.content.pm.PackageManager
+import android.os.Build
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -9,6 +11,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.core.app.ActivityCompat
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
@@ -19,6 +22,7 @@ import com.example.lexowords.ui.splash.SplashScreen
 import com.example.lexowords.ui.studywords.StudyWordsScreen
 import com.example.lexowords.ui.theme.LexoWordsTheme
 import dagger.hilt.android.AndroidEntryPoint
+import android.Manifest
 
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {
@@ -42,6 +46,15 @@ class MainActivity : ComponentActivity() {
                         ReviewWordsScreen()
                     }
                 }
+            }
+        }
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+            if (checkSelfPermission(android.Manifest.permission.POST_NOTIFICATIONS) != PackageManager.PERMISSION_GRANTED) {
+                ActivityCompat.requestPermissions(
+                    this,
+                    arrayOf(Manifest.permission.POST_NOTIFICATIONS),
+                    1001,
+                )
             }
         }
     }

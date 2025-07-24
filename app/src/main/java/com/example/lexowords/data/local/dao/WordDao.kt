@@ -72,13 +72,33 @@ interface WordDao {
     )
     suspend fun getLearningWordsCountToday(state: WordStudyState = WordStudyState.LEARNING): Int
 
-    @Query("UPDATE words SET studyState = :newState, addedAt = :timestamp WHERE id = :wordId")
+    @Query("UPDATE words SET studyState = :newState, nextReviewAt = :timestamp WHERE id = :wordId")
     suspend fun updateWordStateWithTimestamp(wordId: Int, newState: WordStudyState, timestamp: Long)
 
-    @Query("SELECT * FROM WORDS WHERE (studyState = :state1 OR studyState = :state2) AND addedAt <= :currentTime")
+    @Query("SELECT * FROM Words WHERE studyState = :state AND nextReviewAt <= :currentTime")
     suspend fun getWordsForTodayReview(
-        state1: WordStudyState = WordStudyState.TO_REVIEW,
-        state2: WordStudyState = WordStudyState.REVIEW_LEARNING,
+        state: WordStudyState = WordStudyState.REVIEW_LEARNING,
         currentTime: Long,
     ): List<WordEntity>
+
+    @Query(
+        """
+        UPDATE words
+        SET repetitions = :repetitions,
+            interval = :interval,
+            easeFactor = :easeFactor,
+            nextReviewAt = :nextReviewAt
+        WHERE id = :wordId
+    """,
+    )
+    suspend fun updateRepetitionInfo(
+        wordId: Int,
+        repetitions: Int,
+        interval: Int,
+        easeFactor: Float,
+        nextReviewAt: Long,
+    )
+
+    @Query("SELECT * FROM Words WHERE studyState = 'TO_REVIEW' AND nextReviewAt <= :now")
+    suspend fun getDueWordsForReview(now: Long): List<WordEntity>
 }
