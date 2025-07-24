@@ -15,11 +15,14 @@ import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
+import javax.inject.Singleton
 
 @Module
 @InstallIn(SingletonComponent::class)
 object AppModule {
+
     @Provides
+    @Singleton
     fun provideDatabase(
         app: Application,
     ): AppDatabase {
@@ -27,20 +30,24 @@ object AppModule {
             app,
             AppDatabase::class.java,
             "lexo_words_db",
-        ).build()
+        )   .fallbackToDestructiveMigration()
+            .build()
     }
 
     @Provides
+    @Singleton
     fun provideWordDao(database: AppDatabase): WordDao {
         return database.wordDao()
     }
 
     @Provides
+    @Singleton
     fun provideTagDao(database: AppDatabase): TagDao {
         return database.tagDao()
     }
 
     @Provides
+    @Singleton
     fun provideUserProfileDao(database: AppDatabase): UserProfileDao {
         return database.userProfileDao()
     }

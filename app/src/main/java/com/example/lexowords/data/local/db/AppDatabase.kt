@@ -13,7 +13,7 @@ import com.example.lexowords.data.local.entities.WordTagCrossRef
 
 @Database(
     entities = [WordEntity::class, TagEntity::class, WordTagCrossRef::class, UserProfileEntity::class],
-    version = 3,
+    version = 4,
     exportSchema = false,
 )
 @TypeConverters(RoomConverters::class)

@@ -12,18 +12,25 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import androidx.work.OneTimeWorkRequestBuilder
+import androidx.work.WorkManager
 import com.example.lexowords.ui.main.MainScreen
 import com.example.lexowords.ui.navigation.NavRoutes
 import com.example.lexowords.ui.reviewwords.ReviewWordsScreen
 import com.example.lexowords.ui.splash.SplashScreen
 import com.example.lexowords.ui.studywords.StudyWordsScreen
 import com.example.lexowords.ui.theme.LexoWordsTheme
+import com.example.lexowords.worker.RepeatWordsWorker
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        val testRequest = OneTimeWorkRequestBuilder<RepeatWordsWorker>().build()
+        WorkManager.getInstance(this).enqueue(testRequest)
+
         enableEdgeToEdge()
         setContent {
             val navController = rememberNavController()

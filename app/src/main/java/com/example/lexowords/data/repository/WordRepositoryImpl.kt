@@ -35,12 +35,21 @@ class WordRepositoryImpl @Inject constructor(
         wordDao.updateWordStateWithTimestamp(wordId, newState, timestamp)
     }
 
-    override suspend fun getWordsForTodayReview(): List<Word> {
-        val now = System.currentTimeMillis()
-        return wordDao.getWordsForTodayReview(
-            WordStudyState.TO_REVIEW,
-            WordStudyState.REVIEW_LEARNING,
-            now,
-        ).map { it.toDomain() }
+    override suspend fun getWordsForTodayReview(currentTime: Long): List<Word> {
+        return wordDao.getWordsForTodayReview(currentTime = currentTime).map { it.toDomain() }
+    }
+
+    override suspend fun getDueWordsForReview(currentTime: Long): List<Word> {
+        return wordDao.getDueWordsForReview(currentTime).map { it.toDomain() }
+    }
+
+    override suspend fun updateRepetitionInfo(
+        wordId: Int,
+        repetitions: Int,
+        interval: Int,
+        easeFactor: Float,
+        nextReviewAt: Long
+    ) {
+        wordDao.updateRepetitionInfo(wordId, repetitions, interval, easeFactor, nextReviewAt)
     }
 }
