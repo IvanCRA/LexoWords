@@ -24,6 +24,7 @@ class LexoWordsApp : Application(), Configuration.Provider {
 
     override fun onCreate() {
         super.onCreate()
+        WorkManager.initialize(this, workManagerConfiguration)
         scheduleRepeatWorker()
     }
 
