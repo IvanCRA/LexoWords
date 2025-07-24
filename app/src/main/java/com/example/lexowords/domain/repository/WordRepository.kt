@@ -1,6 +1,5 @@
 package com.example.lexowords.domain.repository
 
-import com.example.lexowords.data.local.entities.WordEntity
 import com.example.lexowords.domain.model.Word
 import com.example.lexowords.data.model.WordStudyState
 
@@ -26,6 +25,6 @@ interface WordRepository {
         repetitions: Int,
         interval: Int,
         easeFactor: Float,
-        nextReviewAt: Long
+        nextReviewAt: Long,
     )
 }

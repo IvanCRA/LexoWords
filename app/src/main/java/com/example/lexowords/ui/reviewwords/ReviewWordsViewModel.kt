@@ -26,9 +26,10 @@ class ReviewWordsViewModel @Inject constructor(
 
     private fun loadWordsForReview() {
         viewModelScope.launch {
-            val words = wordRepository.getWordsForTodayReview(
-                currentTime = System.currentTimeMillis()
-            )
+            val words =
+                wordRepository.getWordsForTodayReview(
+                    currentTime = System.currentTimeMillis(),
+                )
             reviewQueue.clear()
             reviewQueue.addAll(words)
             _currentWord.value = reviewQueue.firstOrNull()
@@ -40,7 +41,6 @@ class ReviewWordsViewModel @Inject constructor(
         reviewQueue.removeAll { it.id == current.id }
         _currentWord.value = reviewQueue.firstOrNull()
     }
-
 
     fun onForgot() {
         val word = currentWord.value ?: return

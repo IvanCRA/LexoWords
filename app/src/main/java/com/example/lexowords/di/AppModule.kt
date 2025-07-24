@@ -20,7 +20,6 @@ import javax.inject.Singleton
 @Module
 @InstallIn(SingletonComponent::class)
 object AppModule {
-
     @Provides
     @Singleton
     fun provideDatabase(
@@ -30,7 +29,7 @@ object AppModule {
             app,
             AppDatabase::class.java,
             "lexo_words_db",
-        )   .fallbackToDestructiveMigration()
+        ).fallbackToDestructiveMigration()
             .build()
     }
 

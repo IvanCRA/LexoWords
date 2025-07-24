@@ -78,17 +78,19 @@ interface WordDao {
     @Query("SELECT * FROM Words WHERE studyState = :state AND nextReviewAt <= :currentTime")
     suspend fun getWordsForTodayReview(
         state: WordStudyState = WordStudyState.REVIEW_LEARNING,
-        currentTime: Long
+        currentTime: Long,
     ): List<WordEntity>
 
-    @Query("""
+    @Query(
+        """
         UPDATE words
         SET repetitions = :repetitions,
             interval = :interval,
             easeFactor = :easeFactor,
             nextReviewAt = :nextReviewAt
         WHERE id = :wordId
-    """)
+    """,
+    )
     suspend fun updateRepetitionInfo(
         wordId: Int,
         repetitions: Int,

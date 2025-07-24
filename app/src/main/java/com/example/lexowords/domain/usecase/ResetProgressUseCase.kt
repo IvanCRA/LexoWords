@@ -5,7 +5,7 @@ import com.example.lexowords.domain.repository.WordRepository
 import javax.inject.Inject
 
 class ResetProgressUseCase @Inject constructor(
-    private val wordRepository: WordRepository
+    private val wordRepository: WordRepository,
 ) {
     suspend operator fun invoke() {
         WordStudyState.entries.forEach { state ->

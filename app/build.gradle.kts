@@ -77,6 +77,7 @@ dependencies {
     implementation(libs.hilt.work)
     kapt(libs.hilt.work.compiler)
 
+    implementation(libs.androidx.core.ktx)
 
     kapt(libs.room.compiler)
     testImplementation(libs.junit)
