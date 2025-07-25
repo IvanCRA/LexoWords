@@ -2,7 +2,6 @@ package com.example.lexowords.data.local.modelmapper
 
 import com.example.lexowords.data.local.entities.WordEntity
 import com.example.lexowords.domain.model.Word
-import kotlin.Long
 
 fun WordEntity.toDomain(): Word =
     Word(

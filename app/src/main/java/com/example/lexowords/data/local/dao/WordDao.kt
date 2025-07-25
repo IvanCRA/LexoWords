@@ -98,7 +98,7 @@ interface WordDao {
         interval: Int,
         easeFactor: Float,
         nextReviewAt: Long,
-        newState: WordStudyState = WordStudyState.TO_REVIEW
+        newState: WordStudyState = WordStudyState.TO_REVIEW,
     )
 
     @Query("SELECT * FROM Words WHERE studyState = 'TO_REVIEW' AND nextReviewAt <= :now")

@@ -5,7 +5,7 @@ import com.example.lexowords.data.model.WordStudyState
 import javax.inject.Inject
 
 class PrepareWordsForReviewUseCase @Inject constructor(
-    private val wordDao: WordDao
+    private val wordDao: WordDao,
 ) {
     suspend operator fun invoke() {
         val now = System.currentTimeMillis()

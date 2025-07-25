@@ -13,7 +13,7 @@ import javax.inject.Inject
 @HiltViewModel
 class SplashViewModel @Inject constructor(
     private val databaseInitializer: DatabaseInitializer,
-    private val prepareWordsForReviewUseCase: PrepareWordsForReviewUseCase
+    private val prepareWordsForReviewUseCase: PrepareWordsForReviewUseCase,
 ) : ViewModel() {
     private val _isReady = MutableStateFlow(false)
     val isReady: StateFlow<Boolean> = _isReady

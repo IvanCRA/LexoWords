@@ -16,9 +16,8 @@ import javax.inject.Inject
 @HiltViewModel
 class ReviewWordsViewModel @Inject constructor(
     private val wordRepository: WordRepository,
-    private val processReviewAnswerUseCase: ProcessReviewAnswerUseCase
+    private val processReviewAnswerUseCase: ProcessReviewAnswerUseCase,
 ) : ViewModel() {
-
     private val reviewQueue = mutableStateListOf<Word>()
     private val _currentWord = MutableStateFlow<Word?>(null)
     val currentWord: StateFlow<Word?> = _currentWord
@@ -58,7 +57,7 @@ class ReviewWordsViewModel @Inject constructor(
                 currentInterval = word.interval,
                 currentEaseFactor = word.easeFactor,
                 answerQuality = answerQuality,
-                wordState = WordStudyState.REVIEW_LEARNING
+                wordState = WordStudyState.REVIEW_LEARNING,
             )
 
             reviewQueue.removeFirstOrNull()
@@ -76,11 +75,10 @@ class ReviewWordsViewModel @Inject constructor(
                 currentInterval = word.interval,
                 currentEaseFactor = word.easeFactor,
                 answerQuality = 5,
-                wordState = WordStudyState.TO_REVIEW
+                wordState = WordStudyState.TO_REVIEW,
             )
             forgetCountMap.remove(word.id)
             moveToNext()
         }
     }
 }
-
