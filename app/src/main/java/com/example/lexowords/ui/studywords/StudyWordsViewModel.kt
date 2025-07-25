@@ -75,7 +75,7 @@ class StudyWordsViewModel @Inject constructor(
                     repository.updateWordStateWithTimestamp(
                         word.id,
                         WordStudyState.TO_REVIEW,
-                        System.currentTimeMillis(),
+                        System.currentTimeMillis() + 1 * 60 * 60 * 1000L,
                     )
                     profileRepository.incrementLearnedToday()
                     learnedWords.add(word.id)

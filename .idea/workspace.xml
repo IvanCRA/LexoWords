@@ -10,22 +10,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee7d2af2-f975-418e-94e2-08f5d289e25b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lexowords/domain/usecase/PrepareWordsForReviewUseCase.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.11.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.11.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.11.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.11.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.11.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.11.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.11.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.11.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.11.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.11.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deploymentTargetSelector.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lexowords/LexoWordsApp.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lexowords/LexoWordsApp.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lexowords/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lexowords/MainActivity.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lexowords/data/local/dao/WordDao.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lexowords/data/local/dao/WordDao.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lexowords/data/local/modelmapper/WordMapper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lexowords/data/local/modelmapper/WordMapper.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lexowords/data/repository/WordRepositoryImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lexowords/data/repository/WordRepositoryImpl.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lexowords/di/AppModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lexowords/di/AppModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lexowords/domain/model/Word.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lexowords/domain/model/Word.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lexowords/domain/repository/WordRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lexowords/domain/repository/WordRepository.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lexowords/domain/usecase/ProcessReviewAnswerUseCase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lexowords/domain/usecase/ProcessReviewAnswerUseCase.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lexowords/domain/usecase/RepeatWordUseCase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lexowords/domain/usecase/RepeatWordUseCase.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lexowords/domain/usecase/ResetProgressUseCase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lexowords/domain/usecase/ResetProgressUseCase.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lexowords/ui/reviewwords/ReviewWordsViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lexowords/ui/reviewwords/ReviewWordsViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lexowords/ui/splash/SplashViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lexowords/ui/splash/SplashViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lexowords/ui/studywords/StudyWordsViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lexowords/ui/studywords/StudyWordsViewModel.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lexowords/worker/RepeatWordsWorker.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lexowords/worker/RepeatWordsWorker.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lexowords/worker/ResetProgressWorker.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lexowords/worker/ResetProgressWorker.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/detekt.yml" beforeDir="false" afterPath="$PROJECT_DIR$/detekt.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +40,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=LocalEmulator, isTemplate=false, identifier=path=C:\Users\boozer\.android\avd\Medium_Phone_API_TiramisuPrivacySandbox.avd)]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=PhysicalDevice, isTemplate=false, identifier=serial=R5CTA03XNHT)]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -98,7 +103,7 @@
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "com.google.services.firebase.aqiPopupShown": "true",
-    "git-widget-placeholder": "dev/work-manager",
+    "git-widget-placeholder": "feature/add-used-sm2",
     "last_opened_file_path": "E:/diplome/LexoWords/app/src/main/assets",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.17",
@@ -106,11 +111,11 @@
   },
   "keyToStringList": {
     "com.android.tools.idea.sqlite.queryhistory": [
+      "select * from Words where studyState = 'TO_REVIEW'",
+      "select count (*) from words where studyState = 'REVIEW_LEARNING'\n",
       "SELECT \n    id, \n    worker_class_name, \n    state, \n    interval_duration, \n    last_enqueue_time\nFROM WorkSpec\nWHERE id = '8edb61e9-2c59-4728-bfd7-b0b7340bfce6'",
       "SELECT WorkSpec.id, worker_class_name, state\nFROM WorkSpec\nJOIN WorkName ON WorkSpec.id = WorkName.work_spec_id\nWHERE WorkName.name = 'repeat_words'\n",
-      "SELECT id, worker_class_name, state, interval_duration, last_enqueue_time\nFROM WorkSpec\nWHERE state = 'ENQUEUED'\n",
-      "SELECT id, worker_class_name, state, interval_duration, last_enqueue_time\nFROM WorkSpec\nWHERE state = 'ENQUEUED';\n",
-      "select * from words\n"
+      "SELECT id, worker_class_name, state, interval_duration, last_enqueue_time\nFROM WorkSpec\nWHERE state = 'ENQUEUED'\n"
     ]
   }
 }]]></component>

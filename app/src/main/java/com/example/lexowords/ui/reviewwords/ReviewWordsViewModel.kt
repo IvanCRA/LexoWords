@@ -6,6 +6,7 @@ import androidx.lifecycle.viewModelScope
 import com.example.lexowords.data.model.WordStudyState
 import com.example.lexowords.domain.model.Word
 import com.example.lexowords.domain.repository.WordRepository
+import com.example.lexowords.domain.usecase.ProcessReviewAnswerUseCase
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
@@ -15,10 +16,14 @@ import javax.inject.Inject
 @HiltViewModel
 class ReviewWordsViewModel @Inject constructor(
     private val wordRepository: WordRepository,
+    private val processReviewAnswerUseCase: ProcessReviewAnswerUseCase
 ) : ViewModel() {
+
     private val reviewQueue = mutableStateListOf<Word>()
     private val _currentWord = MutableStateFlow<Word?>(null)
     val currentWord: StateFlow<Word?> = _currentWord
+
+    private val forgetCountMap = mutableMapOf<Int, Int>()
 
     init {
         loadWordsForReview()
@@ -26,10 +31,7 @@ class ReviewWordsViewModel @Inject constructor(
 
     private fun loadWordsForReview() {
         viewModelScope.launch {
-            val words =
-                wordRepository.getWordsForTodayReview(
-                    currentTime = System.currentTimeMillis(),
-                )
+            val words = wordRepository.getWordsForTodayReview(System.currentTimeMillis())
             reviewQueue.clear()
             reviewQueue.addAll(words)
             _currentWord.value = reviewQueue.firstOrNull()
@@ -45,9 +47,22 @@ class ReviewWordsViewModel @Inject constructor(
     fun onForgot() {
         val word = currentWord.value ?: return
         viewModelScope.launch {
-            // НЕ обновляй state в БД — он уже REVIEW_LEARNING
+            val forgetCount = forgetCountMap.getOrDefault(word.id, 0) + 1
+            forgetCountMap[word.id] = forgetCount
+
+            val answerQuality = (5 - forgetCount).coerceIn(1, 2)
+
+            processReviewAnswerUseCase(
+                wordId = word.id,
+                currentRepetition = word.repetitions,
+                currentInterval = word.interval,
+                currentEaseFactor = word.easeFactor,
+                answerQuality = answerQuality,
+                wordState = WordStudyState.REVIEW_LEARNING
+            )
+
             reviewQueue.removeFirstOrNull()
-            reviewQueue.add(word) // Поставь в конец очереди
+            reviewQueue.add(word)
             _currentWord.value = reviewQueue.firstOrNull()
         }
     }
@@ -55,10 +70,17 @@ class ReviewWordsViewModel @Inject constructor(
     fun onRemembered() {
         val word = currentWord.value ?: return
         viewModelScope.launch {
-            if (word.studyState == WordStudyState.REVIEW_LEARNING) {
-                wordRepository.updateWordState(word.id, WordStudyState.TO_REVIEW)
-            }
+            processReviewAnswerUseCase(
+                wordId = word.id,
+                currentRepetition = word.repetitions,
+                currentInterval = word.interval,
+                currentEaseFactor = word.easeFactor,
+                answerQuality = 5,
+                wordState = WordStudyState.TO_REVIEW
+            )
+            forgetCountMap.remove(word.id)
             moveToNext()
         }
     }
 }
+

@@ -33,10 +33,9 @@ class LexoWordsApp : Application(), Configuration.Provider {
     private fun scheduleRepeatWorker() {
         val request =
             PeriodicWorkRequestBuilder<RepeatWordsWorker>(
-                16,
-                TimeUnit.MINUTES,
+                1,
+                TimeUnit.HOURS,
             ).build()
-        Log.d("RepeatWorker", "Ну вроде прошел билд")
 
         WorkManager.getInstance(this).enqueueUniquePeriodicWork(
             "repeat_words_worker",
@@ -48,8 +47,8 @@ class LexoWordsApp : Application(), Configuration.Provider {
     private fun scheduleResetProgressWorker() {
         val request =
             PeriodicWorkRequestBuilder<ResetProgressWorker>(
-                1,
-                TimeUnit.DAYS,
+                8,
+                TimeUnit.HOURS,
             ).build()
         WorkManager.getInstance(this).enqueueUniquePeriodicWork(
             "reset_progress_worker",

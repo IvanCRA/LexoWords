@@ -49,7 +49,8 @@ class WordRepositoryImpl @Inject constructor(
         interval: Int,
         easeFactor: Float,
         nextReviewAt: Long,
+        newState: WordStudyState,
     ) {
-        wordDao.updateRepetitionInfo(wordId, repetitions, interval, easeFactor, nextReviewAt)
+        wordDao.updateRepetitionInfo(wordId, repetitions, interval, easeFactor, nextReviewAt, newState)
     }
 }

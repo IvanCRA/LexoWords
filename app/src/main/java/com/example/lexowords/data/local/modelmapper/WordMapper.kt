@@ -2,6 +2,7 @@ package com.example.lexowords.data.local.modelmapper
 
 import com.example.lexowords.data.local.entities.WordEntity
 import com.example.lexowords.domain.model.Word
+import kotlin.Long
 
 fun WordEntity.toDomain(): Word =
     Word(
@@ -9,6 +10,12 @@ fun WordEntity.toDomain(): Word =
         text = this.text,
         translation = this.translation,
         isFavorite = this.isFavorite,
+        addedAt = this.addedAt,
+        learned = this.learned,
+        nextReviewAt = this.nextReviewAt,
+        repetitions = this.repetitions,
+        interval = this.interval,
+        easeFactor = this.easeFactor,
         studyState = this.studyState,
     )
 
@@ -18,5 +25,11 @@ fun Word.toEntity(): WordEntity =
         text = this.text,
         translation = this.translation,
         isFavorite = this.isFavorite,
+        addedAt = this.addedAt,
+        learned = this.learned,
+        nextReviewAt = this.nextReviewAt,
+        repetitions = this.repetitions,
+        interval = this.interval,
+        easeFactor = this.easeFactor,
         studyState = this.studyState,
     )
