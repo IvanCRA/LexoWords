@@ -57,7 +57,7 @@ interface WordDao {
     @Query("SELECT * FROM words LIMIT 1")
     suspend fun getAnyWord(): WordEntity?
 
-    @Query("SELECT * FROM words WHERE studyState = :state LIMIT :limit")
+    @Query("SELECT * FROM words WHERE studyState = :state ORDER BY RANDOM() LIMIT :limit")
     suspend fun getWordsByState(state: WordStudyState, limit: Int): List<WordEntity>
 
     @Query("UPDATE words SET studyState = :newState WHERE id = :wordId")
@@ -87,7 +87,8 @@ interface WordDao {
         SET repetitions = :repetitions,
             interval = :interval,
             easeFactor = :easeFactor,
-            nextReviewAt = :nextReviewAt
+            nextReviewAt = :nextReviewAt,
+            studyState = :newState
         WHERE id = :wordId
     """,
     )
@@ -97,6 +98,7 @@ interface WordDao {
         interval: Int,
         easeFactor: Float,
         nextReviewAt: Long,
+        newState: WordStudyState = WordStudyState.TO_REVIEW,
     )
 
     @Query("SELECT * FROM Words WHERE studyState = 'TO_REVIEW' AND nextReviewAt <= :now")

@@ -26,5 +26,6 @@ interface WordRepository {
         interval: Int,
         easeFactor: Float,
         nextReviewAt: Long,
+        newState: WordStudyState,
     )
 }
