@@ -17,6 +17,15 @@ private val DarkColorScheme =
         tertiary = Pink80,
     )
 
+private val LexoColorScheme = darkColorScheme(
+    primary = PurplePrimary,
+    secondary = PurpleDark,
+    background = BackgroundDark,
+    surface = SecondaryBackgroundDark,
+    onPrimary = TextPrimary,
+    onBackground = TextPrimary,
+    onSurface = TextPrimary
+)
 private val LightColorScheme =
     lightColorScheme(
         primary = Purple40,
@@ -35,25 +44,11 @@ private val LightColorScheme =
 
 @Composable
 fun LexoWordsTheme(
-    darkTheme: Boolean = isSystemInDarkTheme(),
-    // Dynamic color is available on Android 12+
-    dynamicColor: Boolean = true,
     content: @Composable () -> Unit,
 ) {
-    val colorScheme =
-        when {
-            dynamicColor && Build.VERSION.SDK_INT >= Build.VERSION_CODES.S -> {
-                val context = LocalContext.current
-                if (darkTheme) dynamicDarkColorScheme(context) else dynamicLightColorScheme(context)
-            }
-
-            darkTheme -> DarkColorScheme
-            else -> LightColorScheme
-        }
-
     MaterialTheme(
-        colorScheme = colorScheme,
-        typography = Typography,
+        colorScheme = LexoColorScheme,
+        typography = LexoTypography,
         content = content,
     )
 }

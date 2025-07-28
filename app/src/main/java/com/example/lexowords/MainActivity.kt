@@ -30,51 +30,42 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            val navController = rememberNavController()
-            MaterialTheme {
-                NavHost(navController = navController, startDestination = NavRoutes.SPLASH) {
-                    composable(NavRoutes.SPLASH) {
-                        SplashScreen(navController)
+
+                val navController = rememberNavController()
+                LexoWordsTheme {
+                    NavHost(navController = navController, startDestination = NavRoutes.SPLASH) {
+                        composable(NavRoutes.SPLASH) {
+                            SplashScreen(navController)
+                        }
+                        composable(NavRoutes.MAIN) {
+                            MainScreen(navController)
+                        }
+                        composable(NavRoutes.STUDY) {
+                            StudyWordsScreen()
+                        }
+                        composable(NavRoutes.REVIEW) {
+                            ReviewWordsScreen()
+                        }
                     }
-                    composable(NavRoutes.MAIN) {
-                        MainScreen(navController)
-                    }
-                    composable(NavRoutes.STUDY) {
-                        StudyWordsScreen()
-                    }
-                    composable(NavRoutes.REVIEW) {
-                        ReviewWordsScreen()
+
+
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+                    if (checkSelfPermission(android.Manifest.permission.POST_NOTIFICATIONS) != PackageManager.PERMISSION_GRANTED) {
+                        ActivityCompat.requestPermissions(
+                            this,
+                            arrayOf(Manifest.permission.POST_NOTIFICATIONS),
+                            1001,
+                        )
                     }
                 }
             }
         }
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
-            if (checkSelfPermission(android.Manifest.permission.POST_NOTIFICATIONS) != PackageManager.PERMISSION_GRANTED) {
-                ActivityCompat.requestPermissions(
-                    this,
-                    arrayOf(Manifest.permission.POST_NOTIFICATIONS),
-                    1001,
-                )
-            }
-        }
     }
 }
 
-@Composable
-fun Greeting(
-    name: String,
-    modifier: Modifier = Modifier,
-) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier,
-    )
-}
 
-@Preview(showBackground = true)
+/*@Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {
-    LexoWordsTheme {
-        Greeting("Android")
-    }
-}
+
+}*/

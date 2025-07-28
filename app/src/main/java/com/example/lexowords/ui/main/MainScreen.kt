@@ -1,5 +1,6 @@
 package com.example.lexowords.ui.main
 
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
@@ -14,6 +15,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
+import com.example.lexowords.ui.element.LexoButton
 import com.example.lexowords.ui.navigation.NavRoutes
 
 @Composable
@@ -26,18 +28,20 @@ fun MainScreen(navController: NavController) {
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally,
     ) {
-        Text(text = "LexoWords", style = MaterialTheme.typography.headlineMedium)
+        Logo()
 
         Spacer(modifier = Modifier.height(32.dp))
 
-        Button(onClick = { navController.navigate(NavRoutes.STUDY) }) {
-            Text("Учить новые слова")
-        }
+        LexoButton(
+            onClick = { navController.navigate(NavRoutes.STUDY) },
+            text = "Учить новые слова",
+        )
 
         Spacer(modifier = Modifier.height(16.dp))
 
-        Button(onClick = { navController.navigate(NavRoutes.REVIEW) }) {
-            Text("Повторить слова")
-        }
+        LexoButton(
+            onClick = { navController.navigate(NavRoutes.REVIEW) },
+            text = "Повторить слова",
+        )
     }
 }
