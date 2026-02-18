@@ -31,7 +31,7 @@ import com.example.lexowords.ui.theme.TextPrimary
 fun LexoWordCard(
     word: Word
 ) {
-    var revealed by remember { mutableStateOf(false) }
+    var revealed by remember(word.id) { mutableStateOf(false) }
 
     Card(
         modifier = Modifier

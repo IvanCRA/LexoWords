@@ -9,6 +9,7 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.lexowords.ui.theme.PurplePrimary
 import com.example.lexowords.ui.theme.TextPrimary
@@ -40,4 +41,10 @@ fun LexoButton(
             style = MaterialTheme.typography.bodyLarge
         )
     }
+}
+
+@Preview(showBackground = true)
+@Composable
+fun MyPreviewLexoButton() {
+    LexoButton(onClick = {}, text =  "Govno")
 }

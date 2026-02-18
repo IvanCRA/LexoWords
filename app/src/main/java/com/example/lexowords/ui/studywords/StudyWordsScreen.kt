@@ -26,6 +26,7 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import com.example.lexowords.domain.model.Word
 import androidx.compose.runtime.getValue
 import com.example.lexowords.data.local.entities.UserProfileEntity
+import com.example.lexowords.ui.element.LexoWordCard
 
 @Composable
 fun StudyWordsScreen(viewModel: StudyWordsViewModel = hiltViewModel()) {
@@ -64,7 +65,7 @@ fun StudyWordsScreen(viewModel: StudyWordsViewModel = hiltViewModel()) {
                 }
 
                 word != null -> {
-                    WordCard(word!!)
+                    LexoWordCard(word!!)
 
                     if (viewModel.inLearningMode && total > 0) {
                         Text(
