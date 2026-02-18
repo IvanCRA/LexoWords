@@ -19,6 +19,7 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.example.lexowords.domain.model.Word
+import com.example.lexowords.ui.element.LexoWordCard
 
 @Composable
 fun ReviewWordsScreen(viewModel: ReviewWordsViewModel = hiltViewModel()) {
@@ -33,7 +34,7 @@ fun ReviewWordsScreen(viewModel: ReviewWordsViewModel = hiltViewModel()) {
                     .padding(16.dp),
         ) {
             word?.let {
-                WordReviewCard(it)
+                LexoWordCard(it)
 
                 Spacer(modifier = Modifier.height(24.dp))
 
