@@ -18,30 +18,31 @@ import com.example.lexowords.ui.theme.TextPrimary
 fun LexoSmallButton(
     onClick: () -> Unit,
     text: String,
-    modifier: Modifier = Modifier
+    modifier: Modifier = Modifier,
 ) {
     Button(
         onClick = onClick,
-        modifier = modifier
-            .width(125.dp)
-            .height(50.dp),
+        modifier =
+            modifier
+                .width(125.dp)
+                .height(50.dp),
         shape = RoundedCornerShape(26.dp),
-        colors = ButtonDefaults.buttonColors(
-            contentColor = TextPrimary,
-            containerColor = PurplePrimary
-        ),
-        elevation = ButtonDefaults.buttonElevation(4.dp)
-    ){
+        colors =
+            ButtonDefaults.buttonColors(
+                contentColor = TextPrimary,
+                containerColor = PurplePrimary,
+            ),
+        elevation = ButtonDefaults.buttonElevation(4.dp),
+    ) {
         Text(
             text = text,
-            style = MaterialTheme.typography.bodyLarge
+            style = MaterialTheme.typography.bodyLarge,
         )
-
     }
 }
 
 @Preview(showBackground = true)
 @Composable
 fun MyPreview() {
-    LexoSmallButton(onClick = {}, text =  "Govno")
+    LexoSmallButton(onClick = {}, text = "Govno")
 }

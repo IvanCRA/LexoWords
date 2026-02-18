@@ -24,36 +24,35 @@ import com.example.lexowords.ui.theme.PurplePrimary
 @Composable
 fun Logo() {
     Column {
-
         Row(
-            verticalAlignment = Alignment.CenterVertically
+            verticalAlignment = Alignment.CenterVertically,
         ) {
             Image(
                 painter = painterResource(R.drawable.logo_1),
                 contentDescription = null,
                 modifier = Modifier.size(64.dp),
-                colorFilter = ColorFilter.tint(Color(0xFF9A3EFF))
+                colorFilter = ColorFilter.tint(Color(0xFF9A3EFF)),
             )
 
             Spacer(modifier = Modifier.width(12.dp))
 
-
             Text(
                 text = "Lexo\nWords",
-                style = MaterialTheme.typography.titleLarge.copy(
-                    fontWeight = FontWeight.Bold,
-                    fontSize = 35.sp,
-                    color = PurplePrimary,
-                )
+                style =
+                    MaterialTheme.typography.titleLarge.copy(
+                        fontWeight = FontWeight.Bold,
+                        fontSize = 35.sp,
+                        color = PurplePrimary,
+                    ),
             )
-
         }
 
         Text(
             text = "Learn. Remember. Repeat.",
-            style = MaterialTheme.typography.bodyLarge.copy(
-                color = PurplePrimary
-            )
+            style =
+                MaterialTheme.typography.bodyLarge.copy(
+                    color = PurplePrimary,
+                ),
         )
     }
 }

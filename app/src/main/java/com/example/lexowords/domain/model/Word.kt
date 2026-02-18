@@ -6,7 +6,7 @@ data class Word(
     var id: Int,
     val text: String,
     val translation: String,
-    val transcription : String?,
+    val transcription: String?,
     val isFavorite: Boolean = false,
     val addedAt: Long,
     val learned: Boolean = false,

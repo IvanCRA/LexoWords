@@ -6,11 +6,6 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
-import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Text
-import androidx.compose.runtime.Composable
-import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.core.app.ActivityCompat
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
@@ -30,24 +25,22 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-
-                val navController = rememberNavController()
-                LexoWordsTheme {
-                    NavHost(navController = navController, startDestination = NavRoutes.SPLASH) {
-                        composable(NavRoutes.SPLASH) {
-                            SplashScreen(navController)
-                        }
-                        composable(NavRoutes.MAIN) {
-                            MainScreen(navController)
-                        }
-                        composable(NavRoutes.STUDY) {
-                            StudyWordsScreen()
-                        }
-                        composable(NavRoutes.REVIEW) {
-                            ReviewWordsScreen()
-                        }
+            val navController = rememberNavController()
+            LexoWordsTheme {
+                NavHost(navController = navController, startDestination = NavRoutes.SPLASH) {
+                    composable(NavRoutes.SPLASH) {
+                        SplashScreen(navController)
                     }
-
+                    composable(NavRoutes.MAIN) {
+                        MainScreen(navController)
+                    }
+                    composable(NavRoutes.STUDY) {
+                        StudyWordsScreen()
+                    }
+                    composable(NavRoutes.REVIEW) {
+                        ReviewWordsScreen()
+                    }
+                }
 
                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
                     if (checkSelfPermission(android.Manifest.permission.POST_NOTIFICATIONS) != PackageManager.PERMISSION_GRANTED) {
@@ -62,7 +55,6 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
-
 
 /*@Preview(showBackground = true)
 @Composable

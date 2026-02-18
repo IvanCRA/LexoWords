@@ -29,56 +29,68 @@ import com.example.lexowords.ui.theme.TextPrimary
 
 @Composable
 fun LexoWordCard(
-    word: Word
+    word: Word,
 ) {
     var revealed by remember(word.id) { mutableStateOf(false) }
 
     Card(
-        modifier = Modifier
-            .fillMaxWidth()
-            .padding(8.dp)
-            .height(216.dp),
+        modifier =
+            Modifier
+                .fillMaxWidth()
+                .padding(8.dp)
+                .height(216.dp),
         shape = RoundedCornerShape(24.dp),
-        colors = CardDefaults.cardColors(
-            containerColor = SecondaryBackgroundDark
-        ),
+        colors =
+            CardDefaults.cardColors(
+                containerColor = SecondaryBackgroundDark,
+            ),
         elevation = CardDefaults.cardElevation(6.dp),
     ) {
-        Column (
-            modifier = Modifier
-                .padding(24.dp)
-                .fillMaxWidth(),
-            horizontalAlignment = Alignment.CenterHorizontally) {
+        Column(
+            modifier =
+                Modifier
+                    .padding(24.dp)
+                    .fillMaxWidth(),
+            horizontalAlignment = Alignment.CenterHorizontally,
+        ) {
             Text(
                 text = word.text,
-                style = MaterialTheme.typography.headlineLarge.copy(
-                    fontSize = 50.sp,
-                    fontWeight = FontWeight.Bold
-                ),
-                color = TextPrimary
+                style =
+                    MaterialTheme.typography.headlineLarge.copy(
+                        fontSize = 50.sp,
+                        fontWeight = FontWeight.Bold,
+                    ),
+                color = TextPrimary,
             )
             Spacer(modifier = Modifier.height(8.dp))
             Text(
                 text = word.transcription ?: "",
-                style = MaterialTheme.typography.bodyLarge.copy(
-                    fontSize = 30.sp
-                ),
-                color = TextPrimary.copy(0.8f)
+                style =
+                    MaterialTheme.typography.bodyLarge.copy(
+                        fontSize = 30.sp,
+                    ),
+                color = TextPrimary.copy(0.8f),
             )
             Spacer(Modifier.height(8.dp))
             if (revealed) {
                 Text(
                     text = word.translation,
-                    style = MaterialTheme.typography.bodyMedium.copy(
-                        fontSize = 35.sp
-                    ),
-                    color = TextPrimary.copy(alpha = 0.7f)
+                    style =
+                        MaterialTheme.typography.bodyMedium.copy(
+                            fontSize = 35.sp,
+                        ),
+                    color = TextPrimary.copy(alpha = 0.7f),
                 )
             } else {
-                //Spacer(Modifier.height(20.dp))
-                Text(text = "Нажми,чтобы увидеть перевод", modifier = Modifier
-                        .clickable { revealed = true },
-                    style = MaterialTheme.typography.bodyMedium.copy(fontSize = 20.sp,), color = TextPrimary.copy(alpha = 0.4f))
+                // Spacer(Modifier.height(20.dp))
+                Text(
+                    text = "Нажми,чтобы увидеть перевод",
+                    modifier =
+                        Modifier
+                            .clickable { revealed = true },
+                    style = MaterialTheme.typography.bodyMedium.copy(fontSize = 20.sp),
+                    color = TextPrimary.copy(alpha = 0.4f),
+                )
             }
         }
     }
@@ -87,19 +99,20 @@ fun LexoWordCard(
 @Preview(showBackground = true)
 @Composable
 fun MyPreview_1() {
-    var word = Word(
-        id = 1,
-        text = "Serendipity",
-        translation = "Случайная удача",
-        transcription = "[sɛrənˈdɪpɪti]",
-        isFavorite = false,
-        addedAt = 1753435063409,
-        learned = false,
-        nextReviewAt = 1753435063410,
-        repetitions = 0,
-        interval = 1,
-        easeFactor = 2.5F,
-        studyState = WordStudyState.TO_REVIEW
-    )
+    var word =
+        Word(
+            id = 1,
+            text = "Serendipity",
+            translation = "Случайная удача",
+            transcription = "[sɛrənˈdɪpɪti]",
+            isFavorite = false,
+            addedAt = 1753435063409,
+            learned = false,
+            nextReviewAt = 1753435063410,
+            repetitions = 0,
+            interval = 1,
+            easeFactor = 2.5F,
+            studyState = WordStudyState.TO_REVIEW,
+        )
     LexoWordCard(word)
 }
