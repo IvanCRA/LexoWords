@@ -18,6 +18,7 @@ import com.example.lexowords.ui.studywords.StudyWordsScreen
 import com.example.lexowords.ui.theme.LexoWordsTheme
 import dagger.hilt.android.AndroidEntryPoint
 import android.Manifest
+import com.example.lexowords.ui.words.WordsScreen
 
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {
@@ -39,6 +40,9 @@ class MainActivity : ComponentActivity() {
                     }
                     composable(NavRoutes.REVIEW) {
                         ReviewWordsScreen()
+                    }
+                    composable(NavRoutes.WORDS) {
+                        WordsScreen()
                     }
                 }
 

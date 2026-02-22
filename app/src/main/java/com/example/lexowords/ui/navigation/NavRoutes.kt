@@ -5,4 +5,5 @@ object NavRoutes {
     const val MAIN = "main"
     const val STUDY = "study"
     const val REVIEW = "review"
+    const val WORDS = "words"
 }
