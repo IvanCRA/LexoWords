@@ -103,4 +103,7 @@ interface WordDao {
 
     @Query("SELECT * FROM Words WHERE studyState = 'TO_REVIEW' AND nextReviewAt <= :now")
     suspend fun getDueWordsForReview(now: Long): List<WordEntity>
+
+    @Query("SELECT * FROM words WHERE studyState = :state ORDER BY id DESC")
+    fun observeWordByState(state: WordStudyState): Flow<List<WordEntity>>
 }

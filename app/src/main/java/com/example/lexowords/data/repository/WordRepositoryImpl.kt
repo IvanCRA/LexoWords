@@ -5,6 +5,8 @@ import com.example.lexowords.data.local.modelmapper.toDomain
 import com.example.lexowords.data.model.WordStudyState
 import com.example.lexowords.domain.model.Word
 import com.example.lexowords.domain.repository.WordRepository
+import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.map
 import javax.inject.Inject
 
 class WordRepositoryImpl @Inject constructor(
@@ -53,4 +55,7 @@ class WordRepositoryImpl @Inject constructor(
     ) {
         wordDao.updateRepetitionInfo(wordId, repetitions, interval, easeFactor, nextReviewAt, newState)
     }
+
+    override fun observeWordByState(state: WordStudyState): Flow<List<Word>> =
+        wordDao.observeWordByState(state).map { list -> list.map { it.toDomain() } }
 }
