@@ -18,6 +18,7 @@ import com.example.lexowords.ui.studywords.StudyWordsScreen
 import com.example.lexowords.ui.theme.LexoWordsTheme
 import dagger.hilt.android.AndroidEntryPoint
 import android.Manifest
+import com.example.lexowords.ui.statistics.StatisticsScreen
 import com.example.lexowords.ui.words.WordsScreen
 
 @AndroidEntryPoint
@@ -43,6 +44,9 @@ class MainActivity : ComponentActivity() {
                     }
                     composable(NavRoutes.WORDS) {
                         WordsScreen()
+                    }
+                    composable(NavRoutes.STATS) {
+                        StatisticsScreen(onBack = { navController.popBackStack() })
                     }
                 }
 

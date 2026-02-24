@@ -106,4 +106,21 @@ interface WordDao {
 
     @Query("SELECT * FROM words WHERE studyState = :state ORDER BY id DESC")
     fun observeWordByState(state: WordStudyState): Flow<List<WordEntity>>
+
+    data class StudyStateCount(
+        val state: String,
+        val count: Int,
+    )
+
+    @Query("SELECT studyState as state, COUNT(*) as count FROM Words GROUP BY studyState")
+    fun observeCountsByState(): Flow<List<StudyStateCount>>
+
+    @Query("SELECT COUNT(*) FROM Words WHERE isFavorite = 1")
+    fun observeFavoritesCount(): Flow<Int>
+
+    @Query("SELECT COUNT(*) FROM Words WHERE studyState = 'TO_REVIEW' AND nextReviewAt <= :now")
+    fun observeDueCount(now: Long): Flow<Int>
+
+    @Query("SELECT COUNT(*) FROM Words")
+    fun observeTotalWordsCount(): Flow<Int>
 }

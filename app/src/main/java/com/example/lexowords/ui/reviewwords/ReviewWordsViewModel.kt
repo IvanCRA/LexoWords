@@ -5,6 +5,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.lexowords.data.model.WordStudyState
 import com.example.lexowords.domain.model.Word
+import com.example.lexowords.domain.repository.UserProfileRepository
 import com.example.lexowords.domain.repository.WordRepository
 import com.example.lexowords.domain.usecase.ProcessReviewAnswerUseCase
 import dagger.hilt.android.lifecycle.HiltViewModel
@@ -17,6 +18,7 @@ import javax.inject.Inject
 class ReviewWordsViewModel @Inject constructor(
     private val wordRepository: WordRepository,
     private val processReviewAnswerUseCase: ProcessReviewAnswerUseCase,
+    private val userProfileRepository: UserProfileRepository,
 ) : ViewModel() {
     private val reviewQueue = mutableStateListOf<Word>()
     private val _currentWord = MutableStateFlow<Word?>(null)
@@ -77,6 +79,7 @@ class ReviewWordsViewModel @Inject constructor(
                 answerQuality = 5,
                 wordState = WordStudyState.TO_REVIEW,
             )
+            userProfileRepository.incrementRepeatedToday()
             forgetCountMap.remove(word.id)
             moveToNext()
         }
