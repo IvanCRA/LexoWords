@@ -42,9 +42,32 @@ android {
         compose = true
     }
 
+    kapt {
+        correctErrorTypes = true
+    }
+
     detekt {
         config.setFrom(files("$rootDir/detekt.yml"))
         buildUponDefaultConfig = true
+    }
+}
+
+kapt {
+    useBuildCache = true
+}
+
+tasks.matching {
+    it.name.contains("kaptDebugUnitTest", ignoreCase = true) ||
+        it.name.contains("kaptReleaseUnitTest", ignoreCase = true)
+}.configureEach {
+    enabled = false
+}
+
+configurations.configureEach {
+    resolutionStrategy {
+        force("org.jetbrains.kotlin:kotlin-stdlib:2.0.0")
+        force("org.jetbrains.kotlin:kotlin-stdlib-jdk7:2.0.0")
+        force("org.jetbrains.kotlin:kotlin-stdlib-jdk8:2.0.0")
     }
 }
 
@@ -90,4 +113,12 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
     testImplementation(kotlin("test"))
+
+    testImplementation("io.mockk:mockk:1.14.9")
+    testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.10.2")
+
+    androidTestImplementation("androidx.room:room-testing:2.8.4")
+    androidTestImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.10.2")
+    androidTestImplementation("androidx.test:core:1.7.0")
+    implementation(kotlin("test"))
 }
