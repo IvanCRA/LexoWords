@@ -15,15 +15,15 @@ import org.junit.runner.RunWith
 
 @RunWith(AndroidJUnit4::class)
 class PrepareWordsForReviewUseCaseTest {
-
     private lateinit var db: AppDatabase
 
     @Before
     fun setup() {
-        db = Room.inMemoryDatabaseBuilder(
-            ApplicationProvider.getApplicationContext(),
-            AppDatabase::class.java,
-        ).allowMainThreadQueries().build()
+        db =
+            Room.inMemoryDatabaseBuilder(
+                ApplicationProvider.getApplicationContext(),
+                AppDatabase::class.java,
+            ).allowMainThreadQueries().build()
     }
 
     @After
@@ -38,43 +38,46 @@ class PrepareWordsForReviewUseCaseTest {
      */
 
     @Test
-    fun dueToReviewWordsBecomeReviewLearning() = runTest {
-        val dao = db.wordDao()
-        val useCase = PrepareWordsForReviewUseCase(dao)
+    fun dueToReviewWordsBecomeReviewLearning() =
+        runTest {
+            val dao = db.wordDao()
+            val useCase = PrepareWordsForReviewUseCase(dao)
 
-        val now = System.currentTimeMillis()
+            val now = System.currentTimeMillis()
 
-        val due = WordEntity(
-            text = "cat",
-            translation = "кот",
-            transcription = null,
-            isFavorite = false,
-            nextReviewAt = now - 1000,
-            repetitions = 0,
-            interval = 1,
-            easeFactor = 2.5f,
-            studyState = WordStudyState.TO_REVIEW,
-        )
+            val due =
+                WordEntity(
+                    text = "cat",
+                    translation = "кот",
+                    transcription = null,
+                    isFavorite = false,
+                    nextReviewAt = now - 1000,
+                    repetitions = 0,
+                    interval = 1,
+                    easeFactor = 2.5f,
+                    studyState = WordStudyState.TO_REVIEW,
+                )
 
-        val notDue = WordEntity(
-            text = "dog",
-            translation = "собака",
-            transcription = null,
-            isFavorite = false,
-            nextReviewAt = now + 60_000,
-            repetitions = 0,
-            interval = 1,
-            easeFactor = 2.5f,
-            studyState = WordStudyState.TO_REVIEW,
-        )
+            val notDue =
+                WordEntity(
+                    text = "dog",
+                    translation = "собака",
+                    transcription = null,
+                    isFavorite = false,
+                    nextReviewAt = now + 60_000,
+                    repetitions = 0,
+                    interval = 1,
+                    easeFactor = 2.5f,
+                    studyState = WordStudyState.TO_REVIEW,
+                )
 
-        dao.insertWords(listOf(due, notDue))
+            dao.insertWords(listOf(due, notDue))
 
-        useCase()
+            useCase()
 
-        val reviewWords = dao.getWordsForTodayReview(currentTime = now)
-        assertEquals(1, reviewWords.size)
-        assertEquals("cat", reviewWords.first().text)
-        assertEquals(WordStudyState.REVIEW_LEARNING, reviewWords.first().studyState)
-    }
+            val reviewWords = dao.getWordsForTodayReview(currentTime = now)
+            assertEquals(1, reviewWords.size)
+            assertEquals("cat", reviewWords.first().text)
+            assertEquals(WordStudyState.REVIEW_LEARNING, reviewWords.first().studyState)
+        }
 }
