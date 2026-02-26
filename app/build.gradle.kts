@@ -42,10 +42,23 @@ android {
         compose = true
     }
 
+    kapt {
+        correctErrorTypes = true
+    }
+
     detekt {
         config.setFrom(files("$rootDir/detekt.yml"))
         buildUponDefaultConfig = true
     }
+}
+
+kapt {
+    useBuildCache = true
+}
+
+tasks.matching { it.name.contains("kaptDebugUnitTest", ignoreCase = true) ||
+    it.name.contains("kaptReleaseUnitTest", ignoreCase = true) }.configureEach {
+    enabled = false
 }
 
 dependencies {
