@@ -56,9 +56,19 @@ kapt {
     useBuildCache = true
 }
 
-tasks.matching { it.name.contains("kaptDebugUnitTest", ignoreCase = true) ||
-    it.name.contains("kaptReleaseUnitTest", ignoreCase = true) }.configureEach {
+tasks.matching {
+    it.name.contains("kaptDebugUnitTest", ignoreCase = true) ||
+        it.name.contains("kaptReleaseUnitTest", ignoreCase = true)
+}.configureEach {
     enabled = false
+}
+
+configurations.configureEach {
+    resolutionStrategy {
+        force("org.jetbrains.kotlin:kotlin-stdlib:2.0.0")
+        force("org.jetbrains.kotlin:kotlin-stdlib-jdk7:2.0.0")
+        force("org.jetbrains.kotlin:kotlin-stdlib-jdk8:2.0.0")
+    }
 }
 
 dependencies {
