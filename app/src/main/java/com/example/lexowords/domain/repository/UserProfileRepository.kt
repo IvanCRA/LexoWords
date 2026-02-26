@@ -51,6 +51,17 @@ class UserProfileRepository @Inject constructor(
         dao.insertOrUpdate(updated)
     }
 
+    suspend fun incrementRepeatedToday() {
+        val profile = dao.getProfileOnce() ?: return
+        val updated =
+            profile.copy(
+                wordsRepeatedToday = profile.wordsRepeatedToday + 1,
+                totalRepeated = profile.totalRepeated + 1,
+                lastStudiedAt = System.currentTimeMillis(),
+            )
+        dao.insertOrUpdate(updated)
+    }
+
     suspend fun getProfileOnce(): UserProfileEntity? {
         return dao.getProfileOnce()
     }

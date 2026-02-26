@@ -46,5 +46,12 @@ fun MainScreen(navController: NavController) {
             onClick = { navController.navigate(NavRoutes.WORDS) },
             text = "Посмотреть слова",
         )
+
+        Spacer(modifier = Modifier.height(16.dp))
+
+        LexoButton(
+            onClick = { navController.navigate(NavRoutes.STATS) },
+            text = "Статистика",
+        )
     }
 }

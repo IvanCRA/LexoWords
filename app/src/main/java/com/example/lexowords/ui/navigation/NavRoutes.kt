@@ -6,4 +6,5 @@ object NavRoutes {
     const val STUDY = "study"
     const val REVIEW = "review"
     const val WORDS = "words"
+    const val STATS = "stats"
 }
